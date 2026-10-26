@@ -1,0 +1,45 @@
+{
+  "job": {
+    "form": "ORDAListbox",
+    "page": 1,
+    "path": "/PACKAGE/output/invoice-wide.png",
+    "width": 1803,
+    "height": 891,
+    "preview": true,
+    "splitterLeft": 760
+  },
+  "window": {
+    "kCGWindowAlpha": 1,
+    "kCGWindowBounds": {
+      "Height": 891,
+      "Width": 1803,
+      "X": 0,
+      "Y": 80
+    },
+    "kCGWindowIsOnscreen": true,
+    "kCGWindowLayer": 0,
+    "kCGWindowMemoryUsage": 2368,
+    "kCGWindowName": "請求書デモ（架空データ） - 顧客：200件中200件",
+    "kCGWindowNumber": 25067,
+    "kCGWindowOwnerName": "4D",
+    "kCGWindowOwnerPID": 49087,
+    "kCGWindowSharingState": 1,
+    "kCGWindowStoreType": 1
+  },
+  "dimensions": [
+    3606,
+    1782
+  ],
+  "mode": "RGBA",
+  "exit": 0,
+  "state": {
+    "locale": "ja",
+    "customers": 200,
+    "products": 240,
+    "invoices": 2174,
+    "form": "ORDAListbox",
+    "requestedWidth": 1803,
+    "requestedHeight": 891,
+    "preview": true
+  }
+}
