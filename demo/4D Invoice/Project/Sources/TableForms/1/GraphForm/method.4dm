@@ -45,9 +45,9 @@ Case of
 				NEXT RECORD:C51([INVOICES:2])
 			End for 
 		Else 
-			ALERT:C41(Get localized string:C991("No invoices in the past 6 months"))
+			ALERT:C41(Get localized string:C991("Runtime_Label_No_invoices_in_the_past_6_months"))
 		End if 
 		
 		GRAPH:C169(graphArea; $vGraphType; X; $Clients)
-		GRAPH SETTINGS:C298(graphArea; 0; 0; 0; 0; False:C215; False:C215; True:C214; Get localized string:C991("Turnover"))
+		GRAPH SETTINGS:C298(graphArea; 0; 0; 0; 0; False:C215; False:C215; True:C214; Get localized string:C991("Runtime_Label_Turnover"))
 End case 

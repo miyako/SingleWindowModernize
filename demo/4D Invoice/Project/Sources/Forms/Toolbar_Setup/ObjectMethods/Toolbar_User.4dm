@@ -28,13 +28,13 @@ Case of
 			If (Size of array:C274($arrPos)=1)
 				GET LIST ITEM:C378(Form:C1466.userlist; *; $ref; $text; $sublist; $xpand)
 				
-				var $pop : Integer:=Pop up menu:C542(Get localized string:C991("Popup_Delete"))
+				var $pop : Integer:=Pop up menu:C542(Get localized string:C991("Runtime_Label_Popup_Delete"))
 				Case of 
 					: ($pop=1)
 						DELETE FROM LIST:C624(Form:C1466.userlist; $ref; *)
 						Form:C1466.mainlist.isModified:=True:C214
 					: ($pop=2)
-						CONFIRM:C162(Get localized string:C991("Delete_all_buttons"))
+						CONFIRM:C162(Get localized string:C991("Runtime_Label_Delete_all_buttons"))
 						If (OK=1)
 							CLEAR LIST:C377(Form:C1466.userlist; *)
 							var $newlist : Integer:=New list:C375

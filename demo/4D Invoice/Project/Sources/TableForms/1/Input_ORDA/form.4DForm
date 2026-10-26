@@ -50,7 +50,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.Name",
 					"textAlign": "left",
-					"tooltip": "Client Name",
+					"tooltip": ":xliff:StaticTip011",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -63,7 +63,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.Address1",
 					"textAlign": "left",
-					"tooltip": "Client Address 1",
+					"tooltip": ":xliff:StaticTip012",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -76,7 +76,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.Address2",
 					"textAlign": "left",
-					"tooltip": "Client Address 2",
+					"tooltip": ":xliff:StaticTip013",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -89,7 +89,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.City",
 					"textAlign": "left",
-					"tooltip": "Client City",
+					"tooltip": ":xliff:StaticTip014",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -102,7 +102,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.State",
 					"textAlign": "left",
-					"tooltip": "Client State",
+					"tooltip": ":xliff:StaticTip015",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -115,7 +115,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.ZipCode",
 					"textAlign": "left",
-					"tooltip": "Client ZipCode",
+					"tooltip": ":xliff:StaticTip016",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -128,7 +128,7 @@
 					"height": 16,
 					"dataSource": "Form:C1466.data.Country",
 					"textAlign": "left",
-					"tooltip": "Client ZipCode",
+					"tooltip": ":xliff:StaticTip016",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -143,7 +143,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Telephone",
+					"tooltip": ":xliff:StaticTip017",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -158,7 +158,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Mobile",
+					"tooltip": ":xliff:StaticTip018",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -173,7 +173,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Email",
+					"tooltip": ":xliff:StaticTip020",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -188,7 +188,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Web Site",
+					"tooltip": ":xliff:StaticTip021",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -203,7 +203,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Contact",
+					"tooltip": ":xliff:StaticTip022",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -219,7 +219,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Product Discount Rate",
+					"tooltip": ":xliff:StaticTip023",
 					"contextMenu": "none",
 					"numberFormat": "##0%",
 					"dragging": "none",
@@ -235,7 +235,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Comments on Client",
+					"tooltip": ":xliff:StaticTip024",
 					"styledText": true,
 					"dragging": "none",
 					"dropping": "none",
@@ -299,7 +299,7 @@
 							"header": {
 								"name": "invoicesNumberHD",
 								"text": ":xliff:Number",
-								"tooltip": "Invoice Number",
+								"tooltip": ":xliff:StaticTip025",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "middle"
@@ -327,7 +327,7 @@
 							"header": {
 								"name": "invoicesDateHD",
 								"text": ":xliff:Date",
-								"tooltip": "Invoice Date",
+								"tooltip": ":xliff:StaticTip026",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -357,7 +357,7 @@
 							"header": {
 								"name": "invoicesSubtotalHD",
 								"text": ":xliff:Subtotal",
-								"tooltip": "Invoice Subtotal",
+								"tooltip": ":xliff:StaticTip027",
 								"stroke": "automatic",
 								"textAlign": "right",
 								"verticalAlign": "middle"
@@ -390,7 +390,7 @@
 							"header": {
 								"name": "invoicesPaidHD",
 								"text": ":xliff:Paid",
-								"tooltip": "Paid",
+								"tooltip": ":xliff:StaticTip028",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -418,7 +418,7 @@
 							"header": {
 								"name": "invoicesPayementDateHD",
 								"text": ":xliff:Payment Date",
-								"tooltip": "Invoice Payement Date",
+								"tooltip": ":xliff:StaticTip029",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -446,7 +446,7 @@
 							"header": {
 								"name": "invoicesPayementMethodHD",
 								"text": ":xliff:Payment Method",
-								"tooltip": "Invoice Payement Method",
+								"tooltip": ":xliff:StaticTip030",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "middle"
@@ -675,7 +675,7 @@
 					"height": 160,
 					"dataSource": "Form:C1466.data.Logo",
 					"dataSourceTypeHint": "picture",
-					"tooltip": "Logo",
+					"tooltip": ":xliff:StaticTip039",
 					"fill": "transparent",
 					"borderStyle": "none",
 					"pictureFormat": "proportionalCenter",
@@ -739,7 +739,7 @@
 						{
 							"header": {
 								"name": "Kopf1",
-								"text": "Kopf1"
+								"text": ":xliff:StaticCustomFieldName"
 							},
 							"name": "Column1",
 							"footer": {
@@ -750,7 +750,7 @@
 						{
 							"header": {
 								"name": "Kopf2",
-								"text": "Kopf2"
+								"text": ":xliff:StaticCustomFieldValue"
 							},
 							"name": "Column2",
 							"footer": {

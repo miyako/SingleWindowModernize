@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="StaticTooltips" source-language="en" target-language="fr">
+    <body>
+      <trans-unit id="StaticTip001" resname="StaticTip001" xml:space="preserve">
+        <source>Add a New Record</source>
+        <target>Add a New Record</target>
+      </trans-unit>
+      <trans-unit id="StaticTip002" resname="StaticTip002" xml:space="preserve">
+        <source>Delete Highlighted Records</source>
+        <target>Delete Highlighted Records</target>
+      </trans-unit>
+      <trans-unit id="StaticTip003" resname="StaticTip003" xml:space="preserve">
+        <source>Select All Records</source>
+        <target>Select All Records</target>
+      </trans-unit>
+      <trans-unit id="StaticTip004" resname="StaticTip004" xml:space="preserve">
+        <source>Select Highlighted Records</source>
+        <target>Select Highlighted Records</target>
+      </trans-unit>
+      <trans-unit id="StaticTip005" resname="StaticTip005" xml:space="preserve">
+        <source>Query</source>
+        <target>Query</target>
+      </trans-unit>
+      <trans-unit id="StaticTip006" resname="StaticTip006" xml:space="preserve">
+        <source>Order by</source>
+        <target>Order by</target>
+      </trans-unit>
+      <trans-unit id="StaticTip007" resname="StaticTip007" xml:space="preserve">
+        <source>Quick Reports</source>
+        <target>Quick Reports</target>
+      </trans-unit>
+      <trans-unit id="StaticTip008" resname="StaticTip008" xml:space="preserve">
+        <source>Print Labels</source>
+        <target>Print Labels</target>
+      </trans-unit>
+      <trans-unit id="StaticTip009" resname="StaticTip009" xml:space="preserve">
+        <source>Print</source>
+        <target>Print</target>
+      </trans-unit>
+      <trans-unit id="StaticTip010" resname="StaticTip010" xml:space="preserve">
+        <source>Cancel Client</source>
+        <target>Cancel Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip011" resname="StaticTip011" xml:space="preserve">
+        <source>Client Name</source>
+        <target>Client Name</target>
+      </trans-unit>
+      <trans-unit id="StaticTip012" resname="StaticTip012" xml:space="preserve">
+        <source>Client Address 1</source>
+        <target>Client Address 1</target>
+      </trans-unit>
+      <trans-unit id="StaticTip013" resname="StaticTip013" xml:space="preserve">
+        <source>Client Address 2</source>
+        <target>Client Address 2</target>
+      </trans-unit>
+      <trans-unit id="StaticTip014" resname="StaticTip014" xml:space="preserve">
+        <source>Client City</source>
+        <target>Client City</target>
+      </trans-unit>
+      <trans-unit id="StaticTip015" resname="StaticTip015" xml:space="preserve">
+        <source>Client State</source>
+        <target>Client State</target>
+      </trans-unit>
+      <trans-unit id="StaticTip016" resname="StaticTip016" xml:space="preserve">
+        <source>Client ZipCode</source>
+        <target>Client ZipCode</target>
+      </trans-unit>
+      <trans-unit id="StaticTip017" resname="StaticTip017" xml:space="preserve">
+        <source>Client Telephone</source>
+        <target>Client Telephone</target>
+      </trans-unit>
+      <trans-unit id="StaticTip018" resname="StaticTip018" xml:space="preserve">
+        <source>Client Mobile</source>
+        <target>Client Mobile</target>
+      </trans-unit>
+      <trans-unit id="StaticTip019" resname="StaticTip019" xml:space="preserve">
+        <source>Client Fax</source>
+        <target>Client Fax</target>
+      </trans-unit>
+      <trans-unit id="StaticTip020" resname="StaticTip020" xml:space="preserve">
+        <source>Client Email</source>
+        <target>Client Email</target>
+      </trans-unit>
+      <trans-unit id="StaticTip021" resname="StaticTip021" xml:space="preserve">
+        <source>Client Web Site</source>
+        <target>Client Web Site</target>
+      </trans-unit>
+      <trans-unit id="StaticTip022" resname="StaticTip022" xml:space="preserve">
+        <source>Client Contact</source>
+        <target>Client Contact</target>
+      </trans-unit>
+      <trans-unit id="StaticTip023" resname="StaticTip023" xml:space="preserve">
+        <source>Product Discount Rate</source>
+        <target>Product Discount Rate</target>
+      </trans-unit>
+      <trans-unit id="StaticTip024" resname="StaticTip024" xml:space="preserve">
+        <source>Comments on Client</source>
+        <target>Comments on Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip025" resname="StaticTip025" xml:space="preserve">
+        <source>Invoice Number</source>
+        <target>Invoice Number</target>
+      </trans-unit>
+      <trans-unit id="StaticTip026" resname="StaticTip026" xml:space="preserve">
+        <source>Invoice Date</source>
+        <target>Invoice Date</target>
+      </trans-unit>
+      <trans-unit id="StaticTip027" resname="StaticTip027" xml:space="preserve">
+        <source>Invoice Subtotal</source>
+        <target>Invoice Subtotal</target>
+      </trans-unit>
+      <trans-unit id="StaticTip028" resname="StaticTip028" xml:space="preserve">
+        <source>Paid</source>
+        <target>Paid</target>
+      </trans-unit>
+      <trans-unit id="StaticTip029" resname="StaticTip029" xml:space="preserve">
+        <source>Invoice Payement Date</source>
+        <target>Invoice Payement Date</target>
+      </trans-unit>
+      <trans-unit id="StaticTip030" resname="StaticTip030" xml:space="preserve">
+        <source>Invoice Payement Method</source>
+        <target>Invoice Payement Method</target>
+      </trans-unit>
+      <trans-unit id="StaticTip031" resname="StaticTip031" xml:space="preserve">
+        <source>First Client</source>
+        <target>First Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip032" resname="StaticTip032" xml:space="preserve">
+        <source>Previous Client</source>
+        <target>Previous Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip033" resname="StaticTip033" xml:space="preserve">
+        <source>Next Client</source>
+        <target>Next Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip034" resname="StaticTip034" xml:space="preserve">
+        <source>Last Client</source>
+        <target>Last Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip035" resname="StaticTip035" xml:space="preserve">
+        <source>Delete Client</source>
+        <target>Delete Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip036" resname="StaticTip036" xml:space="preserve">
+        <source>Validate Client</source>
+        <target>Validate Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip037" resname="StaticTip037" xml:space="preserve">
+        <source>Add Invoice</source>
+        <target>Add Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip038" resname="StaticTip038" xml:space="preserve">
+        <source>Delete Invoice</source>
+        <target>Delete Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip039" resname="StaticTip039" xml:space="preserve">
+        <source>Logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="StaticTip040" resname="StaticTip040" xml:space="preserve">
+        <source>Add Client</source>
+        <target>Add Client</target>
+      </trans-unit>
+      <trans-unit id="StaticTip041" resname="StaticTip041" xml:space="preserve">
+        <source>Delete Client(s)</source>
+        <target>Delete Client(s)</target>
+      </trans-unit>
+      <trans-unit id="StaticTip042" resname="StaticTip042" xml:space="preserve">
+        <source>Show All Clients</source>
+        <target>Show All Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip043" resname="StaticTip043" xml:space="preserve">
+        <source>Show Subset Clients</source>
+        <target>Show Subset Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip044" resname="StaticTip044" xml:space="preserve">
+        <source>Query Clients</source>
+        <target>Query Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip045" resname="StaticTip045" xml:space="preserve">
+        <source>Print Labels Clients</source>
+        <target>Print Labels Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip046" resname="StaticTip046" xml:space="preserve">
+        <source>Print Clients</source>
+        <target>Print Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip047" resname="StaticTip047" xml:space="preserve">
+        <source>Reports Clients</source>
+        <target>Reports Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip048" resname="StaticTip048" xml:space="preserve">
+        <source>Graph Clients</source>
+        <target>Graph Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip049" resname="StaticTip049" xml:space="preserve">
+        <source>Export Clients</source>
+        <target>Export Clients</target>
+      </trans-unit>
+      <trans-unit id="StaticTip050" resname="StaticTip050" xml:space="preserve">
+        <source>Company Name</source>
+        <target>Company Name</target>
+      </trans-unit>
+      <trans-unit id="StaticTip051" resname="StaticTip051" xml:space="preserve">
+        <source>Company City</source>
+        <target>Company City</target>
+      </trans-unit>
+      <trans-unit id="StaticTip052" resname="StaticTip052" xml:space="preserve">
+        <source>Company contact</source>
+        <target>Company contact</target>
+      </trans-unit>
+      <trans-unit id="StaticTip053" resname="StaticTip053" xml:space="preserve">
+        <source>Contact email</source>
+        <target>Contact email</target>
+      </trans-unit>
+      <trans-unit id="StaticTip054" resname="StaticTip054" xml:space="preserve">
+        <source>Product Reference</source>
+        <target>Product Reference</target>
+      </trans-unit>
+      <trans-unit id="StaticTip055" resname="StaticTip055" xml:space="preserve">
+        <source>Product Name</source>
+        <target>Product Name</target>
+      </trans-unit>
+      <trans-unit id="StaticTip056" resname="StaticTip056" xml:space="preserve">
+        <source>Product Quantity</source>
+        <target>Product Quantity</target>
+      </trans-unit>
+      <trans-unit id="StaticTip057" resname="StaticTip057" xml:space="preserve">
+        <source>Product Unit Price</source>
+        <target>Product Unit Price</target>
+      </trans-unit>
+      <trans-unit id="StaticTip058" resname="StaticTip058" xml:space="preserve">
+        <source>Product Discount</source>
+        <target>Product Discount</target>
+      </trans-unit>
+      <trans-unit id="StaticTip059" resname="StaticTip059" xml:space="preserve">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="StaticTip060" resname="StaticTip060" xml:space="preserve">
+        <source>Taxe Rate</source>
+        <target>Taxe Rate</target>
+      </trans-unit>
+      <trans-unit id="StaticTip061" resname="StaticTip061" xml:space="preserve">
+        <source>First Invoice</source>
+        <target>First Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip062" resname="StaticTip062" xml:space="preserve">
+        <source>Previous Invoice</source>
+        <target>Previous Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip063" resname="StaticTip063" xml:space="preserve">
+        <source>Next Invoice</source>
+        <target>Next Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip064" resname="StaticTip064" xml:space="preserve">
+        <source>Last Invoice</source>
+        <target>Last Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip065" resname="StaticTip065" xml:space="preserve">
+        <source>Add Invoice Line</source>
+        <target>Add Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip066" resname="StaticTip066" xml:space="preserve">
+        <source>Delete Invoice Line(s)</source>
+        <target>Delete Invoice Line(s)</target>
+      </trans-unit>
+      <trans-unit id="StaticTip067" resname="StaticTip067" xml:space="preserve">
+        <source>Print Invoice</source>
+        <target>Print Invoice</target>
+      </trans-unit>
+      <trans-unit id="StaticTip068" resname="StaticTip068" xml:space="preserve">
+        <source>Selected if the invoice is a pro forma</source>
+        <target>Selected if the invoice is a pro forma</target>
+      </trans-unit>
+      <trans-unit id="StaticTip069" resname="StaticTip069" xml:space="preserve">
+        <source>Proforma Number</source>
+        <target>Proforma Number</target>
+      </trans-unit>
+      <trans-unit id="StaticTip070" resname="StaticTip070" xml:space="preserve">
+        <source>Payement Delay</source>
+        <target>Payement Delay</target>
+      </trans-unit>
+      <trans-unit id="StaticTip071" resname="StaticTip071" xml:space="preserve">
+        <source>Selected if the invoice is payed</source>
+        <target>Selected if the invoice is payed</target>
+      </trans-unit>
+      <trans-unit id="StaticTip072" resname="StaticTip072" xml:space="preserve">
+        <source>Payement Date</source>
+        <target>Payement Date</target>
+      </trans-unit>
+      <trans-unit id="StaticTip073" resname="StaticTip073" xml:space="preserve">
+        <source>Payement Method</source>
+        <target>Payement Method</target>
+      </trans-unit>
+      <trans-unit id="StaticTip074" resname="StaticTip074" xml:space="preserve">
+        <source>Payement Reference</source>
+        <target>Payement Reference</target>
+      </trans-unit>
+      <trans-unit id="StaticTip075" resname="StaticTip075" xml:space="preserve">
+        <source>Delete Invoice(s)</source>
+        <target>Delete Invoice(s)</target>
+      </trans-unit>
+      <trans-unit id="StaticTip076" resname="StaticTip076" xml:space="preserve">
+        <source>Show All Invoices</source>
+        <target>Show All Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip077" resname="StaticTip077" xml:space="preserve">
+        <source>Show Subset Invoices</source>
+        <target>Show Subset Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip078" resname="StaticTip078" xml:space="preserve">
+        <source>Query Invoices</source>
+        <target>Query Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip079" resname="StaticTip079" xml:space="preserve">
+        <source>Print Labels Invoices</source>
+        <target>Print Labels Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip080" resname="StaticTip080" xml:space="preserve">
+        <source>Print Invoices</source>
+        <target>Print Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip081" resname="StaticTip081" xml:space="preserve">
+        <source>Reports Invoices</source>
+        <target>Reports Invoices</target>
+      </trans-unit>
+      <trans-unit id="StaticTip082" resname="StaticTip082" xml:space="preserve">
+        <source>Payement method</source>
+        <target>Payement method</target>
+      </trans-unit>
+      <trans-unit id="StaticTip083" resname="StaticTip083" xml:space="preserve">
+        <source>First Invoice Line</source>
+        <target>First Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip084" resname="StaticTip084" xml:space="preserve">
+        <source>Previous Invoice Line</source>
+        <target>Previous Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip085" resname="StaticTip085" xml:space="preserve">
+        <source>Next Invoice Line</source>
+        <target>Next Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip086" resname="StaticTip086" xml:space="preserve">
+        <source>Last Invoice Line</source>
+        <target>Last Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip087" resname="StaticTip087" xml:space="preserve">
+        <source>Delete Invoice Line</source>
+        <target>Delete Invoice Line</target>
+      </trans-unit>
+      <trans-unit id="StaticTip088" resname="StaticTip088" xml:space="preserve">
+        <source>Quantity</source>
+        <target>Quantity</target>
+      </trans-unit>
+      <trans-unit id="StaticTip089" resname="StaticTip089" xml:space="preserve">
+        <source>Product Tax Rate</source>
+        <target>Product Tax Rate</target>
+      </trans-unit>
+      <trans-unit id="StaticTip090" resname="StaticTip090" xml:space="preserve">
+        <source>Total Tax</source>
+        <target>Total Tax</target>
+      </trans-unit>
+      <trans-unit id="StaticTip091" resname="StaticTip091" xml:space="preserve">
+        <source>First Product</source>
+        <target>First Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip092" resname="StaticTip092" xml:space="preserve">
+        <source>Previous Product</source>
+        <target>Previous Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip093" resname="StaticTip093" xml:space="preserve">
+        <source>Next Product</source>
+        <target>Next Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip094" resname="StaticTip094" xml:space="preserve">
+        <source>Last Product</source>
+        <target>Last Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip095" resname="StaticTip095" xml:space="preserve">
+        <source>Delete Product</source>
+        <target>Delete Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip096" resname="StaticTip096" xml:space="preserve">
+        <source>Add Product</source>
+        <target>Add Product</target>
+      </trans-unit>
+      <trans-unit id="StaticTip097" resname="StaticTip097" xml:space="preserve">
+        <source>Delete Product(s)</source>
+        <target>Delete Product(s)</target>
+      </trans-unit>
+      <trans-unit id="StaticTip098" resname="StaticTip098" xml:space="preserve">
+        <source>Show All Products</source>
+        <target>Show All Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip099" resname="StaticTip099" xml:space="preserve">
+        <source>Show Subset Products</source>
+        <target>Show Subset Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip100" resname="StaticTip100" xml:space="preserve">
+        <source>Query Products</source>
+        <target>Query Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip101" resname="StaticTip101" xml:space="preserve">
+        <source>Print Labels Products</source>
+        <target>Print Labels Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip102" resname="StaticTip102" xml:space="preserve">
+        <source>Print Products</source>
+        <target>Print Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip103" resname="StaticTip103" xml:space="preserve">
+        <source>Reports Products</source>
+        <target>Reports Products</target>
+      </trans-unit>
+      <trans-unit id="StaticTip104" resname="StaticTip104" xml:space="preserve">
+        <source>Export Products</source>
+        <target>Export Products</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

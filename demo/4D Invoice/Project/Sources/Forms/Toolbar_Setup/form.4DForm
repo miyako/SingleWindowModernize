@@ -29,7 +29,7 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
-	"windowTitle": "Toolbar Setup",
+	"windowTitle": ":xliff:StaticToolbarSetup",
 	"destination": "detailScreen",
 	"pages": [
 		{

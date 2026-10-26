@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="StaticForms" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="StaticFieldListTitle" resname="StaticFieldListTitle" xml:space="preserve">
+        <source>Field list</source>
+        <target>Field list</target>
+      </trans-unit>
+      <trans-unit id="StaticInsert" resname="StaticInsert" xml:space="preserve">
+        <source>Insert</source>
+        <target>Insert</target>
+      </trans-unit>
+      <trans-unit id="StaticCheckbox" resname="StaticCheckbox" xml:space="preserve">
+        <source>Checkbox</source>
+        <target>Checkbox</target>
+      </trans-unit>
+      <trans-unit id="StaticTabControl" resname="StaticTabControl" xml:space="preserve">
+        <source>Tab control</source>
+        <target>Tab control</target>
+      </trans-unit>
+      <trans-unit id="StaticPreviousSymbol" resname="StaticPreviousSymbol" xml:space="preserve">
+        <source>&lt;</source>
+        <target>&lt;</target>
+      </trans-unit>
+      <trans-unit id="StaticNextSymbol" resname="StaticNextSymbol" xml:space="preserve">
+        <source>&gt;</source>
+        <target>&gt;</target>
+      </trans-unit>
+      <trans-unit id="StaticPDF" resname="StaticPDF" xml:space="preserve">
+        <source>PDF</source>
+        <target>PDF</target>
+      </trans-unit>
+      <trans-unit id="StaticInternal" resname="StaticInternal" xml:space="preserve">
+        <source>Internal</source>
+        <target>Internal</target>
+      </trans-unit>
+      <trans-unit id="StaticLetterBackground" resname="StaticLetterBackground" xml:space="preserve">
+        <source>Insert business letter background</source>
+        <target>Insert business letter background</target>
+      </trans-unit>
+      <trans-unit id="StaticHeaderOne" resname="StaticHeaderOne" xml:space="preserve">
+        <source>Header 1</source>
+        <target>Header 1</target>
+      </trans-unit>
+      <trans-unit id="StaticSaveTemplate" resname="StaticSaveTemplate" xml:space="preserve">
+        <source>Save Template</source>
+        <target>Save Template</target>
+      </trans-unit>
+      <trans-unit id="StaticTestingOnly" resname="StaticTestingOnly" xml:space="preserve">
+        <source>Testing only:</source>
+        <target>Testing only:</target>
+      </trans-unit>
+      <trans-unit id="StaticUpdate" resname="StaticUpdate" xml:space="preserve">
+        <source>Update</source>
+        <target>Update</target>
+      </trans-unit>
+      <trans-unit id="StaticInsertPictureTop" resname="StaticInsertPictureTop" xml:space="preserve">
+        <source>Insert picture at top</source>
+        <target>Insert picture at top</target>
+      </trans-unit>
+      <trans-unit id="StaticInsertPictureBottom" resname="StaticInsertPictureBottom" xml:space="preserve">
+        <source>Insert picture at bottom</source>
+        <target>Insert picture at bottom</target>
+      </trans-unit>
+      <trans-unit id="StaticToolbarSetup" resname="StaticToolbarSetup" xml:space="preserve">
+        <source>Toolbar Setup</source>
+        <target>Toolbar Setup</target>
+      </trans-unit>
+      <trans-unit id="StaticReportWindowTitle" resname="StaticReportWindowTitle" xml:space="preserve">
+        <source>Report</source>
+        <target>Report</target>
+      </trans-unit>
+      <trans-unit id="StaticButton" resname="StaticButton" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+      </trans-unit>
+      <trans-unit id="StaticShowAll" resname="StaticShowAll" xml:space="preserve">
+        <source>Show all</source>
+        <target>Show all</target>
+      </trans-unit>
+      <trans-unit id="StaticShowSubset" resname="StaticShowSubset" xml:space="preserve">
+        <source>Show subset</source>
+        <target>Show subset</target>
+      </trans-unit>
+      <trans-unit id="StaticOrderBy" resname="StaticOrderBy" xml:space="preserve">
+        <source>Order by</source>
+        <target>Order by</target>
+      </trans-unit>
+      <trans-unit id="StaticQuickReports" resname="StaticQuickReports" xml:space="preserve">
+        <source>Quick reports</source>
+        <target>Quick reports</target>
+      </trans-unit>
+      <trans-unit id="StaticPrintLabels" resname="StaticPrintLabels" xml:space="preserve">
+        <source>Print labels</source>
+        <target>Print labels</target>
+      </trans-unit>
+      <trans-unit id="StaticCityLabel" resname="StaticCityLabel" xml:space="preserve">
+        <source>City : </source>
+        <target>City : </target>
+      </trans-unit>
+      <trans-unit id="StaticLogoLabel" resname="StaticLogoLabel" xml:space="preserve">
+        <source>Logo : </source>
+        <target>Logo : </target>
+      </trans-unit>
+      <trans-unit id="StaticCustomFieldName" resname="StaticCustomFieldName" xml:space="preserve">
+        <source>Field</source>
+        <target>Field</target>
+      </trans-unit>
+      <trans-unit id="StaticCustomFieldValue" resname="StaticCustomFieldValue" xml:space="preserve">
+        <source>Value</source>
+        <target>Value</target>
+      </trans-unit>
+      <trans-unit id="StaticIDLabel" resname="StaticIDLabel" xml:space="preserve">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="StaticNameLabel" resname="StaticNameLabel" xml:space="preserve">
+        <source>Name : </source>
+        <target>Name : </target>
+      </trans-unit>
+      <trans-unit id="StaticAddressOneLabel" resname="StaticAddressOneLabel" xml:space="preserve">
+        <source>Address 1 : </source>
+        <target>Address 1 : </target>
+      </trans-unit>
+      <trans-unit id="StaticAddressTwoLabel" resname="StaticAddressTwoLabel" xml:space="preserve">
+        <source>Address 2 : </source>
+        <target>Address 2 : </target>
+      </trans-unit>
+      <trans-unit id="StaticStateLabel" resname="StaticStateLabel" xml:space="preserve">
+        <source>State : </source>
+        <target>State : </target>
+      </trans-unit>
+      <trans-unit id="StaticZipLabel" resname="StaticZipLabel" xml:space="preserve">
+        <source>Zip code : </source>
+        <target>Zip code : </target>
+      </trans-unit>
+      <trans-unit id="StaticCountryLabel" resname="StaticCountryLabel" xml:space="preserve">
+        <source>Country : </source>
+        <target>Country : </target>
+      </trans-unit>
+      <trans-unit id="StaticTelephoneLabel" resname="StaticTelephoneLabel" xml:space="preserve">
+        <source>Telephone : </source>
+        <target>Telephone : </target>
+      </trans-unit>
+      <trans-unit id="StaticMobileLabel" resname="StaticMobileLabel" xml:space="preserve">
+        <source>Mobile : </source>
+        <target>Mobile : </target>
+      </trans-unit>
+      <trans-unit id="StaticFaxLabel" resname="StaticFaxLabel" xml:space="preserve">
+        <source>Fax : </source>
+        <target>Fax : </target>
+      </trans-unit>
+      <trans-unit id="StaticEmailLabel" resname="StaticEmailLabel" xml:space="preserve">
+        <source>Email : </source>
+        <target>Email : </target>
+      </trans-unit>
+      <trans-unit id="StaticWebsiteLabel" resname="StaticWebsiteLabel" xml:space="preserve">
+        <source>Website : </source>
+        <target>Website : </target>
+      </trans-unit>
+      <trans-unit id="StaticContactLabel" resname="StaticContactLabel" xml:space="preserve">
+        <source>Contact : </source>
+        <target>Contact : </target>
+      </trans-unit>
+      <trans-unit id="StaticCommentsLabel" resname="StaticCommentsLabel" xml:space="preserve">
+        <source>Comments : </source>
+        <target>Comments : </target>
+      </trans-unit>
+      <trans-unit id="StaticTotalSalesLabel" resname="StaticTotalSalesLabel" xml:space="preserve">
+        <source>Total sales : </source>
+        <target>Total sales : </target>
+      </trans-unit>
+      <trans-unit id="StaticInvoiceHeading" resname="StaticInvoiceHeading" xml:space="preserve">
+        <source>INVOICE</source>
+        <target>INVOICE</target>
+      </trans-unit>
+      <trans-unit id="StaticAttention" resname="StaticAttention" xml:space="preserve">
+        <source>Att.</source>
+        <target>Att.</target>
+      </trans-unit>
+      <trans-unit id="StaticInvoiceNumber" resname="StaticInvoiceNumber" xml:space="preserve">
+        <source>Invoice number</source>
+        <target>Invoice number</target>
+      </trans-unit>
+      <trans-unit id="StaticPaymentMethod" resname="StaticPaymentMethod" xml:space="preserve">
+        <source>Payment Method</source>
+        <target>Payment Method</target>
+      </trans-unit>
+      <trans-unit id="StaticPaymentReference" resname="StaticPaymentReference" xml:space="preserve">
+        <source>Payment Reference</source>
+        <target>Payment Reference</target>
+      </trans-unit>
+      <trans-unit id="StaticProformaNumber" resname="StaticProformaNumber" xml:space="preserve">
+        <source>Proforma number</source>
+        <target>Proforma number</target>
+      </trans-unit>
+      <trans-unit id="StaticDueDate" resname="StaticDueDate" xml:space="preserve">
+        <source>Due date</source>
+        <target>Due date</target>
+      </trans-unit>
+      <trans-unit id="StaticQuantity" resname="StaticQuantity" xml:space="preserve">
+        <source>Qty</source>
+        <target>Qty</target>
+      </trans-unit>
+      <trans-unit id="StaticDiscount" resname="StaticDiscount" xml:space="preserve">
+        <source>Disc (%)</source>
+        <target>Disc (%)</target>
+      </trans-unit>
+      <trans-unit id="StaticTaxPercent" resname="StaticTaxPercent" xml:space="preserve">
+        <source>Tax (%)</source>
+        <target>Tax (%)</target>
+      </trans-unit>
+      <trans-unit id="StaticReferenceLabel" resname="StaticReferenceLabel" xml:space="preserve">
+        <source>Reference : </source>
+        <target>Reference : </target>
+      </trans-unit>
+      <trans-unit id="StaticUnitPriceLabel" resname="StaticUnitPriceLabel" xml:space="preserve">
+        <source>Unit price : </source>
+        <target>Unit price : </target>
+      </trans-unit>
+      <trans-unit id="StaticTaxRateLabel" resname="StaticTaxRateLabel" xml:space="preserve">
+        <source>Tax rate : </source>
+        <target>Tax rate : </target>
+      </trans-unit>
+      <trans-unit id="StaticUnitPrice" resname="StaticUnitPrice" xml:space="preserve">
+        <source>Unit price</source>
+        <target>Unit price</target>
+      </trans-unit>
+      <trans-unit id="StaticTaxRate" resname="StaticTaxRate" xml:space="preserve">
+        <source>Tax rate</source>
+        <target>Tax rate</target>
+      </trans-unit>
+      <trans-unit id="StaticDeleteField" resname="StaticDeleteField" xml:space="preserve">
+        <source>Delete Field</source>
+        <target>Delete Field</target>
+      </trans-unit>
+      <trans-unit id="StaticNewField" resname="StaticNewField" xml:space="preserve">
+        <source>New Field</source>
+        <target>New Field</target>
+      </trans-unit>
+      <trans-unit id="StaticSave" resname="StaticSave" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="StaticCustomFields" resname="StaticCustomFields" xml:space="preserve">
+        <source>Custom Fields</source>
+        <target>Custom Fields</target>
+      </trans-unit>
+      <trans-unit id="StaticInvoiceEditor" resname="StaticInvoiceEditor" xml:space="preserve">
+        <source>Invoice Editor</source>
+        <target>Invoice Editor</target>
+      </trans-unit>
+      <trans-unit id="StaticLegacyDivider" resname="Divider" xml:space="preserve">
+        <source>Divider</source>
+        <target>Divider</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -45,7 +45,7 @@
 					"left": 919,
 					"width": 60,
 					"height": 57,
-					"tooltip": "Cancel Client",
+					"tooltip": ":xliff:StaticTip010",
 					"action": "cancel",
 					"textAlign": "center",
 					"stroke": "#000000",

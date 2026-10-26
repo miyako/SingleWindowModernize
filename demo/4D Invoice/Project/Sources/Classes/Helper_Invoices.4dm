@@ -43,8 +43,14 @@ Function setContext($wp : Object)
 Function update()
 	This:C1470.setContext()
 	
+Function outputDocument()->$wp : Object
+	// Stamp a copy so exporting never changes the editor or stored template.
+	$wp:=WP New:C1317(This:C1470.WP)
+	This:C1470.setContext($wp)
+	WP SET TEXT($wp; Get localized string:C991("Runtime_DemoOutputCaption")+Char:C90(13); wk prepend)
+
 Function getPageImages()->$pages : Collection
-	var $wp : Object:=This:C1470.WP
+	var $wp : Object:=This:C1470.outputDocument()
 	var $pageCount : Integer:=WP Get page count:C1412($wp)
 	$pages:=New collection:C1472
 	var $options : Object:=New object:C1471
@@ -64,7 +70,7 @@ Function getPageImages()->$pages : Collection
 	End for 
 	
 Function createPDF_noConditions($pfad : Text)
-	var $wp : Object:=WP New:C1317(This:C1470.WP)
+	var $wp : Object:=This:C1470.outputDocument()
 	WP EXPORT DOCUMENT:C1337($wp; $pfad; wk pdf:K81:315)
 	
 Function createPDF($pfad : Text)
@@ -107,7 +113,7 @@ Function createPDF($pfad : Text)
 				$options.facturX.version:="1.0"  // "1.0" is default value
 				
 				$fileInfo.name:="factur-x.xml"  // default value for first file (factur-x/ZUGFeRD xml)
-				$fileInfo.description:="Factur-X/ZUGFeRD Invoice"  // default value for first file ("factur-x/ZUGFeRD invoice")
+				$fileInfo.description:=Get localized string:C991("Runtime_InvoiceAttachmentDescription")  // default value for first file ("factur-x/ZUGFeRD invoice")
 				$fileInfo.mimeType:="text/xml"  // can be guessed as well
 				$fileInfo.relationship:="Data"
 				
@@ -120,7 +126,7 @@ Function createPDF($pfad : Text)
 				$options.facturX.version:="1.0"
 				
 				$fileInfo.name:="factur-x.xml"
-				$fileInfo.description:="Factur-X/ZUGFeRD Invoice"
+				$fileInfo.description:=Get localized string:C991("Runtime_InvoiceAttachmentDescription")
 				$fileInfo.mimeType:="text/xml"
 				$fileInfo.relationship:="Alternative"
 				
@@ -139,12 +145,11 @@ Function createPDF($pfad : Text)
 	
 Function print_white()
 	// remove background, then print. Create a copy to do so
-	var $wp : Object:=WP New:C1317(This:C1470.WP)
-	This:C1470.setContext($wp)
+	var $wp : Object:=This:C1470.outputDocument()
 	var $obj : Object:=WP Get element by ID:C1549($wp; "LogoBackground")
 	WP DELETE PICTURE:C1701($obj)
 	
-	SET PRINT OPTION:C733(Spooler document name option:K47:10; "Invoice "+This:C1470.context.invoice.InvoiceNumber)
+	SET PRINT OPTION:C733(Spooler document name option:K47:10; Replace string(Get localized string:C991("Runtime_InvoicePrintJob"); "{number}"; This:C1470.context.invoice.InvoiceNumber))
 	WP PRINT:C1343($wp)
 	
 Function print_color()
@@ -181,7 +186,7 @@ Function print_color()
 		End case 
 	End for each 
 	
-	SET PRINT OPTION:C733(Spooler document name option:K47:10; "Invoice "+This:C1470.context.invoice.InvoiceNumber)
+	SET PRINT OPTION:C733(Spooler document name option:K47:10; Replace string(Get localized string:C991("Runtime_InvoicePrintJob"); "{number}"; This:C1470.context.invoice.InvoiceNumber))
 	WP PRINT:C1343($wp)
 	
 	
@@ -207,7 +212,7 @@ Function buildXML()->$xmlText : Text
 	
 	$col:=New collection:C1472()
 	$col.push({xpath: "rsm:ExchangedDocument/ram:ID"; value: $context.invoice.InvoiceNumber})
-	$col.push({xpath: "rsm:ExchangedDocument/ram:IncludedNote/ram:Content"; value: "Invoice"})  // you can add invoice comment or invoice notes here
+	$col.push({xpath: "rsm:ExchangedDocument/ram:IncludedNote/ram:Content"; value: Get localized string:C991("Runtime_InvoiceDocumentNote")})  // you can add invoice comment or invoice notes here
 	
 	$valueString:=String:C10(Year of:C25($context.invoice.Date); "0000")+String:C10(Month of:C24($context.invoice.Date); "00")+String:C10(Day of:C23($context.invoice.Date); "00")
 	$col.push({xpath: "rsm:ExchangedDocument/ram:IssueDateTime/udt:DateTimeString"; value: $valueString})

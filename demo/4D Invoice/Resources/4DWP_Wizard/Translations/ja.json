@@ -1,0 +1,25 @@
+{
+    "tables": [
+        {"original": "Invoice", "translation": "請求書（デモ用）"}
+    ],
+    "fields": [
+        {"original": "Quantity", "translation": "数量"},
+        {"original": "Product Reference", "translation": "商品コード"},
+        {"original": "Product Name", "translation": "商品名"},
+        {"original": "Unit Price", "translation": "単価"},
+        {"original": "Discount Rate", "translation": "割引率"},
+        {"original": "Discount Value", "translation": "割引額"},
+        {"original": "VAT Rate", "translation": "税率"},
+        {"original": "Total Tax", "translation": "税額"},
+        {"original": "Total", "translation": "税抜合計"},
+        {"original": "Total with Tax", "translation": "税込合計"}
+    ],
+    "formulas": [
+        {"original": "Sum of invoice items", "translation": "請求明細の税抜合計"},
+        {"original": "Sum of invoice items with tax", "translation": "請求明細の税込合計"},
+        {"original": "Sum of invoice items tax", "translation": "請求明細の税額合計"},
+        {"original": "Subtotal of invoice items", "translation": "請求明細の税抜小計"},
+        {"original": "Subtotal of invoice items with tax", "translation": "請求明細の税込小計"},
+        {"original": "Subtotal of invoice items tax", "translation": "請求明細の税額小計"}
+    ]
+}

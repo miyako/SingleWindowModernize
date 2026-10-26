@@ -47,7 +47,7 @@
 					"dataSource": "[SETTINGS:5]CrtProformaNumber:2",
 					"dataSourceTypeHint": "integer",
 					"textAlign": "left",
-					"tooltip": "Client Name",
+					"tooltip": ":xliff:StaticTip011",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -72,7 +72,7 @@
 					"dataSource": "[SETTINGS:5]CrtInvoiceNumber:1",
 					"dataSourceTypeHint": "integer",
 					"textAlign": "left",
-					"tooltip": "Client Name",
+					"tooltip": ":xliff:StaticTip011",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -99,7 +99,7 @@
 					"dataSource": "Button",
 					"action": "cancel",
 					"shortcutKey": "[Esc]",
-					"text": "Cancel",
+					"text": ":xliff:Cancel",
 					"class": "Buttons_13",
 					"events": [
 						"onClick"
@@ -116,7 +116,7 @@
 					"dataSource": "Button",
 					"action": "accept",
 					"shortcutKey": "[Enter]",
-					"text": "OK",
+					"text": ":xliff:CommonOK",
 					"class": "Buttons_13",
 					"defaultButton": true,
 					"events": [
@@ -125,7 +125,7 @@
 				},
 				"ToolbarSetup": {
 					"type": "button",
-					"text": "Toolbar Setup",
+					"text": ":xliff:StaticToolbarSetup",
 					"top": 168,
 					"left": 217,
 					"width": 138,
@@ -137,7 +137,7 @@
 				},
 				"Schaltflaeche1": {
 					"type": "button",
-					"text": "Custom Fields",
+					"text": ":xliff:StaticCustomFields",
 					"top": 168,
 					"left": 35,
 					"width": 138,
@@ -149,7 +149,7 @@
 				},
 				"InvoiceEditor": {
 					"type": "button",
-					"text": "Invoice Editor",
+					"text": ":xliff:StaticInvoiceEditor",
 					"top": 211,
 					"left": 217,
 					"width": 138,

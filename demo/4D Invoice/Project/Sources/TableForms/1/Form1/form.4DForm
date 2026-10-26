@@ -49,15 +49,13 @@
 					"width": 48,
 					"height": 66,
 					"dataSource": "bAdd",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Add Record"
-					},
+					"tooltip": ":xliff:StaticTip001",
 					"action": "addSubrecord",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Add",
+					"text": ":xliff:Add",
 					"icon": "/RESOURCES/Images/Buttons/Glass/NewRecord.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -72,15 +70,13 @@
 					"width": 48,
 					"height": 66,
 					"dataSource": "bDelete",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Delete Selectio"
-					},
+					"tooltip": ":xliff:StaticTip002",
 					"action": "deleteSubrecord",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Delete",
+					"text": ":xliff:Delete",
 					"icon": "/RESOURCES/Images/Buttons/Glass/DeleteSelection.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -95,14 +91,12 @@
 					"width": 51,
 					"height": 66,
 					"dataSource": "bShowAll",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Show All"
-					},
+					"tooltip": ":xliff:StaticTip003",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Show all",
+					"text": ":xliff:StaticShowAll",
 					"icon": "/RESOURCES/Images/Buttons/Glass/ShowAll.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -118,14 +112,12 @@
 					"width": 77,
 					"height": 66,
 					"dataSource": "bShowSubset",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Show Subset"
-					},
+					"tooltip": ":xliff:StaticTip004",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Show subset",
+					"text": ":xliff:StaticShowSubset",
 					"icon": "/RESOURCES/Images/Buttons/Glass/ShowSubset.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -141,14 +133,12 @@
 					"width": 48,
 					"height": 66,
 					"dataSource": "bQuery",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Query"
-					},
+					"tooltip": ":xliff:StaticTip005",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Query",
+					"text": ":xliff:Query",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Query.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -164,14 +154,12 @@
 					"width": 52,
 					"height": 66,
 					"dataSource": "bOrderBy",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Order By"
-					},
+					"tooltip": ":xliff:StaticTip006",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Order by",
+					"text": ":xliff:StaticOrderBy",
 					"icon": "/RESOURCES/Images/Buttons/Glass/OrderBy.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -187,14 +175,12 @@
 					"width": 80,
 					"height": 66,
 					"dataSource": "bReport",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Report"
-					},
+					"tooltip": ":xliff:StaticTip007",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Quick reports",
+					"text": ":xliff:StaticQuickReports",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Report.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -210,14 +196,12 @@
 					"width": 66,
 					"height": 66,
 					"dataSource": "bLabels",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Print Labels"
-					},
+					"tooltip": ":xliff:StaticTip008",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Print labels",
+					"text": ":xliff:StaticPrintLabels",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Label.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -233,14 +217,12 @@
 					"width": 48,
 					"height": 66,
 					"dataSource": "bPrint",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Print Selection"
-					},
+					"tooltip": ":xliff:StaticTip009",
 					"shortcutKey": "\u0000",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
-					"text": "Print",
+					"text": ":xliff:Print",
 					"icon": "/RESOURCES/Images/Buttons/Glass/Print.png",
 					"iconFrames": 4,
 					"style": "custom",
@@ -266,7 +248,7 @@
 					"width": 224,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "City : "
+					"text": ":xliff:StaticCityLabel"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -275,7 +257,7 @@
 					"width": 50,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Logo : "
+					"text": ":xliff:StaticLogoLabel"
 				},
 				"Rectangle4": {
 					"type": "rectangle",

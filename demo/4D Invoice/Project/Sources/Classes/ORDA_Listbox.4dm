@@ -61,7 +61,7 @@ Function _loadListboxColumns()
 		For each ($column; $object.columns)
 			$counter+=1
 			LISTBOX INSERT COLUMN FORMULA:C970(*; "Listbox"; $counter; $column.title; $column.formula; Is text:K8:3; $column.title; $nullpointer)
-			OBJECT SET TITLE:C194(*; $column.title; $column.title)
+			OBJECT SET TITLE:C194(*; $column.title; DemoCaption($column.title))
 			LISTBOX SET COLUMN WIDTH:C833(*; $column.title; $column.width)
 			This:C1470._columnwidths.push($column.width)
 		End for each 
@@ -90,7 +90,7 @@ Function _loadListboxColumns()
 				If (($column.fieldType#Is BLOB:K8:12) & ($column.fieldType#Is object:K8:27))
 					$counter:=$counter+1
 					LISTBOX INSERT COLUMN FORMULA:C970(*; "Listbox"; $counter; $fieldname; "This."+$fieldname; $column.fieldType; $fieldname; $nullpointer)
-					OBJECT SET TITLE:C194(*; $fieldname; $fieldname)
+					OBJECT SET TITLE:C194(*; $fieldname; DemoCaption($fieldname))
 					LISTBOX SET COLUMN WIDTH:C833(*; $fieldname; $width)
 					This:C1470._columnwidths.push($width)
 				End if 
@@ -115,7 +115,7 @@ Function setInputForm()
 		var $top : Integer:=20
 		var $fieldname : Text
 		For each ($fieldname; This:C1470.table)
-			var $text : Object:=New object:C1471("height"; 20; "width"; 130; "left"; 20; "top"; $top; "text"; $fieldname; "type"; "text")
+			var $text : Object:=New object:C1471("height"; 20; "width"; 130; "left"; 20; "top"; $top; "text"; DemoCaption($fieldname); "type"; "text")
 			$page["text_"+String:C10($top)]:=$text
 			var $field : Object:=New object:C1471("height"; 20; "width"; 300; "left"; 160; "top"; $top; "type"; "input"; "enterable"; False:C215; "dataSource"; "Form.data."+$fieldname)
 			$page[$fieldname]:=$field
@@ -148,8 +148,12 @@ Function calcWindowTitle($sel : 4D:C1709.EntitySelection)->$title : Text
 		$title:=$class.calcWindowTitle($sel)
 		//%W+550.2
 	Else 
-		$title:=This:C1470.tablename+"   -   "+String:C10($sel.length)+" of "+String:C10($class.all().length)
+		$title:=Get localized string:C991("Core_SelectionTitle")
+		$title:=Replace string($title; "{table}"; DemoCaption(This:C1470.tablename))
+		$title:=Replace string($title; "{selected}"; String:C10($sel.length))
+		$title:=Replace string($title; "{total}"; String:C10($class.all().length))
 	End if 
+	$title:=Get localized string:C991("Core_DemoMarker")+" - "+$title
 	
 Function handleButtonClick($button : Text; $event : Integer)
 	If ($event=On Clicked:K2:4)

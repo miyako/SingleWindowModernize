@@ -52,7 +52,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]Name:2",
 					"textAlign": "left",
-					"tooltip": "Client Name",
+					"tooltip": ":xliff:StaticTip011",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -65,7 +65,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]Address1:3",
 					"textAlign": "left",
-					"tooltip": "Client Address 1",
+					"tooltip": ":xliff:StaticTip012",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -78,7 +78,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]Address2:4",
 					"textAlign": "left",
-					"tooltip": "Client Address 2",
+					"tooltip": ":xliff:StaticTip013",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -91,7 +91,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]City:5",
 					"textAlign": "left",
-					"tooltip": "Client City",
+					"tooltip": ":xliff:StaticTip014",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -104,7 +104,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]State:6",
 					"textAlign": "left",
-					"tooltip": "Client State",
+					"tooltip": ":xliff:StaticTip015",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -117,7 +117,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]ZipCode:7",
 					"textAlign": "left",
-					"tooltip": "Client ZipCode",
+					"tooltip": ":xliff:StaticTip016",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -130,7 +130,7 @@
 					"height": 16,
 					"dataSource": "[CLIENTS:1]Country:17",
 					"textAlign": "left",
-					"tooltip": "Client ZipCode",
+					"tooltip": ":xliff:StaticTip016",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -145,7 +145,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Telephone",
+					"tooltip": ":xliff:StaticTip017",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -160,7 +160,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Mobile",
+					"tooltip": ":xliff:StaticTip018",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -175,7 +175,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Fax",
+					"tooltip": ":xliff:StaticTip019",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -190,7 +190,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Email",
+					"tooltip": ":xliff:StaticTip020",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -205,7 +205,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Web Site",
+					"tooltip": ":xliff:StaticTip021",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -220,7 +220,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Client Contact",
+					"tooltip": ":xliff:StaticTip022",
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none"
@@ -236,7 +236,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Product Discount Rate",
+					"tooltip": ":xliff:StaticTip023",
 					"contextMenu": "none",
 					"numberFormat": "##0%",
 					"dragging": "none",
@@ -252,7 +252,7 @@
 					"textAlign": "left",
 					"fontFamily": ".Helvetica Neue DeskInterface",
 					"fontSize": 13,
-					"tooltip": "Comments on Client",
+					"tooltip": ":xliff:StaticTip024",
 					"styledText": true,
 					"dragging": "none",
 					"dropping": "none",
@@ -318,7 +318,7 @@
 							"header": {
 								"name": "invoicesNumberHD",
 								"text": ":xliff:Number",
-								"tooltip": "Invoice Number",
+								"tooltip": ":xliff:StaticTip025",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "middle"
@@ -347,7 +347,7 @@
 							"header": {
 								"name": "invoicesDateHD",
 								"text": ":xliff:Date",
-								"tooltip": "Invoice Date",
+								"tooltip": ":xliff:StaticTip026",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -378,7 +378,7 @@
 							"header": {
 								"name": "invoicesSubtotalHD",
 								"text": ":xliff:Subtotal",
-								"tooltip": "Invoice Subtotal",
+								"tooltip": ":xliff:StaticTip027",
 								"stroke": "automatic",
 								"textAlign": "right",
 								"verticalAlign": "middle"
@@ -412,7 +412,7 @@
 							"header": {
 								"name": "invoicesPaidHD",
 								"text": ":xliff:Paid",
-								"tooltip": "Paid",
+								"tooltip": ":xliff:StaticTip028",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -441,7 +441,7 @@
 							"header": {
 								"name": "invoicesPayementDateHD",
 								"text": ":xliff:Payment Date",
-								"tooltip": "Invoice Payement Date",
+								"tooltip": ":xliff:StaticTip029",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -469,7 +469,7 @@
 							"header": {
 								"name": "invoicesPayementMethodHD",
 								"text": ":xliff:Payment Method",
-								"tooltip": "Invoice Payement Method",
+								"tooltip": ":xliff:StaticTip030",
 								"stroke": "automatic",
 								"textAlign": "left",
 								"verticalAlign": "middle"
@@ -652,7 +652,7 @@
 					"left": 140,
 					"width": 80,
 					"height": 60,
-					"tooltip": "First Client",
+					"tooltip": ":xliff:StaticTip031",
 					"action": "firstRecord",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -671,7 +671,7 @@
 					"left": 220,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Previous Client",
+					"tooltip": ":xliff:StaticTip032",
 					"action": "previousRecord",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -690,7 +690,7 @@
 					"left": 300,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Next Client",
+					"tooltip": ":xliff:StaticTip033",
 					"action": "nextRecord",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -709,7 +709,7 @@
 					"left": 380,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Last Client",
+					"tooltip": ":xliff:StaticTip034",
 					"action": "lastRecord",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -728,7 +728,7 @@
 					"left": 460,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Delete Client",
+					"tooltip": ":xliff:StaticTip035",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -748,7 +748,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Cancel Client",
+					"tooltip": ":xliff:StaticTip010",
 					"action": "cancel",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -768,7 +768,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Validate Client",
+					"tooltip": ":xliff:StaticTip036",
 					"action": "accept",
 					"textAlign": "center",
 					"stroke": "#000000",
@@ -788,7 +788,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Add Invoice",
+					"tooltip": ":xliff:StaticTip037",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -808,7 +808,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Delete Invoice",
+					"tooltip": ":xliff:StaticTip038",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -915,7 +915,7 @@
 					"height": 160,
 					"dataSource": "[CLIENTS:1]Logo:13",
 					"dataSourceTypeHint": "picture",
-					"tooltip": "Logo",
+					"tooltip": ":xliff:StaticTip039",
 					"fill": "transparent",
 					"borderStyle": "none",
 					"pictureFormat": "proportionalCenter",

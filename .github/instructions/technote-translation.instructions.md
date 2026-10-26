@@ -206,6 +206,15 @@ fails, then revert.
 
 The workflow is in the skill `technote-localise-4d-project`; the 4D rules are in the generic skills it lists.
 
+- **Project strings:** `tools/prepare_localisation_test.py` generates `build/resource-smoke.4dm` from the demo's
+  XLIFF targets. Run it through `tools/tool4d.py "demo/4D Invoice" build/resource-smoke.4dm` and require
+  `passed: true`. It checks project-resource resolution, not the Japanese rendering of native 4D dialogs.
+- **Demo regressions:** `tools/tests/demo_ja.4dm` checks exact customer import, unchanged product references and
+  Japanese generated labels (`--new-data` required); `tools/tests/demo_toolbar.4dm` checks that translated
+  hierarchical-list captions do not replace canonical toolbar action keys; `tools/tests/demo_templates.4dm`
+  checks template-data creation, update and entity selection (`--new-data` required). Run these through
+  `tools/tool4d.py` and require `passed: true`. These runs use temporary copies, never the supplied empty data
+  file. Template-data checks do not verify Write Pro document rendering or invoice-editor interactions.
 - **Syntax:** skill `4dlsp` (`validate` for the files you changed, `check-syntax` for the whole project). Don't write
   a startup method or launch 4D just to check syntax.
 - **Running code:** `tools/tool4d.py` copies `Project/` and `Resources/` (and `Data/` with `--data`) to a temporary

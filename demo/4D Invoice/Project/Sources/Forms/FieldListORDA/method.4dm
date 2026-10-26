@@ -11,9 +11,13 @@ Case of
 		If (Form:C1466.selectedFields.length>0)
 			var $el : Text
 			For each ($el; Form:C1466.selectedFields)
-				// $el could be relation.fieldname. If not, we can use Find in list.
+				// Restore selections using machine paths, never translated labels.
 				If (Position:C15("."; $el; *)<1)
-					var $vlItemPos : Integer:=Find in list:C952(Form:C1466.source; $el; 0; *)
+					var $matches : Collection:=$class.hlCol.query("para=:1"; $el)
+					var $vlItemPos : Integer:=-1
+					If ($matches.length>0)
+						$vlItemPos:=$matches[0].id
+					End if
 					If ($vlItemPos>0)
 						GET LIST ITEM:C378(*; "hlist_source"; List item position:C629(*; "hlist_source"; $vlItemPos); $itemRef; $itemText; $sublist; $expanded)
 						If ($sublist=0)

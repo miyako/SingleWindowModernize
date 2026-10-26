@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Messages" source-language="en" target-language="fr">
+    <body>
+      <trans-unit id="Runtime_InvoiceReportHeading" resname="Runtime_InvoiceReportHeading">
+        <source>{title}&#13;DEMO ONLY (fictional data)</source>
+        <target>{title}&#13;DEMO ONLY (fictional data)</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ClientsReportHeading" resname="Runtime_ClientsReportHeading">
+        <source>{title} — DEMO ONLY (fictional data)</source>
+        <target>{title} — DEMO ONLY (fictional data)</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ProductsReportHeading" resname="Runtime_ProductsReportHeading">
+        <source>{title} — DEMO ONLY (fictional data)</source>
+        <target>{title} — DEMO ONLY (fictional data)</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DemoOutputCaption" resname="Runtime_DemoOutputCaption">
+        <source>DEMO ONLY — fictional data. Not a valid invoice.</source>
+        <target>DEMO ONLY — fictional data. Not a valid invoice.</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceAttachmentDescription" resname="Runtime_InvoiceAttachmentDescription">
+        <source>Factur-X/ZUGFeRD Invoice</source>
+        <target>Factur-X/ZUGFeRD Invoice</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Unsupported" resname="Runtime_Unsupported">
+        <source>Not supported</source>
+        <target>Not supported</target>
+      </trans-unit>
+      <trans-unit id="Runtime_SelectInvoice" resname="Runtime_SelectInvoice">
+        <source>Please select an invoice</source>
+        <target>Please select an invoice</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PDFSaved" resname="Runtime_PDFSaved">
+        <source>Stored as test.pdf on your desktop</source>
+        <target>Stored as test.pdf on your desktop</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrinterColor" resname="Runtime_PrinterColor">
+        <source>Set the printer to duplex and color. For production, change the code to make this automatically</source>
+        <target>Set the printer to duplex and color. For production, change the code to make this automatically</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrinterMonochrome" resname="Runtime_PrinterMonochrome">
+        <source>Set the printer to single page and black&amp;white. For production, change the code to make this automatically</source>
+        <target>Set the printer to single page and black&amp;white. For production, change the code to make this automatically</target>
+      </trans-unit>
+      <trans-unit id="Runtime_UnderConstruction" resname="Runtime_UnderConstruction">
+        <source>Under construction</source>
+        <target>Under construction</target>
+      </trans-unit>
+      <trans-unit id="Runtime_NoInvoicesSelected" resname="Runtime_NoInvoicesSelected">
+        <source>No invoice(s) selected</source>
+        <target>No invoice(s) selected</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DeleteProformaOnly" resname="Runtime_DeleteProformaOnly">
+        <source>Only the invoice(s) pro forma will be deleted. Continue?</source>
+        <target>Only the invoice(s) pro forma will be deleted. Continue?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DeleteUnreferencedProducts" resname="Runtime_DeleteUnreferencedProducts">
+        <source>Only the products(s) not referenced in invoices will be deleted. Continue?</source>
+        <target>Only the products(s) not referenced in invoices will be deleted. Continue?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_CannotUndo" resname="Runtime_CannotUndo">
+        <source>You will not be able to undo this operation. Continue?</source>
+        <target>You will not be able to undo this operation. Continue?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_LocalModeOnly" resname="Runtime_LocalModeOnly">
+        <source>Only in local mode possible, please contact admin</source>
+        <target>Only in local mode possible, please contact admin</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DataSheetMissing" resname="Runtime_DataSheetMissing">
+        <source>Data Sheet missing, please Insert Data first</source>
+        <target>Data Sheet missing, please Insert Data first</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DataTableMissing" resname="Runtime_DataTableMissing">
+        <source>Data table missing, please Insert Data first</source>
+        <target>Data table missing, please Insert Data first</target>
+      </trans-unit>
+      <trans-unit id="Runtime_SheetLocked" resname="Runtime_SheetLocked">
+        <source>data of the current sheet cannot be updated, as the table will be locked</source>
+        <target>data of the current sheet cannot be updated, as the table will be locked</target>
+      </trans-unit>
+      <trans-unit id="Runtime_QuitOrDesign" resname="Runtime_QuitOrDesign">
+        <source>Quit or open design mode?</source>
+        <target>Quit or open design mode?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Quit" resname="Runtime_Quit">
+        <source>Quit</source>
+        <target>Quit</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Design" resname="Runtime_Design">
+        <source>Design</source>
+        <target>Design</target>
+      </trans-unit>
+      <trans-unit id="Runtime_HighlightedOnly" resname="Runtime_HighlightedOnly">
+        <source>Highlighted only</source>
+        <target>Highlighted only</target>
+      </trans-unit>
+      <trans-unit id="Runtime_TableName" resname="Runtime_TableName">
+        <source>Table name</source>
+        <target>Table name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_FieldName" resname="Runtime_FieldName">
+        <source>Field name</source>
+        <target>Field name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_SelectPicture" resname="Runtime_SelectPicture">
+        <source>Select Picture</source>
+        <target>Select Picture</target>
+      </trans-unit>
+      <trans-unit id="Runtime_AllClients" resname="Runtime_AllClients">
+        <source>All clients in list</source>
+        <target>All clients in list</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrintClients" resname="Runtime_PrintClients">
+        <source>Do you want to print all the clients in list or only the highlighted ones?</source>
+        <target>Do you want to print all the clients in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ExportClients" resname="Runtime_ExportClients">
+        <source>Do you want to export all the clients in list or only the highlighted ones?</source>
+        <target>Do you want to export all the clients in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_AllInvoices" resname="Runtime_AllInvoices">
+        <source>All invoices in list</source>
+        <target>All invoices in list</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrintInvoices" resname="Runtime_PrintInvoices">
+        <source>Do you want to print all the invoices in list or only the highlighted ones?</source>
+        <target>Do you want to print all the invoices in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ExportInvoices" resname="Runtime_ExportInvoices">
+        <source>Do you want to export all the invoices in list or only the highlighted ones?</source>
+        <target>Do you want to export all the invoices in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_AllProducts" resname="Runtime_AllProducts">
+        <source>All products in list</source>
+        <target>All products in list</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrintProducts" resname="Runtime_PrintProducts">
+        <source>Do you want to print all the products in list or only the highlighted ones?</source>
+        <target>Do you want to print all the products in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ExportProducts" resname="Runtime_ExportProducts">
+        <source>Do you want to export all the products in list or only the highlighted ones?</source>
+        <target>Do you want to export all the products in list or only the highlighted ones?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_CLIENTS" resname="Runtime_Label_CLIENTS">
+        <source>Clients</source>
+        <target>Clients</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_INVOICES" resname="Runtime_Label_INVOICES">
+        <source>Invoices</source>
+        <target>Invoices</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_PRODUCTS" resname="Runtime_Label_PRODUCTS">
+        <source>Products</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_SETTINGS" resname="Runtime_Label_SETTINGS">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Graph" resname="Runtime_Label_Graph">
+        <source>Graph</source>
+        <target>Graph</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Total_Sales" resname="Runtime_Label_Total_Sales">
+        <source>Total Sales</source>
+        <target>Total Sales</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Total" resname="Runtime_Label_Total">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Subtotal" resname="Runtime_Label_Subtotal">
+        <source>Subtotal</source>
+        <target>Subtotal</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Turnover" resname="Runtime_Label_Turnover">
+        <source>Turnover</source>
+        <target>Turnover</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_No_invoices_in_the_past_6_months" resname="Runtime_Label_No_invoices_in_the_past_6_months">
+        <source>No invoices in the past 6 months</source>
+        <target>No invoices in the past 6 months</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_You_can_not_unpaid_an_invoice" resname="Runtime_Label_You_can_not_unpaid_an_invoice">
+        <source>You cannot mark a paid invoice as unpaid.</source>
+        <target>You cannot mark a paid invoice as unpaid.</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_You_can_not_change_an_invoice_into_a_pro_forma" resname="Runtime_Label_You_can_not_change_an_invoice_into_a_pro_forma">
+        <source>You cannot change an invoice into a pro forma.</source>
+        <target>You cannot change an invoice into a pro forma.</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_The_pro_forma_changes_into_an_invoice_that_will_not_be_modifiable_anymore_Continue" resname="Runtime_Label_The_pro_forma_changes_into_an_invoice_that_will_not_be_modifiable_anymore_Continue">
+        <source>The pro forma will become an invoice that can no longer be modified. Continue?</source>
+        <target>The pro forma will become an invoice that can no longer be modified. Continue?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Do_you_really_want_to_delete_this_client" resname="Runtime_Label_Do_you_really_want_to_delete_this_client">
+        <source>Do you really want to delete this client?</source>
+        <target>Do you really want to delete this client?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_No_product_s_selected" resname="Runtime_Label_No_product_s_selected">
+        <source>No product(s) selected</source>
+        <target>No product(s) selected</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_SaveChanges" resname="Runtime_Label_SaveChanges">
+        <source>Save changes?</source>
+        <target>Save changes?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_SomebodyElseChanged" resname="Runtime_Label_SomebodyElseChanged">
+        <source>Someone else has changed the same fields in the meantime, the data cannot be saved!</source>
+        <target>Someone else has changed the same fields in the meantime, the data cannot be saved!</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_LockedWait" resname="Runtime_Label_LockedWait">
+        <source>Wait</source>
+        <target>Wait</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_LockedCancel" resname="Runtime_Label_LockedCancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_NoNewButtonForInvoices" resname="Runtime_Label_NoNewButtonForInvoices">
+        <source>Double-click the client to create a new invoice.</source>
+        <target>Double-click the client to create a new invoice.</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Invoice_Lines" resname="Runtime_Label_Invoice_Lines">
+        <source>Invoice Lines</source>
+        <target>Invoice Lines</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Overwrite_user_settings" resname="Runtime_Label_Overwrite_user_settings">
+        <source>Do you want to overwrite User Settings?</source>
+        <target>Do you want to overwrite User Settings?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Popup_Delete" resname="Runtime_Label_Popup_Delete">
+        <source>Delete;Delete All</source>
+        <target>Delete;Delete All</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Delete_all_buttons" resname="Runtime_Label_Delete_all_buttons">
+        <source>Delete all buttons?</source>
+        <target>Delete all buttons?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_Reset_Defaults" resname="Runtime_Label_Reset_Defaults">
+        <source>Reset to defaults?</source>
+        <target>Reset to defaults?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_IE_TabControl" resname="Runtime_Label_IE_TabControl">
+        <source>Invoice Editor;Business Letter;Conditions</source>
+        <target>Invoice Editor;Business Letter;Conditions</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Label_ColumnRightClick" resname="Runtime_Label_ColumnRightClick">
+        <source>Delete Column;Save;Clear Saved;-;</source>
+        <target>Delete Column;Save;Clear Saved;-;</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DeleteInvoices" resname="Runtime_DeleteInvoices">
+        <source>Do you really want to delete {count} invoice(s)?</source>
+        <target>Do you really want to delete {count} invoice(s)?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DeleteProducts" resname="Runtime_DeleteProducts">
+        <source>Do you really want to delete {count} products(s)?</source>
+        <target>Do you really want to delete {count} products(s)?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_DeleteInvoiceLines" resname="Runtime_DeleteInvoiceLines">
+        <source>Do you really want to delete {count} invoice lines(s)?</source>
+        <target>Do you really want to delete {count} invoice lines(s)?</target>
+      </trans-unit>
+      <trans-unit id="Runtime_CountClients" resname="Runtime_CountClients">
+        <source>{selected} clients out of {total}</source>
+        <target>{selected} clients out of {total}</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoicePrintJob" resname="Runtime_InvoicePrintJob">
+        <source>Invoice {number}</source>
+        <target>Invoice {number}</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceDocumentNote" resname="Runtime_InvoiceDocumentNote">
+        <source>Invoice</source>
+        <target>Invoice</target>
+      </trans-unit>
+      <trans-unit id="Runtime_ClassicInvoice" resname="Runtime_ClassicInvoice">
+        <source>Classic Invoice</source>
+        <target>Classic Invoice</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoicePDF" resname="Runtime_InvoicePDF">
+        <source>New Invoice as PDF</source>
+        <target>New Invoice as PDF</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceColor" resname="Runtime_InvoiceColor">
+        <source>New Invoice Color Paper</source>
+        <target>New Invoice Color Paper</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceBW" resname="Runtime_InvoiceBW">
+        <source>New Invoice BW Paper</source>
+        <target>New Invoice BW Paper</target>
+      </trans-unit>
+      <trans-unit id="Runtime_RecordLockedBy" resname="Runtime_RecordLockedBy">
+        <source>The record is locked by {user}.</source>
+        <target>The record is locked by {user}.</target>
+      </trans-unit>
+      <trans-unit id="Runtime_CountInvoices" resname="Runtime_CountInvoices">
+        <source>{selected} invoices out of {total}</source>
+        <target>{selected} invoices out of {total}</target>
+      </trans-unit>
+      <trans-unit id="Runtime_LockedClassic" resname="Runtime_LockedClassic">
+        <source>The data record is currently being processed by {user}! Open read-only...</source>
+        <target>The data record is currently being processed by {user}! Open read-only...</target>
+      </trans-unit>
+      <trans-unit id="Runtime_CountProducts" resname="Runtime_CountProducts">
+        <source>{selected} products out of {total}</source>
+        <target>{selected} products out of {total}</target>
+      </trans-unit>
+      <trans-unit id="Runtime_PrintDateTime" resname="Runtime_PrintDateTime">
+        <source>{date} at {time}</source>
+        <target>{date} at {time}</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_ID" resname="Runtime_Field_CLIENTS_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Name" resname="Runtime_Field_CLIENTS_Name">
+        <source>Client Name</source>
+        <target>Client Name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Address1" resname="Runtime_Field_CLIENTS_Address1">
+        <source>Address 1</source>
+        <target>Address 1</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Address2" resname="Runtime_Field_CLIENTS_Address2">
+        <source>Address 2</source>
+        <target>Address 2</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_City" resname="Runtime_Field_CLIENTS_City">
+        <source>City</source>
+        <target>City</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_State" resname="Runtime_Field_CLIENTS_State">
+        <source>State</source>
+        <target>State</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_ZipCode" resname="Runtime_Field_CLIENTS_ZipCode">
+        <source>Zip Code</source>
+        <target>Zip Code</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Phone" resname="Runtime_Field_CLIENTS_Phone">
+        <source>Phone</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Mobile" resname="Runtime_Field_CLIENTS_Mobile">
+        <source>Mobile</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Fax" resname="Runtime_Field_CLIENTS_Fax">
+        <source>Fax</source>
+        <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Email" resname="Runtime_Field_CLIENTS_Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_WebSite" resname="Runtime_Field_CLIENTS_WebSite">
+        <source>Website</source>
+        <target>Website</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Logo" resname="Runtime_Field_CLIENTS_Logo">
+        <source>Logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Contact" resname="Runtime_Field_CLIENTS_Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Comments" resname="Runtime_Field_CLIENTS_Comments">
+        <source>Comments</source>
+        <target>Comments</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_Country" resname="Runtime_Field_CLIENTS_Country">
+        <source>Country</source>
+        <target>Country</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_DiscountRate" resname="Runtime_Field_CLIENTS_DiscountRate">
+        <source>Discount Rate</source>
+        <target>Discount Rate</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_CustomFields" resname="Runtime_Field_CLIENTS_CustomFields">
+        <source>Custom Fields</source>
+        <target>Custom Fields</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_ID" resname="Runtime_Field_INVOICES_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_InvoiceNumber" resname="Runtime_Field_INVOICES_InvoiceNumber">
+        <source>Invoice Number</source>
+        <target>Invoice Number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Client_ID" resname="Runtime_Field_INVOICES_Client_ID">
+        <source>Client ID</source>
+        <target>Client ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Date" resname="Runtime_Field_INVOICES_Date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Subtotal" resname="Runtime_Field_INVOICES_Subtotal">
+        <source>Subtotal</source>
+        <target>Subtotal</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Tax" resname="Runtime_Field_INVOICES_Tax">
+        <source>Tax</source>
+        <target>Tax</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Total" resname="Runtime_Field_INVOICES_Total">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_Paid" resname="Runtime_Field_INVOICES_Paid">
+        <source>Paid</source>
+        <target>Paid</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_PaymentDate" resname="Runtime_Field_INVOICES_PaymentDate">
+        <source>Payment Date</source>
+        <target>Payment Date</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_PaymentMethod" resname="Runtime_Field_INVOICES_PaymentMethod">
+        <source>Payment Method</source>
+        <target>Payment Method</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_PaymentReference" resname="Runtime_Field_INVOICES_PaymentReference">
+        <source>Payment Reference</source>
+        <target>Payment Reference</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_ProForma" resname="Runtime_Field_INVOICES_ProForma">
+        <source>Pro Forma</source>
+        <target>Pro Forma</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_PaymentDelay" resname="Runtime_Field_INVOICES_PaymentDelay">
+        <source>Payment Delay</source>
+        <target>Payment Delay</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_ProformaNumber" resname="Runtime_Field_INVOICES_ProformaNumber">
+        <source>Pro Forma Number</source>
+        <target>Pro Forma Number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_CustomFields" resname="Runtime_Field_INVOICES_CustomFields">
+        <source>Custom Fields</source>
+        <target>Custom Fields</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_ID" resname="Runtime_Field_INVOICE_LINES_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_Invoice_ID" resname="Runtime_Field_INVOICE_LINES_Invoice_ID">
+        <source>Invoice ID</source>
+        <target>Invoice ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_Product_ID" resname="Runtime_Field_INVOICE_LINES_Product_ID">
+        <source>Product ID</source>
+        <target>Product ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_ProductReference" resname="Runtime_Field_INVOICE_LINES_ProductReference">
+        <source>Product Reference</source>
+        <target>Product Reference</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_ProductName" resname="Runtime_Field_INVOICE_LINES_ProductName">
+        <source>Product Name</source>
+        <target>Product Name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_Quantity" resname="Runtime_Field_INVOICE_LINES_Quantity">
+        <source>Quantity</source>
+        <target>Quantity</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_ProductUnitPrice" resname="Runtime_Field_INVOICE_LINES_ProductUnitPrice">
+        <source>Product Unit Price</source>
+        <target>Product Unit Price</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_DiscountRate" resname="Runtime_Field_INVOICE_LINES_DiscountRate">
+        <source>Discount Rate</source>
+        <target>Discount Rate</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_ProductTaxRate" resname="Runtime_Field_INVOICE_LINES_ProductTaxRate">
+        <source>Product Tax Rate</source>
+        <target>Product Tax Rate</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_Total" resname="Runtime_Field_INVOICE_LINES_Total">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_TotalTax" resname="Runtime_Field_INVOICE_LINES_TotalTax">
+        <source>Total Tax</source>
+        <target>Total Tax</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_ID" resname="Runtime_Field_PRODUCTS_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_Reference" resname="Runtime_Field_PRODUCTS_Reference">
+        <source>Reference</source>
+        <target>Reference</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_Name" resname="Runtime_Field_PRODUCTS_Name">
+        <source>Product Name</source>
+        <target>Product Name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_Picture" resname="Runtime_Field_PRODUCTS_Picture">
+        <source>Picture</source>
+        <target>Picture</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_UnitPrice" resname="Runtime_Field_PRODUCTS_UnitPrice">
+        <source>Unit Price</source>
+        <target>Unit Price</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_TaxRate" resname="Runtime_Field_PRODUCTS_TaxRate">
+        <source>Tax Rate</source>
+        <target>Tax Rate</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_SETTINGS_CrtInvoiceNumber" resname="Runtime_Field_SETTINGS_CrtInvoiceNumber">
+        <source>Current Invoice Number</source>
+        <target>Current Invoice Number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_SETTINGS_CrtProformaNumber" resname="Runtime_Field_SETTINGS_CrtProformaNumber">
+        <source>Current Pro Forma Number</source>
+        <target>Current Pro Forma Number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_SETTINGS_CustomFields_" resname="Runtime_Field_SETTINGS_CustomFields_">
+        <source>Custom Field Settings</source>
+        <target>Custom Field Settings</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_SETTINGS_ID" resname="Runtime_Field_SETTINGS_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_Document_Templates_ID" resname="Runtime_Field_Document_Templates_ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_Document_Templates_Name" resname="Runtime_Field_Document_Templates_Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_Document_Templates_WPro" resname="Runtime_Field_Document_Templates_WPro">
+        <source>Write Pro Document</source>
+        <target>Write Pro Document</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_Document_Templates_image" resname="Runtime_Field_Document_Templates_image">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_Document_Templates_data" resname="Runtime_Field_Document_Templates_data">
+        <source>Data</source>
+        <target>Data</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_invoices" resname="Runtime_Field_CLIENTS_invoices">
+        <source>Invoices</source>
+        <target>Invoices</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_invoices_sort" resname="Runtime_Field_CLIENTS_invoices_sort">
+        <source>Invoices by Date</source>
+        <target>Invoices by Date</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_TotalSales" resname="Runtime_Field_CLIENTS_TotalSales">
+        <source>Total Sales</source>
+        <target>Total Sales</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_fullAddress" resname="Runtime_Field_CLIENTS_fullAddress">
+        <source>Full Address</source>
+        <target>Full Address</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_CLIENTS_customFieldsLB" resname="Runtime_Field_CLIENTS_customFieldsLB">
+        <source>Custom Fields</source>
+        <target>Custom Fields</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_client" resname="Runtime_Field_INVOICES_client">
+        <source>Client</source>
+        <target>Client</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICES_invoice_lines" resname="Runtime_Field_INVOICES_invoice_lines">
+        <source>Invoice Lines</source>
+        <target>Invoice Lines</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_invoice" resname="Runtime_Field_INVOICE_LINES_invoice">
+        <source>Invoice</source>
+        <target>Invoice</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_INVOICE_LINES_product" resname="Runtime_Field_INVOICE_LINES_product">
+        <source>Product</source>
+        <target>Product</target>
+      </trans-unit>
+      <trans-unit id="Runtime_Field_PRODUCTS_invoice_lines" resname="Runtime_Field_PRODUCTS_invoice_lines">
+        <source>Invoice Lines</source>
+        <target>Invoice Lines</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_1" resname="Runtime_InvoiceField_1">
+        <source>Full Customer address</source>
+        <target>Full Customer address</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_2" resname="Runtime_InvoiceField_2">
+        <source>Customer country</source>
+        <target>Customer country</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_3" resname="Runtime_InvoiceField_3">
+        <source>Customer name</source>
+        <target>Customer name</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_4" resname="Runtime_InvoiceField_4">
+        <source>Customer State</source>
+        <target>Customer State</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_5" resname="Runtime_InvoiceField_5">
+        <source>Invoice number</source>
+        <target>Invoice number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_6" resname="Runtime_InvoiceField_6">
+        <source>Invoice date</source>
+        <target>Invoice date</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_7" resname="Runtime_InvoiceField_7">
+        <source>Invoice Total</source>
+        <target>Invoice Total</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_8" resname="Runtime_InvoiceField_8">
+        <source>Invoice Total with Tax</source>
+        <target>Invoice Total with Tax</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_9" resname="Runtime_InvoiceField_9">
+        <source>Invoice Tax</source>
+        <target>Invoice Tax</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_10" resname="Runtime_InvoiceField_10">
+        <source>Proforma number</source>
+        <target>Proforma number</target>
+      </trans-unit>
+      <trans-unit id="Runtime_InvoiceField_11" resname="Runtime_InvoiceField_11">
+        <source>Invoice comments</source>
+        <target>Invoice comments</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

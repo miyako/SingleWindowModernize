@@ -67,7 +67,7 @@
 					"width": 48,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:StaticIDLabel"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -76,7 +76,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Name : "
+					"text": ":xliff:StaticNameLabel"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -85,7 +85,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Address1 : "
+					"text": ":xliff:StaticAddressOneLabel"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -94,7 +94,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Address2 : "
+					"text": ":xliff:StaticAddressTwoLabel"
 				},
 				"S5_Text": {
 					"type": "text",
@@ -103,7 +103,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "City : "
+					"text": ":xliff:StaticCityLabel"
 				},
 				"S6_Text": {
 					"type": "text",
@@ -112,7 +112,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "State : "
+					"text": ":xliff:StaticStateLabel"
 				},
 				"S7_Text": {
 					"type": "text",
@@ -121,7 +121,7 @@
 					"width": 56,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "ZipCode : "
+					"text": ":xliff:StaticZipLabel"
 				},
 				"S8_Text": {
 					"type": "text",
@@ -130,7 +130,7 @@
 					"width": 224,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Country : "
+					"text": ":xliff:StaticCountryLabel"
 				},
 				"S9_Text": {
 					"type": "text",
@@ -139,7 +139,7 @@
 					"width": 112,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Telephone : "
+					"text": ":xliff:StaticTelephoneLabel"
 				},
 				"S10_Text": {
 					"type": "text",
@@ -148,7 +148,7 @@
 					"width": 112,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Mobile : "
+					"text": ":xliff:StaticMobileLabel"
 				},
 				"S11_Text": {
 					"type": "text",
@@ -157,7 +157,7 @@
 					"width": 112,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Fax : "
+					"text": ":xliff:StaticFaxLabel"
 				},
 				"S12_Text": {
 					"type": "text",
@@ -166,7 +166,7 @@
 					"width": 280,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Email : "
+					"text": ":xliff:StaticEmailLabel"
 				},
 				"S13_Text": {
 					"type": "text",
@@ -175,7 +175,7 @@
 					"width": 280,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "WebSite : "
+					"text": ":xliff:StaticWebsiteLabel"
 				},
 				"S14_Text": {
 					"type": "text",
@@ -184,7 +184,7 @@
 					"width": 280,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Contact : "
+					"text": ":xliff:StaticContactLabel"
 				},
 				"S15_Text": {
 					"type": "text",
@@ -193,7 +193,7 @@
 					"width": 240,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Comments : "
+					"text": ":xliff:StaticCommentsLabel"
 				},
 				"S16_Text": {
 					"type": "text",
@@ -202,7 +202,7 @@
 					"width": 58,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "TotalSales : "
+					"text": ":xliff:StaticTotalSalesLabel"
 				},
 				"Rectangle18": {
 					"type": "rectangle",

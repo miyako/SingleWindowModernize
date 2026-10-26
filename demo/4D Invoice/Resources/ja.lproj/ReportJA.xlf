@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Report" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="LegacyReport001" resname="Insert_Data" xml:space="preserve">
+        <source>Insert Data</source>
+        <target>データを挿入</target>
+      </trans-unit>
+      <trans-unit id="LegacyReport002" resname="Update_Data" xml:space="preserve">
+        <source>Update Data</source>
+        <target>データを更新</target>
+      </trans-unit>
+      <trans-unit id="LegacyReport003" resname="Insert" xml:space="preserve">
+        <source>Insert</source>
+        <target>挿入</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

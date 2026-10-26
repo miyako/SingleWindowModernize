@@ -2,7 +2,7 @@
 
 CREATE SET:C116(Current form table:C627->; "$tempoProducts")
 If (Records in set:C195("$highlightedProducts")>0)
-	CONFIRM:C162("Do you want to print all the products in list or only the highlighted ones?"; "Highlighted only"; "All products in list")
+	CONFIRM:C162(Get localized string:C991("Runtime_PrintProducts"); Get localized string:C991("Runtime_HighlightedOnly"); Get localized string:C991("Runtime_AllProducts"))
 	If (Ok=1)
 		COPY SET:C600("$highlightedProducts"; "$tempSet")  //Save the current highlighted products
 		USE SET:C118("$highlightedProducts")

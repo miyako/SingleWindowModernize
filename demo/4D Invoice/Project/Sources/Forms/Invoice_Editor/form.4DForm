@@ -35,7 +35,7 @@
 			"objects": {
 				"tabcontrol": {
 					"type": "tab",
-					"text": "Tab control",
+					"text": ":xliff:StaticTabControl",
 					"top": 11,
 					"left": 14,
 					"width": 1242,
@@ -50,7 +50,7 @@
 				},
 				"Schaltflaeche": {
 					"type": "button",
-					"text": "cut",
+					"text": ":xliff:CommonMenuItemCut",
 					"top": 863,
 					"left": 40,
 					"width": 82,
@@ -69,7 +69,7 @@
 				},
 				"Schaltflaeche1": {
 					"type": "button",
-					"text": "copy",
+					"text": ":xliff:CommonMenuItemCopy",
 					"top": 863,
 					"left": 142,
 					"width": 82,
@@ -88,7 +88,7 @@
 				},
 				"Schaltflaeche2": {
 					"type": "button",
-					"text": "paste",
+					"text": ":xliff:CommonMenuItemPaste",
 					"top": 863,
 					"left": 244,
 					"width": 82,
@@ -107,7 +107,7 @@
 				},
 				"Schaltflaeche3": {
 					"type": "button",
-					"text": "undo",
+					"text": ":xliff:CommonMenuItemUndo",
 					"top": 863,
 					"left": 346,
 					"width": 82,
@@ -141,7 +141,7 @@
 				},
 				"bPrev": {
 					"type": "button",
-					"text": "<",
+					"text": ":xliff:StaticPreviousSymbol",
 					"top": 760,
 					"left": 504,
 					"width": 21,
@@ -154,7 +154,7 @@
 				},
 				"bNext": {
 					"type": "button",
-					"text": ">",
+					"text": ":xliff:StaticNextSymbol",
 					"top": 759,
 					"left": 654,
 					"width": 21,
@@ -167,7 +167,7 @@
 				},
 				"bPDF": {
 					"type": "button",
-					"text": "PDF",
+					"text": ":xliff:StaticPDF",
 					"top": 759,
 					"left": 705,
 					"width": 57,
@@ -180,7 +180,7 @@
 				},
 				"pPrint": {
 					"type": "button",
-					"text": "Print",
+					"text": ":xliff:Print",
 					"top": 759,
 					"left": 773,
 					"width": 57,
@@ -233,7 +233,7 @@
 				},
 				"pCopy": {
 					"type": "button",
-					"text": "intern",
+					"text": ":xliff:StaticInternal",
 					"top": 759,
 					"left": 838,
 					"width": 57,
@@ -246,7 +246,7 @@
 				},
 				"bPictbackground": {
 					"type": "button",
-					"text": "Insert business letter background",
+					"text": ":xliff:StaticLetterBackground",
 					"top": 51,
 					"left": 965,
 					"width": 232,
@@ -283,7 +283,7 @@
 					"columns": [
 						{
 							"header": {
-								"text": "Header1",
+								"text": ":xliff:StaticHeaderOne",
 								"name": "Kopf1"
 							},
 							"name": "Spalte1",
@@ -302,7 +302,7 @@
 				},
 				"bSave": {
 					"type": "button",
-					"text": "Save Template",
+					"text": ":xliff:StaticSaveTemplate",
 					"top": 753,
 					"left": 34,
 					"width": 142,
@@ -315,7 +315,7 @@
 				},
 				"Text": {
 					"type": "text",
-					"text": "testing only:",
+					"text": ":xliff:StaticTestingOnly",
 					"top": 741,
 					"left": 541,
 					"width": 81,
@@ -324,7 +324,7 @@
 				},
 				"pCopy1": {
 					"type": "button",
-					"text": "update",
+					"text": ":xliff:StaticUpdate",
 					"top": 758,
 					"left": 403,
 					"width": 57,
@@ -381,7 +381,7 @@
 				},
 				"bPictTop1": {
 					"type": "button",
-					"text": "Insert pict on top",
+					"text": ":xliff:StaticInsertPictureTop",
 					"top": 752,
 					"left": 608,
 					"width": 150,
@@ -394,7 +394,7 @@
 				},
 				"bPictbottom1": {
 					"type": "button",
-					"text": "Insert pict on bottom",
+					"text": ":xliff:StaticInsertPictureBottom",
 					"top": 752,
 					"left": 768,
 					"width": 150,
@@ -407,7 +407,7 @@
 				},
 				"bSave1": {
 					"type": "button",
-					"text": "Save Template",
+					"text": ":xliff:StaticSaveTemplate",
 					"top": 755,
 					"left": 50,
 					"width": 142,
@@ -465,7 +465,7 @@
 				},
 				"bSave2": {
 					"type": "button",
-					"text": "Save Template",
+					"text": ":xliff:StaticSaveTemplate",
 					"top": 755,
 					"left": 50,
 					"width": 142,

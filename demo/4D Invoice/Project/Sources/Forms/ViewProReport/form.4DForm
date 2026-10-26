@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": ":xliff:StaticReportWindowTitle",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -54,7 +54,7 @@
 				},
 				"Schaltfläche1": {
 					"type": "button",
-					"text": "Button",
+					"text": ":xliff:StaticButton",
 					"top": 752,
 					"left": 1079,
 					"width": 27,
@@ -72,7 +72,7 @@
 				},
 				"Schaltfläche2": {
 					"type": "button",
-					"text": "Button",
+					"text": ":xliff:StaticButton",
 					"top": 752,
 					"left": 1047,
 					"width": 27,

@@ -1,0 +1,11 @@
+data.invoice.client.fullAddress	顧客の住所
+data.invoice.client.Country	顧客の国
+data.invoice.client.Name	顧客名
+data.invoice.client.State	顧客の都道府県
+data.invoice.InvoiceNumber	請求書番号
+data.invoice.Date	請求日
+string(this.data.invoice.Subtotal;"###,###,##0.00;###,-###,##0.00;0.00")	税抜合計
+string(this.data.invoice.Total;"###,###,##0.00;###,-###,##0.00;0.00")	税込合計
+data.invoice.Tax	税額
+data.invoice.ProformaNumber	仮請求書番号
+data.invoice.Reference	備考

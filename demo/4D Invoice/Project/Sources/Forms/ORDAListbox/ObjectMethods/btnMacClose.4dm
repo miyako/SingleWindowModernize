@@ -6,7 +6,7 @@ Case of
 			If (Is compiled mode:C492)
 				QUIT 4D:C291
 			Else 
-				CONFIRM:C162("Quit or open design mode?"; "Quit"; "Design")
+				CONFIRM:C162(Get localized string:C991("Runtime_QuitOrDesign"); Get localized string:C991("Runtime_Quit"); Get localized string:C991("Runtime_Design"))
 				If (OK=1)
 					QUIT 4D:C291
 				Else 

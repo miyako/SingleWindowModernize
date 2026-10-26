@@ -81,7 +81,7 @@
 					"left": 18,
 					"width": 109,
 					"height": 24,
-					"text": "Delete Field",
+					"text": ":xliff:StaticDeleteField",
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
@@ -93,7 +93,7 @@
 					"left": 142,
 					"width": 109,
 					"height": 24,
-					"text": "New Field",
+					"text": ":xliff:StaticNewField",
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
@@ -106,7 +106,7 @@
 					"width": 109,
 					"height": 24,
 					"action": "cancel",
-					"text": "Cancel",
+					"text": ":xliff:Cancel",
 					"events": [
 						"onClick"
 					]
@@ -118,7 +118,7 @@
 					"width": 109,
 					"height": 24,
 					"action": "accept",
-					"text": "Save",
+					"text": ":xliff:StaticSave",
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"

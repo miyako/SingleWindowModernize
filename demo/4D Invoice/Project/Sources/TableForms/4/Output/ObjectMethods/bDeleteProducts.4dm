@@ -4,9 +4,9 @@ C_LONGINT:C283($i; $highlightedProduct)
 
 $highlightedProduct:=Records in set:C195("$highlightedProducts")
 If ($highlightedProduct>0)
-	CONFIRM:C162("Do you really want to delete "+String:C10($highlightedProduct)+" products(s)?"; "Yes"; "No")
+	CONFIRM:C162(Replace string(Get localized string:C991("Runtime_DeleteProducts"); "{count}"; String:C10($highlightedProduct)); Get localized string:C991("CommonYes"); Get localized string:C991("CommonNo"))
 	If (Ok=1)
-		CONFIRM:C162("Only the products(s) not referenced in invoices will be deleted. Continue?"; "Yes"; "No")
+		CONFIRM:C162(Get localized string:C991("Runtime_DeleteUnreferencedProducts"); Get localized string:C991("CommonYes"); Get localized string:C991("CommonNo"))
 		If (Ok=1)
 			CREATE SET:C116([PRODUCTS:4]; "$tempoProducts")  // Save the current set of products
 			USE SET:C118("$highlightedProducts")
@@ -23,6 +23,6 @@ If ($highlightedProduct>0)
 		End if 
 	End if 
 Else 
-	ALERT:C41(Get localized string:C991("No product(s) selected"))
+	ALERT:C41(Get localized string:C991("Runtime_Label_No_product_s_selected"))
 End if 
 

@@ -58,7 +58,7 @@
 					"height": 16,
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "Reference"
+					"text": ":xliff:Reference"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -68,7 +68,7 @@
 					"height": 16,
 					"textAlign": "left",
 					"fontWeight": "bold",
-					"text": "Name"
+					"text": ":xliff:Name"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -131,7 +131,7 @@
 					"height": 16,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Qty"
+					"text": ":xliff:StaticQuantity"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -141,7 +141,7 @@
 					"height": 16,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Unit Price"
+					"text": ":xliff:Unit Price"
 				},
 				"S5_Text": {
 					"type": "text",
@@ -151,7 +151,7 @@
 					"height": 16,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Disc (%)"
+					"text": ":xliff:StaticDiscount"
 				},
 				"S6_Text": {
 					"type": "text",
@@ -161,7 +161,7 @@
 					"height": 16,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Total"
+					"text": ":xliff:Total"
 				},
 				"S3_Field": {
 					"type": "input",
@@ -279,7 +279,7 @@
 					"height": 16,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Tax (%)"
+					"text": ":xliff:StaticTaxPercent"
 				},
 				"S6_Field1": {
 					"type": "input",

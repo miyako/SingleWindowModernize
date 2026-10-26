@@ -1,23 +1,14 @@
 //%attributes = {"invisible":true}
 // (P) FillData
 
-C_TEXT:C284($currentLanguage)
-C_TEXT:C284($resourcesFolder)
-C_TEXT:C284($clientsFile; $productsFile)
-C_BOOLEAN:C305($importOk)
-C_TIME:C306($doc)
-C_LONGINT:C283($random; $numberOfProducts; $i; $j; $k; $productID; $productNumber; $vPlatform)
-_O_C_STRING:C293(40; $clientName; $clientAddress1; $clientCity; $clientState; $clientCountry)
-_O_C_STRING:C293(10; $clientZipCode)
-_O_C_STRING:C293(20; $clientPhone; $clientMobile; $clientFax)
-_O_C_STRING:C293(80; $clientEmail; $clientContact)
-_O_C_STRING:C293(1; $lf)
-C_TEXT:C284($alphabet)
-C_LONGINT:C283($diff)
+var $currentLanguage; $clientsFile; $displayName : Text
+var $importOk : Boolean
+var $doc : Time
+var $random; $i; $j; $k; $productID; $productNumber; $diff : Integer
+var $clientName; $clientAddress1; $clientCity; $clientState; $clientCountry : Text
+var $clientZipCode; $clientPhone; $clientMobile; $clientFax; $clientEmail; $clientContact : Text
 
-//$currentLanguage:=Get database localization(Current localization)
-//$resourcesFolder:=Get 4D folder(Current resources folder)
-//$clientsFile:=$resourcesFolder+$currentLanguage+".lproj"+Folder separator+"Clients.txt"
+$currentLanguage:=Get database localization(Current localization)
 $clientsFile:=Get localized document path:C1105("Clients.txt")
 
 If (Test path name:C476($clientsFile)=Is a document:K24:1)
@@ -34,7 +25,7 @@ End if
 If ($importOk)
 	$doc:=Open document:C264($clientsFile)  // Open the CLIENTS import file
 	If (Ok=1)
-		_O_PLATFORM PROPERTIES:C365($vPlatform)
+		USE CHARACTER SET("UTF-8"; 1)
 		// Start to fill the CLIENTS table
 		Repeat 
 			RECEIVE PACKET:C104($doc; $clientName; Char:C90(Tab:K15:37))
@@ -47,12 +38,7 @@ If ($importOk)
 			RECEIVE PACKET:C104($doc; $clientMobile; Char:C90(Tab:K15:37))
 			RECEIVE PACKET:C104($doc; $clientFax; Char:C90(Tab:K15:37))
 			RECEIVE PACKET:C104($doc; $clientEmail; Char:C90(Tab:K15:37))
-			//If ($vPlatform=Windows)
-			//RECEIVE PACKET($doc;$clientContact;Char(Carriage return))
-			//RECEIVE PACKET($doc;$lf;Char(Line feed))
-			//Else 
 			RECEIVE PACKET:C104($doc; $clientContact; Char:C90(Line feed:K15:40))
-			//End if 
 			If (Ok=1)
 				CREATE RECORD:C68([CLIENTS:1])
 				[CLIENTS:1]Name:2:=$ClientName
@@ -95,6 +81,10 @@ If ($importOk)
 						[CLIENTS:1]WebSite:12:="www."+$clientName+".com"
 						[CLIENTS:1]Comments:15:="Very interesting client"
 				End case 
+				If ($currentLanguage="ja")
+					[CLIENTS:1]WebSite:12:=""
+					[CLIENTS:1]Comments:15:=Get localized string:C991("Core_FictionalCustomer")
+				End if
 				[CLIENTS:1]Phone:8:=$clientPhone
 				[CLIENTS:1]Mobile:9:=$clientMobile
 				[CLIENTS:1]Fax:10:=$clientFax
@@ -106,8 +96,10 @@ If ($importOk)
 		Until (Ok=0)
 		UNLOAD RECORD:C212([CLIENTS:1])
 		CLOSE DOCUMENT:C267($doc)
+		USE CHARACTER SET(*; 1)
 	Else 
-		ALERT:C41("Unable to open the CLIENTS import file")
+		ALERT:C41(Get localized string:C991("Core_ImportOpenError"))
+		return
 	End if 
 	
 	_O_ARRAY STRING:C218(40; $aTypeStylo; 4)
@@ -141,7 +133,15 @@ If ($importOk)
 				$productNumber:=$productNumber+1
 				CREATE RECORD:C68([PRODUCTS:4])
 				[PRODUCTS:4]Reference:2:=Uppercase:C13(Substring:C12($aTypeStylo{$i}; 1; 3)+Substring:C12($aMarqueStylo{$j}; 1; 3)+Substring:C12($aColorStylo{$k}; 1; 3)+String:C10($productNumber; "0000"))
-				[PRODUCTS:4]Name:3:="Stylo "+$aTypeStylo{$i}+" "+$aMarqueStylo{$j}+" "+$aColorStylo{$k}
+				If ($currentLanguage="ja")
+					$displayName:=Get localized string:C991("Core_ProductLabelTemplate")
+					$displayName:=Replace string($displayName; "{type}"; Get localized string:C991("Core_PenType_"+String($i)))
+					$displayName:=Replace string($displayName; "{brand}"; $aMarqueStylo{$j})
+					$displayName:=Replace string($displayName; "{colour}"; Get localized string:C991("Core_Colour_"+String($k)))
+					[PRODUCTS:4]Name:3:=$displayName
+				Else
+					[PRODUCTS:4]Name:3:="Stylo "+$aTypeStylo{$i}+" "+$aMarqueStylo{$j}+" "+$aColorStylo{$k}
+				End if
 				$random:=(Random:C100%(10-1+1))+1
 				[PRODUCTS:4]UnitPrice:5:=$random*5
 				[PRODUCTS:4]Picture:4:=ToolCreateLogo("product")
@@ -202,6 +202,10 @@ If ($importOk)
 							[INVOICES:2]PaymentReference:11:="Bank account: 00"+String:C10($i; "0000")+String:C10($j; "0000")+String:C10($i; "0000")+String:C10($j; "0000")
 						End if 
 				End case 
+				If ($currentLanguage="ja")
+					[INVOICES:2]PaymentMethod:10:=Get localized string:C991("Core_Payment_"+String($random))
+					[INVOICES:2]PaymentReference:11:=Get localized string:C991("Core_DemoReference")+String($i; "0000")+"-"+String($j; "0000")
+				End if
 			End if 
 			For ($k; 1; ((Random:C100%(20-1+1))+1))
 				CREATE RECORD:C68([INVOICE_LINES:3])
@@ -227,5 +231,5 @@ If ($importOk)
 	End for 
 	
 Else 
-	ALERT:C41("Unable to find the import files, the database remains empty")
+	ALERT:C41(Get localized string:C991("Core_ImportMissingError"))
 End if 

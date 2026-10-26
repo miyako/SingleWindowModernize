@@ -104,3 +104,31 @@ Keep English equivalents in this glossary; preserve identifiers, UI labels, URLs
 | ORDA_Listbox_Method / ORDA_Listbox_method / ODA_Listbox_method | 原文どおり | 大文字小文字や`ODA`の表記も原文どおり。黙ってコードや参照先を修正しない。 |
 | Settings / Toolbar Setup / Reset | Settings / Toolbar Setup / Reset | 英語スクリーンショットに対応する操作ラベルとして維持。日本語UIラベルの承認後に再確認。 |
 | All / Selected / None / Query / Sort / Print | 原文どおり | 本文中のボタン名は、英語UI・識別子との対応を優先して維持。 |
+
+## Demo UI draft
+
+The following entries apply to the Japanese demo UI. The manuscript's English screenshot labels remain unchanged
+until the screenshot review; database, form, method, field and action identifiers are never renamed.
+
+| English | 日本語 | Notes |
+|---|---|---|
+| Customers / Clients | 顧客 | デモの表示名。`CLIENTS`などの識別子は維持。 |
+| Invoices | 請求書 | |
+| Products | 商品 | |
+| Settings | 設定 | デモの表示名のみ。本文中の英語操作ラベルは未変更。 |
+| Name | 名称 | 汎用の属性見出し。 |
+| Address / City / State / Postcode | 住所 / 市区町村 / 都道府県 / 郵便番号 | |
+| Contact / Comments | 担当者 / 備考 | |
+| Subtotal / Tax / Total | 小計 / 税額 / 合計 | |
+| Unit price / Tax rate / Discount rate | 単価 / 税率 / 割引率 | 元の税率や金額を日本向けに換算しない。 |
+| Pro forma | 仮請求書 | デモUIの初稿。 |
+| Payment method / Payment reference | 支払方法 / 支払参照 | 生成する参照値はデモ用と明示。 |
+| By check / By credit card / By bank transfer | 小切手 / クレジットカード / 銀行振込 | |
+| Multifunction pen / Fountain pen / Ballpoint pen / Rollerball pen | 多機能ペン / 万年筆 / ボールペン / ローラーボールペン | 表示名のみ。商品コードの元文字列は維持。 |
+| Black / Red / Blue / Yellow / Green / White | 黒 / 赤 / 青 / 黄 / 緑 / 白 | |
+| Bright red / Bright blue / Bright yellow / Bright green | 明るい赤 / 明るい青 / 明るい黄 / 明るい緑 | |
+| Invoice demo (fictional data) | 請求書デモ（架空データ） | 合成データであることをウィンドウタイトルにも明示。 |
+| Invoice lines / Quantity / Product reference | 請求明細 / 数量 / 商品コード | 元の式・商品コードは変更しない。 |
+| Discount value / VAT rate | 割引額 / 税率 | 既存の税率を日本の税率として扱わない。 |
+| Total with tax / Total excluding tax | 税込合計 / 税抜合計 | 帳票の表示ラベルのみ。 |
+| Document template / Field list | 文書テンプレート / フィールド一覧 | |
