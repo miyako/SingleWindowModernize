@@ -192,7 +192,8 @@ submodule is updated. Reusable procedures belong in that skill, not in this refe
    - Figures become `<figure>` with `width:{width_pt}pt`.
 4. The CSS is `style/style.css` plus injected `:root{--accent}` and `@page{size}`. Chrome is run headless
    (`--headless=new --no-pdf-header-footer --print-to-pdf`) twice; the second pass fills in the TOC page numbers,
-   found by searching each heading in the first-pass PDF with pymupdf. Page numbers use `@page` margin boxes
+   resolved from the first-pass PDF's named heading destinations with pymupdf, not body-text matches.
+   Missing or invalid destinations stop the build. Page numbers use `@page` margin boxes
    (Chrome 131+); `pre` uses `overflow-wrap: anywhere` so long code lines wrap.
 5. The output is `build/<output_pdf>`. Compare its page count with the original: ±2 pages is normal.
 

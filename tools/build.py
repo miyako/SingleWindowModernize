@@ -148,15 +148,14 @@ def print_pdf(html_path: Path, pdf_path: Path):
 
 
 def find_pages(pdf_path: Path, toc) -> dict:
-    doc = pymupdf.open(pdf_path)
-    pages, start = {}, 2  # skip cover and table of contents
-    for level, text, anchor in toc:
-        needle = re.sub(r"[*`]", "", text)
-        for pno in range(start, len(doc)):
-            if doc[pno].search_for(needle):
-                pages[anchor] = pno + 1
-                start = pno
-                break
+    pages = {}
+    with pymupdf.open(pdf_path) as doc:
+        destinations = doc.resolve_names()
+        for _, text, anchor in toc:
+            page = destinations.get(anchor, {}).get("page")
+            if not isinstance(page, int) or not 0 <= page < len(doc):
+                raise ValueError(f"No valid PDF destination for heading {text!r} ({anchor})")
+            pages[anchor] = page + 1
     return pages
 
 
@@ -198,9 +197,6 @@ def main():
     print_pdf(html_path, pdf_path)
     tmp_pdf.unlink(missing_ok=True)
 
-    missing = [t for _, t, a in toc if a not in pages]
-    if missing:
-        print("warning: page numbers not found for:", *missing, sep="\n  ")
     print(f"wrote: {pdf_path.relative_to(ROOT)} ({len(pymupdf.open(pdf_path))} pages)")
     return 0
 
