@@ -132,3 +132,5 @@ until the screenshot review; database, form, method, field and action identifier
 | Discount value / VAT rate | 割引額 / 税率 | 既存の税率を日本の税率として扱わない。 |
 | Total with tax / Total excluding tax | 税込合計 / 税抜合計 | 帳票の表示ラベルのみ。 |
 | Document template / Field list | 文書テンプレート / フィールド一覧 | |
+| Grace period | 支払猶予日数 | デモUIの初稿。日数の値・計算は変更しない。 |
+| Letterhead | レターヘッド | デモUIの初稿。請求書エディターの用語として要確認。 |
