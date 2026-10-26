@@ -6,7 +6,7 @@ Class constructor($context : Object; $Write : Object)
 			// start with an empty one
 			This:C1470.WP:=WP New:C1317()
 		Else 
-			var $template : cs:C1710.Document_Templates
+			var $template : cs:C1710.Document_TemplatesEntity
 			$template:=$templates.first()
 			This:C1470.WP:=$template.WPro
 		End if 
@@ -21,7 +21,7 @@ Function updateTemplate($templatename : Text)
 	If ($templates.length=0)
 		Form:C1466.WP:=WP New:C1317()
 	Else 
-		var $template : cs:C1710.Document_Templates
+		var $template : cs:C1710.Document_TemplatesEntity
 		$template:=$templates.first()
 		This:C1470.WP:=$template.WPro
 	End if 
