@@ -6,7 +6,10 @@
   "accent_color": "#2f5496",
   "cover": {
     "page": 1,
-    "lines": 3
+    "lines": 3,
+    "metadata_paragraphs": {
+      "ja": 1
+    }
   },
   "skip_pages": [
     1,

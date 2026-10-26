@@ -4,7 +4,8 @@ Keep terminology consistent across `src/<target>.md` and `figures/*.<target>.txt
 Change an entry here first, then search and replace in both places.
 
 Style (ja): です・ます調. Half-width alphanumerics, no space between Japanese and Latin text (e.g. `4D.Vector型`).
-Full-width `（）` and `：` in prose. First occurrence of a technical term: 日本語（English）.
+Full-width `（）` and `：` in prose. Do not routinely append English glosses to Japanese terms, even on first occurrence.
+Keep English equivalents in this glossary; preserve identifiers, UI labels, URLs and necessary original abbreviations in the text.
 
 ## 4D terms (from the official 4D Japanese documentation)
 
@@ -40,7 +41,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | technical note | テクニカルノート | |
 | end user | エンドユーザー | |
 | modernize / modernization | モダナイズする / モダナイズ | 初稿の表記。編集時の確認対象。 |
-| single window / Single Window app | シングルウィンドウ / シングルウィンドウアプリ | 単一のウィンドウで一覧と詳細を扱う構成。 |
+| single window / Single Window app | シングルウィンドウ / シングルウィンドウアプリ | 単一のウィンドウで一覧と詳細を扱う構成。表紙タイトルは編集者指定の「シングルウィンドウアプリケーション」。 |
 | toolbar | ツールバー | |
 | ribbon bar | リボンバー | |
 | user-customizable | ユーザーがカスタマイズ可能な | |
@@ -87,6 +88,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 
 | English | 日本語 | Notes |
 |---|---|---|
+| Single Window App – Modernize your application | シングルウィンドウアプリケーション | 編集者指定の表紙タイトル。著者表記は「Thomas Maul（4D Germany）」。テクニカルノート番号は日本語PDFの表紙には表示しない。 |
 | Thomas Maul | Thomas Maul | 著者名を維持。 |
 | 4D Germany | 4D Germany | 著者の所属表記を維持。 |
 | 4D Invoice / 4D Invoices | 4D Invoice / 4D Invoices | 同じサンプルの名称が原文中で揺れているため、各出現箇所の表記を維持。 |

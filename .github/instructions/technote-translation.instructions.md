@@ -36,6 +36,7 @@ pipeline, committed in the repository). `<src>` is `source_lang` (normally `en`)
 | `accent_color` | Heading colour (CSS `--accent`) |
 | `page_size` | `letter` or `a4` |
 | `cover` | `{page, lines}`: the title block is the first `lines` text lines of `page` |
+| `cover.metadata_paragraphs` | Optional `{lang: count}`: render only the first `count` cover metadata paragraphs after the title for that language. Omitted languages retain all paragraphs. Keep omitted metadata in Markdown to preserve source/translation block alignment. |
 | `skip_pages` | 1-based pages not extracted (cover, original TOC); both are regenerated |
 | `header_y`, `footer_y` | Lines with top above `header_y` or below `footer_y` (pt) are dropped |
 | `heading.fonts` | Substrings of font names that mark headings; with `heading.min_size` |
@@ -115,7 +116,8 @@ monospace font for code instead of colours, `code.colors` can stay empty.
   - Full-width `（）` and `：` in prose.
   - Use the official 4D Japanese documentation terms (e.g. Webエリア, エンティティセレクション, データストア, 引数,
     メソッド, フォーム, コレクション) and record them in `glossary.md` (`| English | 日本語 | Notes |`).
-  - First occurrence of a technical term: 日本語（English）.
+  - Do not routinely add parenthetical English glosses to Japanese terms, even on first occurrence. Keep English
+    equivalents in `glossary.md`; preserve identifiers, UI labels, URLs and necessary original abbreviations.
 - Other languages: agree on the style with the user, and set the fonts (`figure_fonts`) and the font stack in
   `style/style.css`.
 - Inline code (`` `name` ``) stays as is. Identifiers in prose that refer to code stay in their original form.

@@ -79,8 +79,12 @@ def to_html(md_text: str, toc_pages: dict, lang: str) -> str:
     body_md = "\n".join(lines[first_h2:])
     cover_parts = [p.strip() for p in cover_md.split("\n\n") if p.strip()]
     title = cover_parts[0].lstrip("# ").strip()
+    metadata = cover_parts[1:]
+    limit = CFG["cover"].get("metadata_paragraphs", {}).get(lang, len(metadata))
+    if isinstance(limit, bool) or not isinstance(limit, int) or not 0 <= limit <= len(metadata):
+        raise ValueError(f"cover.metadata_paragraphs[{lang!r}] must be between 0 and {len(metadata)}")
     cover = (f'<section class="cover"><h1>{html.escape(title)}</h1>'
-             + "".join(f"<p>{html.escape(p)}</p>" for p in cover_parts[1:]) + "</section>")
+             + "".join(f"<p>{html.escape(p)}</p>" for p in metadata[:limit]) + "</section>")
 
     # Give every heading a stable id and collect the TOC.
     toc, counter = [], 0
