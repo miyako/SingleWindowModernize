@@ -1,0 +1,22 @@
+.venv/
+build/
+__pycache__/
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# 4D runtime / user data / caches (projects live in demo/<Name>/; data/ at the root is demo data and is tracked)
+demo/*/[dD][aA][tT][aA]/
+demo/*/Logs/
+demo/*/userPreferences.*/
+demo/*/Project/DerivedData/
+demo/*/Libraries/
+# Settings/ is tracked or not per project: ask the user (see the 4dproject skill)
+
+# Tools provisioned by the skills in .agents (4dtools). Do NOT ignore the whole tools/ folder:
+# the localisation pipeline in tools/*.py is committed.
+/tools/4dcatalog/
+/tools/4dform/
+/tools/4dlsp/
+/tools/4dlang/
+/tools/4dcli/
