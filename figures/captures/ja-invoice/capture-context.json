@@ -6,7 +6,14 @@
   "host_locale": "ja",
   "capture_tool": "/usr/sbin/screencapture -x -o -l<owned-window-id>",
   "scale": "2 physical pixels per logical window point; captured natively without resizing",
-  "font_evidence": "Actual native application rendering. No font substitution, text repainting or inferred font metrics were used.",
+  "font_evidence": "Actual native application rendering, without agent-selected fonts, text repainting or inferred font metrics. Subsequent log inspection found a native CoreText fallback warning in the wide/narrow invoice runs; the affected controls have not been identified. Native appearance approval does not establish that the application's font resolution is correct.",
+  "native_font_warning": {
+    "requested": ".Helvetica Neue DeskInterface",
+    "fallback_reported_by_CoreText": "TimesNewRomanPSMT",
+    "observed_in": ["invoice-wide-window.log", "invoice-narrow-window.log"],
+    "not_observed_in": ["toolbar-setup-window.log"],
+    "status": "Editor explicitly chose to keep the reviewed native appearance and document this font limitation. The affected controls remain unidentified; font resolution is not claimed fully verified."
+  },
   "source_state": "Isolated project copied after editor fixes in dd4f876, with 200 static fictional Japanese customers and 240 original product references. Existing FillData generated demo-only invoices.",
   "approved_variations": [
     "Editor explicitly chose Japanese demo data instead of original foreign customer records.",
@@ -36,6 +43,6 @@
     "Module, QuickReport and 4DViewPro retain existing demo wording.",
     "Figure 09 needs a matching native open-menu state and is not replaced by a plain list view.",
     "Student-demo and Form Editor screenshots remain unresolved and unchanged.",
-    "These screenshots await final PDF/contact-sheet editorial review; this is not release approval."
+    "Editor approved these five replacements after PDF/contact-sheet review, then explicitly accepted the documented native font limitation. Other screenshots remain unresolved; this is not release approval."
   ]
 }
