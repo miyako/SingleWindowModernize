@@ -37,8 +37,68 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 
 | English | 日本語 | Notes |
 |---|---|---|
+| technical note | テクニカルノート | |
+| end user | エンドユーザー | |
+| modernize / modernization | モダナイズする / モダナイズ | 初稿の表記。編集時の確認対象。 |
+| single window / Single Window app | シングルウィンドウ / シングルウィンドウアプリ | 単一のウィンドウで一覧と詳細を扱う構成。 |
+| toolbar | ツールバー | |
+| ribbon bar | リボンバー | |
+| user-customizable | ユーザーがカスタマイズ可能な | |
+| preview area / preview mode | プレビューエリア / プレビューモード | |
+| output form / input form | 出力フォーム / 入力フォーム | |
+| subform | サブフォーム | |
+| project form / form method / object method | プロジェクトフォーム / フォームメソッド / オブジェクトメソッド | |
+| project mode | プロジェクトモード | |
+| Classic Language | クラシック言語 | |
+| data source | データソース | |
+| expression / expression type | 式 / 式の型 | プロパティリスト内の正式な日本語UI表記はスクリーンショットの確認時に照合。 |
+| callback method | コールバックメソッド | |
+| event / form event | イベント / フォームイベント | `On Load`などの識別子は変更しない。 |
+| constructor | コンストラクター | |
+| property | プロパティ | |
+| priority | 優先度 | |
+| tooltip | ツールチップ | |
+| alternate action | 代替アクション | 右側の矢印でコンテキストメニューを開くボタンの動作。初稿の表記。 |
+| context menu | コンテキストメニュー | |
+| search box / search picker | 検索ボックス / 検索ピッカー | ウィジェット名`SearchPicker`は変更しない。 |
+| splitter | スプリッター | |
+| alias | エイリアス | |
+| optimistic locking | 楽観的ロック | |
+| auto merge | 自動マージ | 定数`dk auto merge`などは変更しない。 |
+| record | レコード | ORDAのエンティティとは文脈に応じて区別。 |
+| custom field | カスタムフィールド | |
+| Single User mode | シングルユーザーモード | |
+| client/server mode | クライアント/サーバーモード | |
+| SDI / Single Document Interface | SDI / Single Document Interface | 略語と展開形は原文どおり。 |
+| network traffic | ネットワークトラフィック | |
+| server load | サーバー負荷 | |
+| packet / packet exchange | パケット / パケットのやり取り | |
+| latency | レイテンシー | |
+| bandwidth | 帯域幅 | |
+| local cache | ローカルキャッシュ | |
+| class function | クラス関数 | |
+| form context | フォームコンテキスト | |
+| table / field / header | テーブル / フィールド / ヘッダー | |
+| data file / log file | データファイル / ログファイル | |
+| out / in | out / in | 原文のログ測定値のラベルを維持。単位はkbyteのままとし、KiBへの換算は行わない。 |
+| framework | フレームワーク | |
 
 ## Proper nouns in examples
 
 | English | 日本語 | Notes |
 |---|---|---|
+| Thomas Maul | Thomas Maul | 著者名を維持。 |
+| 4D Germany | 4D Germany | 著者の所属表記を維持。 |
+| 4D Invoice / 4D Invoices | 4D Invoice / 4D Invoices | 同じサンプルの名称が原文中で揺れているため、各出現箇所の表記を維持。 |
+| Microsoft Outlook | Microsoft Outlook | |
+| Windows / Mac | Windows / Mac | 原文のプラットフォーム名を維持。 |
+| Ethernet | Ethernet | |
+| ORDA | ORDA | |
+| 4D Tour | 4D Tour | |
+| 4D Server | 4D Server | |
+| SearchPicker | SearchPicker | ウィジェット名・サブフォーム名。翻訳しない。 |
+| Toolbar / Toolbar_Button / Toolbar_Setup / ORDA_Listbox | 原文どおり | クラス名・フォーム名・識別子。翻訳しない。 |
+| ORDAListbox / CLIENTS / Projects / Input / Input_ORDA | 原文どおり | フォーム名・テーブル名などの識別子。翻訳しない。 |
+| ORDA_Listbox_Method / ORDA_Listbox_method / ODA_Listbox_method | 原文どおり | 大文字小文字や`ODA`の表記も原文どおり。黙ってコードや参照先を修正しない。 |
+| Settings / Toolbar Setup / Reset | Settings / Toolbar Setup / Reset | 英語スクリーンショットに対応する操作ラベルとして維持。日本語UIラベルの承認後に再確認。 |
+| All / Selected / None / Query / Sort / Print | 原文どおり | 本文中のボタン名は、英語UI・識別子との対応を優先して維持。 |
