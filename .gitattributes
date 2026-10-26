@@ -1,0 +1,2 @@
+# Trailing tabs preserve the five unavailable contact columns.
+data/ja/Clients.txt whitespace=-blank-at-eol

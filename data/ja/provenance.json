@@ -1,0 +1,135 @@
+{
+  "status": "prepared_only_not_imported_into_4D",
+  "source": "国税庁法人番号公表サイト（国税庁）",
+  "listing_url": "https://www.houjin-bangou.nta.go.jp/download/zenken/",
+  "resource_definition_url": "https://www.houjin-bangou.nta.go.jp/pc/download/images/k-resource-dl.pdf",
+  "terms_url": "https://www.houjin-bangou.nta.go.jp/riyokiyaku/",
+  "license_url": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+  "attribution": "国税庁法人番号公表サイト（国税庁）（https://www.houjin-bangou.nta.go.jp/download/zenken/）を加工して作成",
+  "snapshot_date": "2026-09-30",
+  "retrieved_at": "2026-10-26T06:24:32.321829+00:00",
+  "source_archives": [
+    {
+      "path": "build/nta/20260930-tokyo-1.zip",
+      "download_id": "28154",
+      "sha256": "71dfeb09d2f4d8dbe820820446a635afbe30b00ef2e584dd716ecd1a7844304e",
+      "bytes": 37260999,
+      "members": [
+        "13_tokyo_all_20260930_01.csv",
+        "13_tokyo_all_20260930_01.csv.asc"
+      ],
+      "content_disposition": "attachment; filename*=utf-8'jp'13_tokyo_all_20260930_01.zip"
+    },
+    {
+      "path": "build/nta/20260930-tokyo-2.zip",
+      "download_id": "28155",
+      "sha256": "0e9f1a10903e07bda2e7c3095510ef5718be9534e24004ac68f6dcd017ae3f8e",
+      "bytes": 24391327,
+      "members": [
+        "13_tokyo_all_20260930_02.csv",
+        "13_tokyo_all_20260930_02.csv.asc"
+      ],
+      "content_disposition": "attachment; filename*=utf-8'jp'13_tokyo_all_20260930_02.zip"
+    }
+  ],
+  "pgp_signature_verified": false,
+  "selection": {
+    "prefecture": "東京都",
+    "prefecture_code": "13",
+    "kinds": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "305"
+    ],
+    "closeDate": "",
+    "exclude_cancelled_process": "99",
+    "latest": "1",
+    "required_fields": [
+      "name",
+      "prefectureName",
+      "cityName",
+      "streetNumber",
+      "postCode"
+    ],
+    "sort": "corporateNumber ascending (numeric)",
+    "count": 200,
+    "statistically_representative": false
+  },
+  "source_counts": {
+    "total": 1369547,
+    "not_company": 92624,
+    "eligible": 1095867,
+    "closed_or_cancelled": 180723,
+    "missing_fields": 333
+  },
+  "client_format": {
+    "encoding": "UTF-8 without BOM",
+    "newline": "LF",
+    "header": false,
+    "columns": [
+      "name",
+      "address1",
+      "city",
+      "state",
+      "postcode",
+      "country",
+      "phone",
+      "mobile",
+      "fax",
+      "email",
+      "contact"
+    ]
+  },
+  "mapping": {
+    "name": "name",
+    "address1": "streetNumber",
+    "city": "cityName",
+    "state": "prefectureName",
+    "postcode": "postCode",
+    "country": "日本 (domestic Tokyo address)",
+    "phone": "",
+    "mobile": "",
+    "fax": "",
+    "email": "",
+    "contact": ""
+  },
+  "row_linkage": "Clients.txt row N = nta-selected.csv data row N (after header)",
+  "max_source_characters": {
+    "name": 20,
+    "prefectureName": 3,
+    "cityName": 4,
+    "streetNumber": 27,
+    "postCode": 7
+  },
+  "image_references": [
+    {
+      "corporateNumber": "1010001002200",
+      "nameImageId": "00049087",
+      "addressImageId": ""
+    },
+    {
+      "corporateNumber": "1010001002638",
+      "nameImageId": "00049090",
+      "addressImageId": ""
+    },
+    {
+      "corporateNumber": "1010001004139",
+      "nameImageId": "00049099",
+      "addressImageId": ""
+    }
+  ],
+  "caveats": [
+    "Published CSV text is preserved without guessing missing data or changing glyphs.",
+    "Image-referenced registered-name glyphs have not been verified against the images.",
+    "No phone, mobile, fax, email, contact person, website or credit assessment is supplied.",
+    "No transactions have been generated. Future transactions must be marked synthetic demo data.",
+    "Current FillData must NOT import this file unchanged: it invents websites and customer assessments.",
+    "Raw ZIP hashes record the downloaded snapshot; PGP signatures were not verified."
+  ],
+  "artifact_sha256": {
+    "Clients.txt": "d5fabee4483c1adb7c1b2fa6911d22a04f78444489b4e0d00384641dae405297",
+    "nta-selected.csv": "832f686457919307ce69521ecd62a341c5773caaabfae620a7ff1ba1be2e1231"
+  }
+}
