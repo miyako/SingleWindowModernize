@@ -1,0 +1,75 @@
+{
+    "Toolbar": [{
+        "name": "Divider",
+        "id": -1,
+        "icon": "Line_32.png"
+    },{
+        "name": "Add",
+        "id": 1,
+        "icon": "New_32.png"
+    },{
+        "name": "Delete",
+        "id": 2,
+        "icon": "Delete_32.png"
+    },{
+        "name": "Query",
+        "id": 3,
+        "icon": "Query_32.png"
+    },{
+        "name": "Query",
+        "id": 3001,
+        "icon": "Query_32.png"
+    },{
+        "name": "Sort",
+        "id": 3002,
+        "icon": "Sort_32.png"
+    },{
+        "name": "All",
+        "id": 4,
+        "icon": "All_32.png"
+    },{
+        "name": "Selected",
+        "id": 4001,
+        "icon": "Some_32.png"
+    },{
+        "name": "All",
+        "id": 4002,
+        "icon": "All_32.png"
+    },{
+        "name": "None",
+        "id": 4003,
+        "icon": ""
+    },{
+        "name": "Print",
+        "id": 7,
+        "icon": "Print_32.png"
+    },{
+        "name": "QuickReport",
+        "id": 7001,
+        "icon": "Print_32.png"
+    },{
+        "name": "4DViewPro",
+        "id": 7002,
+        "icon": "4DViewPro.png"
+    },{
+        "name": "Settings",
+        "id": 8,
+        "icon": "Special_32.png"
+    },{
+        "name": "Module",
+        "id": 9,
+        "icon": "Modul_32.png"
+    },{
+        "name": "Clients",
+        "id": 9001,
+        "icon": "Clients_32.png"
+    },{
+        "name": "Invoices",
+        "id": 9002,
+        "icon": "Invoices_32.png"
+    },{
+        "name": "Products",
+        "id": 9003,
+        "icon": "Products_32.png"
+    }]
+}

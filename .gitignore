@@ -11,6 +11,8 @@ demo/*/Logs/
 demo/*/userPreferences.*/
 demo/*/Project/DerivedData/
 demo/*/Libraries/
+demo/*/Resources/Cache/
+demo/*/Settings/backup.4DSettings
 # Settings/ is tracked or not per project: ask the user (see the 4dproject skill)
 
 # Tools provisioned by the skills in .agents (4dtools). Do NOT ignore the whole tools/ folder:

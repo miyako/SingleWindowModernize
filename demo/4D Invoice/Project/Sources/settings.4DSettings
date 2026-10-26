@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="23">
+	<com.4d>
+		<general allow_user_settings="true" startup_environnement="1"/>
+		<interface>
+			<user color_scheme="light" display_toolbar="true" flush_window="false" print_progress="false" sdi_application="true" splash_screen="false"/>
+			<developper display_toolbar="false"/>
+		</interface>
+		<compiler>
+			<typage default_for_button="2" default_for_numeric="1"/>
+			<options compilation_path="3" target="all"/>
+		</compiler>
+		<web>
+			<standalone_server>
+				<misc/>
+				<configuration automatic_session_management="true" session_mode="3"/>
+				<options>
+					<cache use_4d_web_cache="false"/>
+				</options>
+			</standalone_server>
+			<remote>
+				<misc/>
+				<configuration automatic_session_management="true" session_mode="3"/>
+				<options>
+					<cache use_4d_web_cache="false"/>
+				</options>
+			</remote>
+		</web>
+		<database>
+			<misc non_blocking_printing="true" standard_xpath="true"/>
+			<cache size_maximum="2000"/>
+		</database>
+		<server>
+			<network>
+				<client_server use_encryption="true"/>
+				<options use_legacy_network_layer="false"/>
+			</network>
+		</server>
+	</com.4d>
+</preferences>

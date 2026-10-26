@@ -1,0 +1,59 @@
+#--------------------------------
+# Ignore invisible files/folders
+#--------------------------------
+.*
+!.git*
+.git/
+
+#--------------------------------
+# Ignore derived data
+#--------------------------------
+Project/DerivedData/
+
+#--------------------------------
+# Ignore logs
+#--------------------------------
+Logs/
+
+#--------------------------------
+# Ignore settings & preferences
+#--------------------------------
+userPreferences.*/
+buildApp.4DSettings
+
+#--------------------------------
+# Miscellaneous
+#--------------------------------
+*__Orphan__*
+*symbols.txt
+ehthumbs.db
+Thumbs.db
+
+#--------------------------------
+# Added by user
+#--------------------------------
+Resources/php.ini
+Project/Trash/
+Data
+Libraries
+
+# Data folder
+[dD][aA][tT][aA]/
+
+# Derived data
+DerivedData/
+
+# Libraries
+Libraries/
+
+# User preferences
+userPreferences.*/
+
+# Uncomment (remove the following # ) to ignore Trash
+Project/Trash
+
+
+# System files
+.DS_Store
+
+

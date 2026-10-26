@@ -1,0 +1,66 @@
+{
+    "tables": [{
+            "original": "Invoice",
+            "translation": "Rechnung"
+        }
+    ],
+    "fields": [{
+            "original": "Quantity",
+            "translation": "Anzahl"
+        }, {
+            "original": "Product Reference",
+            "translation": "Artikelnummer"
+        }, {
+            "original": "Product Name",
+            "translation": "Artikelname"
+        }, {
+            "original": "Unit Price",
+            "translation": "Stückpreis"
+        }, {
+            "original": "Discount Rate",
+            "translation": "Rabatt %"
+        }, {
+            "original": "Discount Value",
+            "translation": "Rabatt"
+        }, {
+            "original": "VAT Rate",
+            "translation": "MwSt %"
+        }, {
+            "original": "Total Tax",
+            "translation": "MwSt"
+        }, {
+            "original": "Total",
+            "translation": "Netto"
+        }, {
+            "original": "Total with Tax",
+            "translation": "Brutto"
+        }
+    ],
+    "formulas": [
+        {
+            "original": "Sum of invoice items",
+            "translation": "Gesamt Netto"
+        },
+        {
+            "original": "Sum of invoice items with tax",
+            "translation": "Gesamt Brutto"
+        },
+        {
+            "original": "Sum of invoice items tax",
+            "translation": "Gesamt MwSt"
+        },
+                {
+            "original": "Subtotal of invoice items",
+            "translation": "Zwischensumme Netto"
+        },
+        {
+            "original": "Subtotal of invoice items with tax",
+            "translation": "Zwischensumme Brutto"
+        },
+        {
+            "original": "Subtotal of invoice items tax",
+            "translation": "Zwischensumme MwSt"
+        }
+    ]
+}
+   

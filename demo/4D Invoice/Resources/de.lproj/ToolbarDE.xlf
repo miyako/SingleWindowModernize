@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+	<file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="de">
+		<header>
+			<note/>
+		</header>
+		<body>
+			<group resname="More_Buttons">
+				<trans-unit resname="Selected">
+					<source>Subset</source>
+					<target>Auswahl</target>
+				</trans-unit>
+				
+				<trans-unit resname="None">
+					<source>None</source>
+					<target>Nichts</target>
+				</trans-unit>
+			</group>
+			
+			<group resname="InvoiceEditor">
+				<trans-unit resname="IE_TabControl">
+					<source>Invoice Editor;Business Letter;Conditions</source>
+					<target>Rechnungseditor;Briefpapier;AGBs</target>
+				</trans-unit>
+				
+			</group>
+
+			<group resname="Toolbar_Messages">
+				<trans-unit resname="Overwrite_user_settings">
+					<source>Do you want to overwrite User Settings?</source>
+					<target>Wirklich Benutzervoreinstellung überschreiben?</target>
+				</trans-unit>
+				<trans-unit resname="Popup_Delete">
+					<source>Delete;Delete All</source>
+					<target>Löschen;Alle löschen</target>
+				</trans-unit>
+				<trans-unit resname="Delete_all_buttons">
+					<source>Delete all buttons?</source>
+					<target>Wirklich alle Buttons löschen?</target>
+				</trans-unit>
+				<trans-unit resname="Reset_Defaults">
+					<source>Reset to defaults?</source>
+					<target>Auf Voreinstellungen zurücksetzen?</target>
+				</trans-unit>
+				<trans-unit resname="Save_Defaults">
+					<source>Save as defaults</source>
+					<target>Als Voreinstellungen speichern</target>
+				</trans-unit>
+				<trans-unit resname="Toolbar_Reset">
+					<source>Reset</source>
+					<target>Zurücksetzen</target>
+				</trans-unit>
+				<trans-unit resname="Toolbar_Save">
+					<source>Save</source>
+					<target>Speichern</target>
+				</trans-unit>
+			</group>
+			
+			<group resname="ORDAListbox">
+				<trans-unit resname="ColumnRightClick">
+					<source>Delete Column;Save;Clear Saved;-;</source>
+					<target>Spalte löschen;Vorlage Sichern;Vorlage löschen;-;</target>
+				</trans-unit>
+				<trans-unit resname="SaveChanges">
+					<source>Save changes?</source>
+					<target>Änderungen speichern?</target>
+				</trans-unit>
+				<trans-unit resname="SomebodyElseChanged">
+					<source>Someone else has changed the same fields in the meantime, the data cannot be saved!</source>
+					<target>Jemand anderes hat in der Zwischenzeit die gleichen Felder verändert, die Daten können nicht gespeichert werden!</target>
+				</trans-unit>				
+				<trans-unit resname="RecordLockedFrom">
+					<source>Record is locked from </source>
+					<target>Datensatz ist gesperrt von </target>
+				</trans-unit>	
+				<trans-unit resname="LockedWait">
+					<source>Wait</source>
+					<target>Warten</target>
+				</trans-unit>	
+				<trans-unit resname="LockedCancel">
+					<source>Cancel</source>
+					<target>Verwerfen</target>
+				</trans-unit>									
+				<trans-unit resname="LockedClassic">
+					<source>The data record is currently being processed by xxx! Open read-only...</source>
+					<target>Der Datensatz wird zur Zeit von xxx bearbeitet!. Öffne nur lesend...</target>
+				</trans-unit>	
+			</group>
+			
+			<group resname="Application_Specific">
+				<trans-unit resname="NoNewButtonForInvoices">
+					<source>Double click the Client, to create a new invoice.</source>
+					<target>Doppelklicken Sie den Kunden, um dort eine neue Rechnung anzulegen.</target>
+				</trans-unit>
+				
+			</group>
+		</body>
+	</file>
+</xliff>
