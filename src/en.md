@@ -345,7 +345,7 @@ Open the object method from the example 4D Invoice (Form ORDAListbox, object Lis
 
 The first part handles header right click, which you properly will use as it is. The part for the event On Selection Change is only required if you use the preview area as well (3rd part of tech note series). The part for “On Double Clicked”) can be either used or rewritten, to respond to a double click…
 
-## Part 2 - Preview Mode
+## Part 3 - Preview Mode
 
 Many business application shows a list of records and open on double click a new window for edit mode. In a single window application, a simple click on a record displays directly the details in a preview area. This way the end user can quickly browse through records in the list, and receive details with a click. If the user modified something, a click on another record opens an “do you want to save your changes” dialog. As the concept uses optimistic locking it is very efficient.
 
