@@ -2,7 +2,7 @@ var $event : Object:=FORM Event:C1606
 Case of 
 	: ($event.code=On Header Click:K2:40)
 		If (Right click:C712)
-			var $popup : Text:=Get localized string:C991("Runtime_Label_ColumnRightClick")
+			var $popup : Text:=Localized string:C991("Runtime_Label_ColumnRightClick")
 			var $table : 4D:C1709.DataClass:=Form:C1466.listbox.getDataClass()
 			var $tablename : Text:=$table.getInfo().name
 			var $nullpointer : Pointer
@@ -15,7 +15,7 @@ Case of
 			For each ($field; $table)
 				var $pos : Integer:=Find in array:C230($arrSpaNamen; $field)
 				If ($pos<0)
-					var $label : Text:=Get localized string:C991("Runtime_Field_"+$tablename+"_"+$field)
+					var $label : Text:=Localized string:C991("Runtime_Field_"+$tablename+"_"+$field)
 					If ($label="")
 						$label:=$field
 					End if
@@ -50,6 +50,7 @@ Case of
 					$col:=Split string:C1554($popup; ";")
 					var $title : Text:=$missingFields[$select-5]
 					LISTBOX INSERT COLUMN FORMULA:C970(*; "Listbox"; $event.column+1; $title; "this."+$title; Is text:K8:3; $title; $nullpointer)
+					LISTBOX SET PROPERTY:C1440(*; $title; lk truncate:K53:37; lk without ellipsis:K53:64)
 					OBJECT SET TITLE:C194(*; $title; $col[$select-1])
 					Form:C1466.ORDA_listbox._columnwidths.insert($event.column; 50)
 					Form:C1466.ORDA_listbox.resize()
@@ -64,7 +65,7 @@ Case of
 				var $check : Boolean:=True:C214
 				
 				If ($check)
-					CONFIRM:C162(Get localized string:C991("Runtime_Label_SaveChanges"))
+					CONFIRM:C162(Localized string:C991("Runtime_Label_SaveChanges"))
 					If (OK=1)
 						C_OBJECT:C1216($status)
 						$status:=Form:C1466.preview.data.save(dk auto merge:K85:24)
@@ -72,10 +73,10 @@ Case of
 							: ($status.success)
 								// nothing all fine
 							: ($status.status=dk status automerge failed:K85:25)
-								ALERT:C41(Get localized string:C991("Runtime_Label_SomebodyElseChanged"))
+								ALERT:C41(Localized string:C991("Runtime_Label_SomebodyElseChanged"))
 							: ($status.status=dk status locked:K85:21)
 								var $user : Text:=$status.lockInfo.user_name+"/"+$status.lockInfo.host_name+"/"+$status.lockInfo.task_name
-								CONFIRM:C162(Replace string(Get localized string:C991("Runtime_RecordLockedBy"); "{user}"; $user); Get localized string:C991("Runtime_Label_LockedWait"); Get localized string:C991("Runtime_Label_LockedCancel"))
+								CONFIRM:C162(Replace string:C233(Localized string:C991("Runtime_RecordLockedBy"); "{user}"; $user); Localized string:C991("Runtime_Label_LockedWait"); Localized string:C991("Runtime_Label_LockedCancel"))
 								If (OK=1)
 									LISTBOX SELECT ROW:C912(*; "Listbox"; Num:C11(Form:C1466.preview.Position); lk replace selection:K53:1)
 									Form:C1466.SelectedElement:=Form:C1466.preview.data

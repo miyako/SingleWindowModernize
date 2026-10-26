@@ -61,6 +61,7 @@ Function _loadListboxColumns()
 		For each ($column; $object.columns)
 			$counter+=1
 			LISTBOX INSERT COLUMN FORMULA:C970(*; "Listbox"; $counter; $column.title; $column.formula; Is text:K8:3; $column.title; $nullpointer)
+			LISTBOX SET PROPERTY:C1440(*; $column.title; lk truncate:K53:37; lk without ellipsis:K53:64)
 			OBJECT SET TITLE:C194(*; $column.title; DemoCaption($column.title))
 			LISTBOX SET COLUMN WIDTH:C833(*; $column.title; $column.width)
 			This:C1470._columnwidths.push($column.width)
@@ -90,6 +91,7 @@ Function _loadListboxColumns()
 				If (($column.fieldType#Is BLOB:K8:12) & ($column.fieldType#Is object:K8:27))
 					$counter:=$counter+1
 					LISTBOX INSERT COLUMN FORMULA:C970(*; "Listbox"; $counter; $fieldname; "This."+$fieldname; $column.fieldType; $fieldname; $nullpointer)
+					LISTBOX SET PROPERTY:C1440(*; $fieldname; lk truncate:K53:37; lk without ellipsis:K53:64)
 					OBJECT SET TITLE:C194(*; $fieldname; DemoCaption($fieldname))
 					LISTBOX SET COLUMN WIDTH:C833(*; $fieldname; $width)
 					This:C1470._columnwidths.push($width)
@@ -148,12 +150,12 @@ Function calcWindowTitle($sel : 4D:C1709.EntitySelection)->$title : Text
 		$title:=$class.calcWindowTitle($sel)
 		//%W+550.2
 	Else 
-		$title:=Get localized string:C991("Core_SelectionTitle")
-		$title:=Replace string($title; "{table}"; DemoCaption(This:C1470.tablename))
-		$title:=Replace string($title; "{selected}"; String:C10($sel.length))
-		$title:=Replace string($title; "{total}"; String:C10($class.all().length))
+		$title:=Localized string:C991("Core_SelectionTitle")
+		$title:=Replace string:C233($title; "{table}"; DemoCaption(This:C1470.tablename))
+		$title:=Replace string:C233($title; "{selected}"; String:C10($sel.length))
+		$title:=Replace string:C233($title; "{total}"; String:C10($class.all().length))
 	End if 
-	$title:=Get localized string:C991("Core_DemoMarker")+" - "+$title
+	$title:=Localized string:C991("Core_DemoMarker")+" - "+$title
 	
 Function handleButtonClick($button : Text; $event : Integer)
 	If ($event=On Clicked:K2:4)

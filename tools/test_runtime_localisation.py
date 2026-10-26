@@ -60,10 +60,10 @@ class RuntimeLocalisationTests(unittest.TestCase):
             if path.relative_to(SOURCES).as_posix() in PARENT_FILES:
                 continue
             source = path.read_text()
-            for key in re.findall(r'Get localized string(?::C991)?\("(Runtime_[^"]+)"\)', source):
+            for key in re.findall(r'(?:Get localized string|Localized string):C991\("(Runtime_[^"]+)"\)', source):
                 seen.add(key)
                 self.assertIn(key, self.resources["en"], str(path))
-            self.assertNotRegex(source, r'(?<!Get )Localized string(?::C991)?\("Runtime_')
+            self.assertNotRegex(source, r'(?:Get localized string|Localized string)\("Runtime_')
             self.assertNotIn('":xliff:Runtime_', source)
         self.assertGreater(len(seen), 50)
 

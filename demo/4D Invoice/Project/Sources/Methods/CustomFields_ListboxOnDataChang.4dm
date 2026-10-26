@@ -1,17 +1,18 @@
 //%attributes = {}
 // call from listbox in detail form, for On Data Change event
 C_LONGINT:C283($tablenum; $i2; $index)
-C_TEXT:C284($new; $fieldname; $name)
+C_TEXT:C284($fieldname; $name)
 C_POINTER:C301($tableptr; $fieldptr; $ColPtr)
 C_BOOLEAN:C305($hasfield)
 C_VARIANT:C1683($value)
+var $new : Object
 
 If (Form event code:C388=On Data Change:K2:15)
 	
 	$tableptr:=Current form table:C627
 	$hasfield:=False:C215
 	$tablenum:=Table:C252($tableptr)
-	For ($i2; 1; Get last field number:C255($tableptr))
+	For ($i2; 1; Last field number:C255($tableptr))
 		If (Is field number valid:C1000($tablenum; $i2))
 			$fieldname:=Field name:C257($tablenum; $i2)
 			If ($fieldname="CustomFields")
