@@ -1,0 +1,279 @@
+{
+ "source": "fig-05.png",
+ "page": 5,
+ "width_pt": 468.0,
+ "localize": false,
+ "items": [
+  {
+   "box": [
+    899,
+    92,
+    181,
+    29
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    213,
+    200,
+    87,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    242,
+    279,
+    57,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    253,
+    357,
+    74,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1124,
+    201,
+    46,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1124,
+    279,
+    31,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1124,
+    354,
+    101,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    250,
+    432,
+    72,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    285,
+    507,
+    69,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1124,
+    432,
+    60,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    271,
+    582,
+    63,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    253,
+    657,
+    31,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1127,
+    507,
+    66,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1156,
+    582,
+    69,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1110,
+    659,
+    72,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    285,
+    734,
+    98,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    282,
+    809,
+    31,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    285,
+    884,
+    60,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    253,
+    962,
+    57,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    285,
+    1037,
+    141,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1153,
+    733,
+    144,
+    28
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1153,
+    809,
+    126,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1121,
+    884,
+    89,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1156,
+    959,
+    77,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1156,
+    1037,
+    92,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    273,
+    1115,
+    135,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1141,
+    1112,
+    118,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    250,
+    1192,
+    198,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1306,
+    1195,
+    74,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1646,
+    1192,
+    66,
+    29
+   ],
+   "align": "left"
+  }
+ ],
+ "$comment": "Application screenshot: use technote-localise-screenshots, not diagram overlays. English OCR lists legible UI labels only; sample values, code expressions, rulers, clipped text and icon noise are excluded. OCR boxes are reference regions, not approved replacement masks."
+}

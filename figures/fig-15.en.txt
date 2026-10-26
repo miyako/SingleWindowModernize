@@ -1,0 +1,22 @@
+Form: [CLIENTS]Input_ORDA
+Logo
+Name
+Address 1
+Address 2
+City
+State
+Country
+Telephone
+Email
+Web Site
+Contact
+Discount Rate
+Comments
+Zip
+Mobile
+Number
+Date
+Subtotal
+Paid
+Payment Date Payment Method
+Pro Forma

@@ -1,0 +1,7 @@
+Data Source
+Current item
+Current item position
+Selected Items
+Form.SelectedElement
+Form.SelectedPosition
+Form.Selection

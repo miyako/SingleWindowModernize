@@ -1,0 +1,26 @@
+Name Address1
+Email
+City
+State
+ZipCode
+Logo
+Name
+Address 1
+Address 2
+City
+State
+Country
+Telephone
+Email
+Web Site
+Contact
+Discount Rate
+Comments
+Number
+Date
+Subtotal
+Paid
+Payment Date
+Payment Method
+Pro Forma
+Total Sales

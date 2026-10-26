@@ -1,0 +1,207 @@
+{
+ "source": "fig-15.png",
+ "page": 19,
+ "width_pt": 358.9,
+ "localize": false,
+ "items": [
+  {
+   "box": [
+    551,
+    43,
+    208,
+    15
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    735,
+    137,
+    33,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    228,
+    179,
+    146,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    204,
+    205,
+    61,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    201,
+    229,
+    62,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    240,
+    253,
+    23,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    232,
+    277,
+    31,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    213,
+    299,
+    50,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    200,
+    337,
+    65,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    229,
+    361,
+    34,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    209,
+    385,
+    54,
+    12
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    214,
+    419,
+    158,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    177,
+    443,
+    224,
+    15
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    196,
+    465,
+    192,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    478,
+    275,
+    148,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    457,
+    333,
+    145,
+    15
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    151,
+    585,
+    52,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    261,
+    587,
+    35,
+    15
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    380,
+    585,
+    65,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    441,
+    585,
+    39,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    515,
+    587,
+    195,
+    13
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    930,
+    587,
+    65,
+    15
+   ],
+   "align": "left"
+  }
+ ],
+ "$comment": "Application screenshot: use technote-localise-screenshots, not diagram overlays. English OCR lists legible UI labels only; sample values, code expressions, rulers, clipped text and icon noise are excluded. OCR boxes are reference regions, not approved replacement masks."
+}

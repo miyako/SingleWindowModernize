@@ -1,0 +1,29 @@
+Form: [CLIENTS]Input
+First
+Previous
+Name
+Address 1
+Address 2
+City
+State
+Country
+Telephone
+Email
+Web Site
+Contact
+Discount Rate
+Comments
+Next
+Last
+Delete
+Cancel
+Validate
+Logo
+Zip
+Mobile
+Number
+Date
+Subtotal Paid Payment Date Payment Method
+Pro Forma
+Add
+Delete
