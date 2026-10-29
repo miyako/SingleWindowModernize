@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+    <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="en">
+
+        <header>
+            <note/>
+        </header>
+
+        <body>
+            <group resname="SET WINDOW TITLE">
+                <trans-unit resname="INVOICES">   
+                    <source>INVOICES</source>                    
+                    <target>INVOICES</target>
+                </trans-unit>
+                <trans-unit resname="CLIENTS">   
+                    <source>CLIENTS</source>                    
+                    <target>CLIENTS</target>
+                </trans-unit>
+                <trans-unit resname="PRODUCTS">   
+                    <source>PRODUCTS</source>                    
+                    <target>PRODUCTS</target>
+                </trans-unit>       
+                <trans-unit resname="SETTINGS">   
+                    <source>SETTINGS</source>                    
+                    <target>SETTINGS</target>
+                </trans-unit>
+                <trans-unit resname="Graph">   
+                    <source>Graph</source>                    
+                    <target>Graph</target>
+                </trans-unit>                
+            </group>
+
+            <group resname="3D Buttons">
+                <trans-unit resname="Print">   
+                    <source>Print</source>                    
+                    <target>Print</target>
+                </trans-unit> 
+                <trans-unit resname="Labels">   
+                    <source>Labels</source>                    
+                    <target>Labels</target>
+                </trans-unit>   
+                <trans-unit resname="Reports">   
+                    <source>Reports</source>                    
+                    <target>Reports</target>
+                </trans-unit>
+                <trans-unit resname="Query">   
+                    <source>Query</source>                    
+                    <target>Query</target>
+                </trans-unit>   
+                <trans-unit resname="Subset">   
+                    <source>Subset</source>                    
+                    <target>Subset</target>
+                </trans-unit> 
+                <trans-unit resname="All">   
+                    <source>All</source>                    
+                    <target>All</target>
+                </trans-unit> 
+                <trans-unit resname="Delete">   
+                    <source>Delete</source>                    
+                    <target>Delete</target>
+                </trans-unit>    
+                <trans-unit resname="Add">   
+                    <source>Add</source>                    
+                    <target>Add</target>
+                </trans-unit>  
+                <trans-unit resname="Sort">   
+                    <source>Sort</source>                    
+                    <target>Sort</target>
+                </trans-unit>   
+                <trans-unit resname="Export">   
+                    <source>Export</source>                    
+                    <target>Export</target>
+                </trans-unit> 
+                <trans-unit resname="Graphs">   
+                    <source>Graphs</source>                    
+                    <target>Graphs</target>
+                </trans-unit>   
+                <trans-unit resname="Cancel">   
+                    <source>Cancel</source>                    
+                    <target>Cancel</target>
+                </trans-unit> 
+                <trans-unit resname="Validate">   
+                    <source>Validate</source>                    
+                    <target>Validate</target>
+                </trans-unit>   
+                <trans-unit resname="First">   
+                    <source>First</source>                    
+                    <target>First</target>
+                </trans-unit> 
+                <trans-unit resname="Next">   
+                    <source>Next</source>                    
+                    <target>Next</target>
+                </trans-unit>   
+                <trans-unit resname="Last">   
+                    <source>Last</source>                    
+                    <target>Last</target>
+                </trans-unit>    
+                <trans-unit resname="Previous">   
+                    <source>Previous</source>                    
+                    <target>Previous</target>
+                </trans-unit>                    
+            </group>
+
+            <group resname="Headers">
+                <trans-unit resname="Client">   
+                    <source>Client</source>                    
+                    <target>Client</target>
+                </trans-unit>
+                <trans-unit resname="Number">   
+                    <source>Number</source>                    
+                    <target>Number</target>
+                </trans-unit> 
+                <trans-unit resname="Date">   
+                    <source>Date</source>                    
+                    <target>Date</target>
+                </trans-unit>            
+                <trans-unit resname="Subtotal">   
+                    <source>Subtotal</source>                    
+                    <target>Subtotal</target>
+                </trans-unit>                
+                <trans-unit resname="Paid">   
+                    <source>Paid</source>                    
+                    <target>Paid</target>
+                </trans-unit> 
+                <trans-unit resname="Payment Date">   
+                    <source>Payment Date</source>                    
+                    <target>Payment Date</target>
+                </trans-unit> 
+                <trans-unit resname="Payment Method">   
+                    <source>Payment Method</source>                    
+                    <target>Payment Method</target>
+                </trans-unit> 
+                <trans-unit resname="Reference">   
+                    <source>Reference</source>                    
+                    <target>Reference</target>
+                </trans-unit>                 
+                <trans-unit resname="Name">   
+                    <source>Name</source>                    
+                    <target>Name</target>
+                </trans-unit>
+                <trans-unit resname="Unit Price">   
+                    <source>Unit Price</source>                    
+                    <target>Unit Price</target>
+                </trans-unit>   
+                <trans-unit resname="Tax Rate (%)">   
+                    <source>Tax Rate (%)</source>                    
+                    <target>Tax Rate (%)</target>
+                </trans-unit>  
+                <trans-unit resname="City">   
+                    <source>City</source>                    
+                    <target>City</target>
+                </trans-unit>   
+                <trans-unit resname="Contact">   
+                    <source>Contact</source>                    
+                    <target>Contact</target>
+                </trans-unit>  
+                <trans-unit resname="Email">   
+                    <source>Email</source>                    
+                    <target>Email</target>
+                </trans-unit> 
+                <trans-unit resname="Email">   
+                    <source>Email</source>                    
+                    <target>Email</target>
+                </trans-unit> 
+                <trans-unit resname="Pro Forma">   
+                    <source>Pro Forma</source>                    
+                    <target>Pro Forma</target>
+                </trans-unit>   
+                <trans-unit resname="Discount (%)">   
+                    <source>Discount (%)</source>                    
+                    <target>Discount (%)</target>
+                </trans-unit>    
+                <trans-unit resname="Quantity">   
+                    <source>Quantity</source>                    
+                    <target>Quantity</target>
+                </trans-unit>                 
+            </group> 
+            
+            <group resname="Footers">
+                <trans-unit resname="Total">   
+                    <source>Total</source>                    
+                    <target>Total</target>
+                </trans-unit> 
+                <trans-unit resname="Total Sales">   
+                    <source>Total Sales</source>                    
+                    <target>Total Sales</target>
+                </trans-unit>                 
+                <trans-unit resname="reorder_label_reverse">   
+                    <source></source>                    
+                    <target></target>
+                    <note>for languages such as JA</note>
+                </trans-unit>                   
+                <trans-unit resname=" clients out of ">   
+                    <source> clients out of </source>                    
+                    <target> clients out of </target>
+                </trans-unit>   
+                <trans-unit resname=" invoices out of ">   
+                    <source> invoices out of </source>                    
+                    <target> invoices out of </target>
+                </trans-unit>  
+                <trans-unit resname=" products out of ">   
+                    <source> products out of </source>                    
+                    <target> products out of </target>
+                </trans-unit> 
+                <trans-unit resname="Subtotal">   
+                    <source>Subtotal</source>                    
+                    <target>Subtotal</target>
+                </trans-unit>                 
+            </group>  
+            
+            <group resname="Labels">
+                <trans-unit resname="Address 1">   
+                    <source>Address 1</source>                    
+                    <target>Address 1</target>
+                </trans-unit> 
+                <trans-unit resname="Address 2">   
+                    <source>Address 2</source>                    
+                    <target>Address 2</target>
+                </trans-unit> 
+                <trans-unit resname="State">   
+                    <source>State</source>                    
+                    <target>State</target>
+                </trans-unit>    
+                <trans-unit resname="Zip">   
+                    <source>Zip</source>                    
+                    <target>Zip</target>
+                </trans-unit> 
+                <trans-unit resname="Mobile">   
+                    <source>Mobile</source>                    
+                    <target>Mobile</target>
+                </trans-unit>  
+                <trans-unit resname="Mobile">   
+                    <source>Mobile</source>                    
+                    <target>Mobile</target>
+                </trans-unit>                  
+                <trans-unit resname="General Information">   
+                    <source>General Information</source>                    
+                    <target>General Information</target>
+                </trans-unit>  
+                <trans-unit resname="Logo">   
+                    <source>Logo</source>                    
+                    <target>Logo</target>
+                </trans-unit> 
+                <trans-unit resname="Country">   
+                    <source>Country</source>                    
+                    <target>Country</target>
+                </trans-unit>   
+                <trans-unit resname="Telephone">   
+                    <source>Telephone</source>                    
+                    <target>Telephone</target>
+                </trans-unit>  
+                <trans-unit resname="Fax">   
+                    <source>Fax</source>                    
+                    <target>Fax</target>
+                </trans-unit>                  
+                <trans-unit resname="Web Site">   
+                    <source>Web Site</source>                    
+                    <target>Web Site</target>
+                </trans-unit>   
+                <trans-unit resname="Discount Rate">   
+                    <source>Discount Rate</source>                    
+                    <target>Discount Rate</target>
+                </trans-unit> 
+                <trans-unit resname="Comments">   
+                    <source>Comments</source>                    
+                    <target>Comments</target>
+                </trans-unit>   
+                <trans-unit resname="Tax Rate">   
+                    <source>Tax Rate</source>                    
+                    <target>Tax Rate</target>
+                </trans-unit> 
+                <trans-unit resname="Invoice Details">   
+                    <source>Invoice Details</source>                    
+                    <target>Invoice Details</target>
+                </trans-unit> 
+                <trans-unit resname="Client Information">   
+                    <source>Client Information</source>                    
+                    <target>Client Information</target>
+                </trans-unit> 
+                <trans-unit resname="days">   
+                    <source>days</source>                    
+                    <target>days</target>
+                </trans-unit> 
+                <trans-unit resname="Payment Delay">   
+                    <source>Payment Delay</source>                    
+                    <target>Payment Delay</target>
+                </trans-unit>                 
+                <trans-unit resname="Invoice Number">   
+                    <source>Invoice Number</source>                    
+                    <target>Invoice Number</target>
+                </trans-unit> 
+                <trans-unit resname="Payment Reference">   
+                    <source>Payment Reference</source>                    
+                    <target>Payment Reference</target>
+                </trans-unit> 
+                <trans-unit resname="Proforma Number">   
+                    <source>Proforma Number</source>                    
+                    <target>Proforma Number</target>
+                </trans-unit> 
+                <trans-unit resname="Tax">   
+                    <source>Tax</source>                    
+                    <target>Tax</target>
+                </trans-unit> 
+                <trans-unit resname="Enter a product reference or name">   
+                    <source>Enter a product reference or name</source>                    
+                    <target>Enter a product reference or name</target>
+                </trans-unit> 
+                <trans-unit resname="Product Reference">   
+                    <source>Product Reference</source>                    
+                    <target>Product Reference</target>
+                </trans-unit> 
+                <trans-unit resname="Product Name">   
+                    <source>Product Name</source>                    
+                    <target>Product Name</target>
+                </trans-unit> 
+                <trans-unit resname="Quantity">   
+                    <source>Quantity</source>                    
+                    <target>Quantity</target>
+                </trans-unit> 
+                <trans-unit resname="Product Unit Price">   
+                    <source>Product Unit Price</source>                    
+                    <target>Product Unit Price</target>
+                </trans-unit> 
+                <trans-unit resname="Current Invoice Number">   
+                    <source>Current Invoice Number</source>                    
+                    <target>Current Invoice Number</target>
+                </trans-unit> 
+                <trans-unit resname="Current Proforma Number">   
+                    <source>Current Proforma Number</source>                    
+                    <target>Current Proforma Number</target>
+                </trans-unit> 
+                <trans-unit resname="General Settings">   
+                    <source>General Settings</source>                    
+                    <target>General Settings</target>
+                </trans-unit> 
+                <trans-unit resname="Product Details">   
+                    <source>Product Details</source>                    
+                    <target>Product Details</target>
+                </trans-unit> 
+                <trans-unit resname="Product Picture">   
+                    <source>Product Picture</source>                    
+                    <target>Product Picture</target>
+                </trans-unit> 
+
+
+            </group>                 
+
+            <group resname="Menus">
+                <trans-unit resname="Clients">   
+                    <source>Clients</source>                    
+                    <target>Clients</target>
+                </trans-unit>    
+                <trans-unit resname="Invoices">   
+                    <source>Invoices</source>                    
+                    <target>Invoices</target>
+                </trans-unit>  
+                <trans-unit resname="Products">   
+                    <source>Products</source>                    
+                    <target>Products</target>
+                </trans-unit> 
+                <trans-unit resname="Settings">   
+                    <source>Settings</source>                    
+                    <target>Settings</target>
+                </trans-unit>                 
+            </group>                  
+
+            <group resname="ALERT">
+                <trans-unit resname="No invoices in the past 6 months">   
+                    <source>No invoices in the past 6 months</source>                    
+                    <target>No invoices in the past 6 months</target>
+                </trans-unit>   
+                <trans-unit resname="No product(s) selected">   
+                    <source>No product(s) selected</source>                    
+                    <target>No product(s) selected</target>
+                </trans-unit>  
+                <trans-unit resname="You can not unpaid an invoice!">   
+                    <source>You can not unpaid an invoice!</source>                    
+                    <target>You can not unpaid an invoice!</target>
+                </trans-unit>  
+                <trans-unit resname="You can not change an invoice into a pro forma!">   
+                    <source>You can not change an invoice into a pro forma!</source>                    
+                    <target>You can not change an invoice into a pro forma!</target>
+                </trans-unit>                  
+            </group> 
+
+            <group resname="CONFIRM">
+                <trans-unit resname="Do you really want to delete this client?">   
+                    <source>Do you really want to delete this client?</source>                    
+                    <target>Do you really want to delete this client?</target>
+                </trans-unit>
+                <trans-unit resname="The pro forma changes into an invoice that will not be modifiable anymore. Continue?">   
+                    <source>The pro forma changes into an invoice that will not be modifiable anymore. Continue?</source>                    
+                    <target>The pro forma changes into an invoice that will not be modifiable anymore. Continue?</target>
+                </trans-unit>                 
+                <trans-unit resname="Yes">   
+                    <source>Yes</source>                    
+                    <target>Yes</target>
+                </trans-unit>  
+                <trans-unit resname="No">   
+                    <source>No</source>                    
+                    <target>No</target>
+                </trans-unit>                  
+            </group> 
+
+            <group resname="GRAPH SETTINGS">
+                <trans-unit resname="Turnover">   
+                    <source>Turnover</source>                    
+                    <target>Turnover</target>
+                </trans-unit>                   
+            </group> 
+
+            <group resname="OBJECT SET FORMAT">
+                <trans-unit resname="currency">   
+                    <source>###,###,##0.00 ;###,###,##0.00-</source>                    
+                    <target>###,###,##0.00 ;###,###,##0.00-</target>
+                </trans-unit>   
+            </group> 
+
+        </body>
+    </file>
+</xliff>

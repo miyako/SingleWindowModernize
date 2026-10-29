@@ -1,0 +1,127 @@
+{
+	"(Default Forms)": {},
+	"Compiler": {
+		"methods": [
+			"Compiler_Arrays",
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"Compiler_Variables_Inter"
+		]
+	},
+	"Debug": {
+		"methods": [
+			"LISTBOX_ADJUST_WIDTH"
+		]
+	},
+	"Default Folder": {
+		"groups": [
+			"Default Project Methods"
+		]
+	},
+	"Default Project Methods": {
+		"methods": [
+			"FillData",
+			"Invoices_CalculateLineTotals",
+			"Invoices_CalculateTotals",
+			"Invoices_ChangeColor",
+			"Invoices_Delete",
+			"Invoices_GetNumber",
+			"Invoices_GetNumberPrf"
+		]
+	},
+	"Entry": {
+		"forms": [
+			"[CLIENTS]Input",
+			"[INVOICE_LINES]Input",
+			"[INVOICES]Input",
+			"[PRODUCTS]Input",
+			"[SETTINGS]Input"
+		]
+	},
+	"Export": {
+		"forms": [
+			"[CLIENTS]OutputExport",
+			"[PRODUCTS]OutputExport"
+		]
+	},
+	"FillData": {
+		"methods": [
+			"Clients_BuildLogo"
+		]
+	},
+	"Graph": {
+		"forms": [
+			"[CLIENTS]GraphForm"
+		]
+	},
+	"List": {
+		"groups": [
+			"Reorder",
+			"Update"
+		],
+		"forms": [
+			"[CLIENTS]Output",
+			"[INVOICES]Output",
+			"[PRODUCTS]Output"
+		]
+	},
+	"Manage": {
+		"methods": [
+			"Clients_Manage",
+			"Invoices_Manage",
+			"Products_Manage",
+			"Settings_Manage"
+		]
+	},
+	"Menu": {
+		"groups": [
+			"Manage",
+			"ProcessInit"
+		]
+	},
+	"Print": {
+		"forms": [
+			"[CLIENTS]OutputPrint",
+			"[INVOICE_LINES]OutputPrint",
+			"[INVOICES]OutputPrint",
+			"[PRODUCTS]OutputPrint"
+		]
+	},
+	"ProcessInit": {
+		"methods": [
+			"Clients_ProcessInit",
+			"Invoices_ProcessInit",
+			"Products_ProcessInit",
+			"Settings_ProcessInit"
+		]
+	},
+	"Reorder": {
+		"methods": [
+			"Clients_Reorder",
+			"InvoiceLines_Reorder",
+			"Invoices_Reorder",
+			"Products_Reorder"
+		]
+	},
+	"Tables": {
+		"tables": [
+			"CLIENTS",
+			"INVOICE_LINES",
+			"INVOICES",
+			"PRODUCTS",
+			"SETTINGS"
+		]
+	},
+	"Update": {
+		"methods": [
+			"UPDATE_ALL_BUTTON",
+			"UPDATE_DELETE_BUTTON",
+			"UPDATE_SUBSET_BUTTON"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Forms)"
+		]
+	}
+}
