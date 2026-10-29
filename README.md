@@ -11,7 +11,7 @@ Thomas Maul（4D Germany）によるテクニカルノート24-14の日本語版
 | 内容 | ファイル |
 |---|---|
 | 日本語PDF | [24-14_SingleWindowModernize_ja.pdf](https://github.com/miyako/SingleWindowModernize/releases/latest/download/24-14_SingleWindowModernize_ja.pdf) |
-| 4Dデモ（ソースのみ） | [4D Invoice.zip](https://github.com/miyako/SingleWindowModernize/releases/latest/download/4D%20Invoice.zip) |
+| 4Dデモ（ソースのみ） | [4D.Invoice.zip](https://github.com/miyako/SingleWindowModernize/releases/latest/download/4D.Invoice.zip) |
 | 英語原文 | [24-14_SingleWindowModernize.pdf](document/24-14_SingleWindowModernize.pdf) |
 
 ## デモ
