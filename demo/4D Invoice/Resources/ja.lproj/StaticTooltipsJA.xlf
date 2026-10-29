@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="StaticTooltips" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="StaticTip001" resname="StaticTip001" xml:space="preserve">
+        <source>Add a New Record</source>
+        <target>新規レコードを追加</target>
+      </trans-unit>
+      <trans-unit id="StaticTip002" resname="StaticTip002" xml:space="preserve">
+        <source>Delete Highlighted Records</source>
+        <target>選択したレコードを削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip003" resname="StaticTip003" xml:space="preserve">
+        <source>Select All Records</source>
+        <target>すべてのレコードを選択</target>
+      </trans-unit>
+      <trans-unit id="StaticTip004" resname="StaticTip004" xml:space="preserve">
+        <source>Select Highlighted Records</source>
+        <target>選択項目を選択</target>
+      </trans-unit>
+      <trans-unit id="StaticTip005" resname="StaticTip005" xml:space="preserve">
+        <source>Query</source>
+        <target>検索</target>
+      </trans-unit>
+      <trans-unit id="StaticTip006" resname="StaticTip006" xml:space="preserve">
+        <source>Order by</source>
+        <target>並べ替え</target>
+      </trans-unit>
+      <trans-unit id="StaticTip007" resname="StaticTip007" xml:space="preserve">
+        <source>Quick Reports</source>
+        <target>クイックレポート</target>
+      </trans-unit>
+      <trans-unit id="StaticTip008" resname="StaticTip008" xml:space="preserve">
+        <source>Print Labels</source>
+        <target>ラベルを印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip009" resname="StaticTip009" xml:space="preserve">
+        <source>Print</source>
+        <target>印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip010" resname="StaticTip010" xml:space="preserve">
+        <source>Cancel Client</source>
+        <target>顧客の編集をキャンセル</target>
+      </trans-unit>
+      <trans-unit id="StaticTip011" resname="StaticTip011" xml:space="preserve">
+        <source>Client Name</source>
+        <target>顧客名</target>
+      </trans-unit>
+      <trans-unit id="StaticTip012" resname="StaticTip012" xml:space="preserve">
+        <source>Client Address 1</source>
+        <target>顧客の住所1</target>
+      </trans-unit>
+      <trans-unit id="StaticTip013" resname="StaticTip013" xml:space="preserve">
+        <source>Client Address 2</source>
+        <target>顧客の住所2</target>
+      </trans-unit>
+      <trans-unit id="StaticTip014" resname="StaticTip014" xml:space="preserve">
+        <source>Client City</source>
+        <target>顧客の市区町村</target>
+      </trans-unit>
+      <trans-unit id="StaticTip015" resname="StaticTip015" xml:space="preserve">
+        <source>Client State</source>
+        <target>顧客の都道府県</target>
+      </trans-unit>
+      <trans-unit id="StaticTip016" resname="StaticTip016" xml:space="preserve">
+        <source>Client ZipCode</source>
+        <target>顧客の郵便番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip017" resname="StaticTip017" xml:space="preserve">
+        <source>Client Telephone</source>
+        <target>顧客の電話番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip018" resname="StaticTip018" xml:space="preserve">
+        <source>Client Mobile</source>
+        <target>顧客の携帯電話</target>
+      </trans-unit>
+      <trans-unit id="StaticTip019" resname="StaticTip019" xml:space="preserve">
+        <source>Client Fax</source>
+        <target>顧客のFAX番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip020" resname="StaticTip020" xml:space="preserve">
+        <source>Client Email</source>
+        <target>顧客のメール</target>
+      </trans-unit>
+      <trans-unit id="StaticTip021" resname="StaticTip021" xml:space="preserve">
+        <source>Client Web Site</source>
+        <target>顧客のWebサイト</target>
+      </trans-unit>
+      <trans-unit id="StaticTip022" resname="StaticTip022" xml:space="preserve">
+        <source>Client Contact</source>
+        <target>顧客の担当者</target>
+      </trans-unit>
+      <trans-unit id="StaticTip023" resname="StaticTip023" xml:space="preserve">
+        <source>Product Discount Rate</source>
+        <target>商品の割引率</target>
+      </trans-unit>
+      <trans-unit id="StaticTip024" resname="StaticTip024" xml:space="preserve">
+        <source>Comments on Client</source>
+        <target>顧客についての備考</target>
+      </trans-unit>
+      <trans-unit id="StaticTip025" resname="StaticTip025" xml:space="preserve">
+        <source>Invoice Number</source>
+        <target>請求書番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip026" resname="StaticTip026" xml:space="preserve">
+        <source>Invoice Date</source>
+        <target>請求日</target>
+      </trans-unit>
+      <trans-unit id="StaticTip027" resname="StaticTip027" xml:space="preserve">
+        <source>Invoice Subtotal</source>
+        <target>請求書の小計</target>
+      </trans-unit>
+      <trans-unit id="StaticTip028" resname="StaticTip028" xml:space="preserve">
+        <source>Paid</source>
+        <target>支払済み</target>
+      </trans-unit>
+      <trans-unit id="StaticTip029" resname="StaticTip029" xml:space="preserve">
+        <source>Invoice Payement Date</source>
+        <target>請求書の支払日</target>
+      </trans-unit>
+      <trans-unit id="StaticTip030" resname="StaticTip030" xml:space="preserve">
+        <source>Invoice Payement Method</source>
+        <target>請求書の支払方法</target>
+      </trans-unit>
+      <trans-unit id="StaticTip031" resname="StaticTip031" xml:space="preserve">
+        <source>First Client</source>
+        <target>先頭の顧客</target>
+      </trans-unit>
+      <trans-unit id="StaticTip032" resname="StaticTip032" xml:space="preserve">
+        <source>Previous Client</source>
+        <target>前の顧客</target>
+      </trans-unit>
+      <trans-unit id="StaticTip033" resname="StaticTip033" xml:space="preserve">
+        <source>Next Client</source>
+        <target>次の顧客</target>
+      </trans-unit>
+      <trans-unit id="StaticTip034" resname="StaticTip034" xml:space="preserve">
+        <source>Last Client</source>
+        <target>末尾の顧客</target>
+      </trans-unit>
+      <trans-unit id="StaticTip035" resname="StaticTip035" xml:space="preserve">
+        <source>Delete Client</source>
+        <target>顧客を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip036" resname="StaticTip036" xml:space="preserve">
+        <source>Validate Client</source>
+        <target>顧客の編集を確定</target>
+      </trans-unit>
+      <trans-unit id="StaticTip037" resname="StaticTip037" xml:space="preserve">
+        <source>Add Invoice</source>
+        <target>請求書を追加</target>
+      </trans-unit>
+      <trans-unit id="StaticTip038" resname="StaticTip038" xml:space="preserve">
+        <source>Delete Invoice</source>
+        <target>請求書を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip039" resname="StaticTip039" xml:space="preserve">
+        <source>Logo</source>
+        <target>ロゴ</target>
+      </trans-unit>
+      <trans-unit id="StaticTip040" resname="StaticTip040" xml:space="preserve">
+        <source>Add Client</source>
+        <target>顧客を追加</target>
+      </trans-unit>
+      <trans-unit id="StaticTip041" resname="StaticTip041" xml:space="preserve">
+        <source>Delete Client(s)</source>
+        <target>選択した顧客を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip042" resname="StaticTip042" xml:space="preserve">
+        <source>Show All Clients</source>
+        <target>すべての顧客を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip043" resname="StaticTip043" xml:space="preserve">
+        <source>Show Subset Clients</source>
+        <target>選択した顧客を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip044" resname="StaticTip044" xml:space="preserve">
+        <source>Query Clients</source>
+        <target>顧客を検索</target>
+      </trans-unit>
+      <trans-unit id="StaticTip045" resname="StaticTip045" xml:space="preserve">
+        <source>Print Labels Clients</source>
+        <target>顧客ラベルを印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip046" resname="StaticTip046" xml:space="preserve">
+        <source>Print Clients</source>
+        <target>顧客を印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip047" resname="StaticTip047" xml:space="preserve">
+        <source>Reports Clients</source>
+        <target>顧客レポート</target>
+      </trans-unit>
+      <trans-unit id="StaticTip048" resname="StaticTip048" xml:space="preserve">
+        <source>Graph Clients</source>
+        <target>顧客のグラフ</target>
+      </trans-unit>
+      <trans-unit id="StaticTip049" resname="StaticTip049" xml:space="preserve">
+        <source>Export Clients</source>
+        <target>顧客を書き出し</target>
+      </trans-unit>
+      <trans-unit id="StaticTip050" resname="StaticTip050" xml:space="preserve">
+        <source>Company Name</source>
+        <target>会社名</target>
+      </trans-unit>
+      <trans-unit id="StaticTip051" resname="StaticTip051" xml:space="preserve">
+        <source>Company City</source>
+        <target>会社の市区町村</target>
+      </trans-unit>
+      <trans-unit id="StaticTip052" resname="StaticTip052" xml:space="preserve">
+        <source>Company contact</source>
+        <target>会社の担当者</target>
+      </trans-unit>
+      <trans-unit id="StaticTip053" resname="StaticTip053" xml:space="preserve">
+        <source>Contact email</source>
+        <target>担当者のメール</target>
+      </trans-unit>
+      <trans-unit id="StaticTip054" resname="StaticTip054" xml:space="preserve">
+        <source>Product Reference</source>
+        <target>商品番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip055" resname="StaticTip055" xml:space="preserve">
+        <source>Product Name</source>
+        <target>商品名</target>
+      </trans-unit>
+      <trans-unit id="StaticTip056" resname="StaticTip056" xml:space="preserve">
+        <source>Product Quantity</source>
+        <target>商品の数量</target>
+      </trans-unit>
+      <trans-unit id="StaticTip057" resname="StaticTip057" xml:space="preserve">
+        <source>Product Unit Price</source>
+        <target>商品単価</target>
+      </trans-unit>
+      <trans-unit id="StaticTip058" resname="StaticTip058" xml:space="preserve">
+        <source>Product Discount</source>
+        <target>商品の割引率</target>
+      </trans-unit>
+      <trans-unit id="StaticTip059" resname="StaticTip059" xml:space="preserve">
+        <source>Total</source>
+        <target>合計</target>
+      </trans-unit>
+      <trans-unit id="StaticTip060" resname="StaticTip060" xml:space="preserve">
+        <source>Taxe Rate</source>
+        <target>税率</target>
+      </trans-unit>
+      <trans-unit id="StaticTip061" resname="StaticTip061" xml:space="preserve">
+        <source>First Invoice</source>
+        <target>先頭の請求書</target>
+      </trans-unit>
+      <trans-unit id="StaticTip062" resname="StaticTip062" xml:space="preserve">
+        <source>Previous Invoice</source>
+        <target>前の請求書</target>
+      </trans-unit>
+      <trans-unit id="StaticTip063" resname="StaticTip063" xml:space="preserve">
+        <source>Next Invoice</source>
+        <target>次の請求書</target>
+      </trans-unit>
+      <trans-unit id="StaticTip064" resname="StaticTip064" xml:space="preserve">
+        <source>Last Invoice</source>
+        <target>末尾の請求書</target>
+      </trans-unit>
+      <trans-unit id="StaticTip065" resname="StaticTip065" xml:space="preserve">
+        <source>Add Invoice Line</source>
+        <target>請求明細を追加</target>
+      </trans-unit>
+      <trans-unit id="StaticTip066" resname="StaticTip066" xml:space="preserve">
+        <source>Delete Invoice Line(s)</source>
+        <target>選択した請求明細を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip067" resname="StaticTip067" xml:space="preserve">
+        <source>Print Invoice</source>
+        <target>請求書を印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip068" resname="StaticTip068" xml:space="preserve">
+        <source>Selected if the invoice is a pro forma</source>
+        <target>仮請求書の場合に選択します。</target>
+      </trans-unit>
+      <trans-unit id="StaticTip069" resname="StaticTip069" xml:space="preserve">
+        <source>Proforma Number</source>
+        <target>仮請求書番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip070" resname="StaticTip070" xml:space="preserve">
+        <source>Payement Delay</source>
+        <target>支払期限</target>
+      </trans-unit>
+      <trans-unit id="StaticTip071" resname="StaticTip071" xml:space="preserve">
+        <source>Selected if the invoice is payed</source>
+        <target>支払済みの場合に選択します。</target>
+      </trans-unit>
+      <trans-unit id="StaticTip072" resname="StaticTip072" xml:space="preserve">
+        <source>Payement Date</source>
+        <target>支払日</target>
+      </trans-unit>
+      <trans-unit id="StaticTip073" resname="StaticTip073" xml:space="preserve">
+        <source>Payement Method</source>
+        <target>支払方法</target>
+      </trans-unit>
+      <trans-unit id="StaticTip074" resname="StaticTip074" xml:space="preserve">
+        <source>Payement Reference</source>
+        <target>支払参照番号</target>
+      </trans-unit>
+      <trans-unit id="StaticTip075" resname="StaticTip075" xml:space="preserve">
+        <source>Delete Invoice(s)</source>
+        <target>選択した請求書を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip076" resname="StaticTip076" xml:space="preserve">
+        <source>Show All Invoices</source>
+        <target>すべての請求書を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip077" resname="StaticTip077" xml:space="preserve">
+        <source>Show Subset Invoices</source>
+        <target>選択した請求書を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip078" resname="StaticTip078" xml:space="preserve">
+        <source>Query Invoices</source>
+        <target>請求書を検索</target>
+      </trans-unit>
+      <trans-unit id="StaticTip079" resname="StaticTip079" xml:space="preserve">
+        <source>Print Labels Invoices</source>
+        <target>請求書ラベルを印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip080" resname="StaticTip080" xml:space="preserve">
+        <source>Print Invoices</source>
+        <target>請求書を印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip081" resname="StaticTip081" xml:space="preserve">
+        <source>Reports Invoices</source>
+        <target>請求書レポート</target>
+      </trans-unit>
+      <trans-unit id="StaticTip082" resname="StaticTip082" xml:space="preserve">
+        <source>Payement method</source>
+        <target>支払方法</target>
+      </trans-unit>
+      <trans-unit id="StaticTip083" resname="StaticTip083" xml:space="preserve">
+        <source>First Invoice Line</source>
+        <target>先頭の請求明細</target>
+      </trans-unit>
+      <trans-unit id="StaticTip084" resname="StaticTip084" xml:space="preserve">
+        <source>Previous Invoice Line</source>
+        <target>前の請求明細</target>
+      </trans-unit>
+      <trans-unit id="StaticTip085" resname="StaticTip085" xml:space="preserve">
+        <source>Next Invoice Line</source>
+        <target>次の請求明細</target>
+      </trans-unit>
+      <trans-unit id="StaticTip086" resname="StaticTip086" xml:space="preserve">
+        <source>Last Invoice Line</source>
+        <target>末尾の請求明細</target>
+      </trans-unit>
+      <trans-unit id="StaticTip087" resname="StaticTip087" xml:space="preserve">
+        <source>Delete Invoice Line</source>
+        <target>請求明細を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip088" resname="StaticTip088" xml:space="preserve">
+        <source>Quantity</source>
+        <target>数量</target>
+      </trans-unit>
+      <trans-unit id="StaticTip089" resname="StaticTip089" xml:space="preserve">
+        <source>Product Tax Rate</source>
+        <target>商品の税率</target>
+      </trans-unit>
+      <trans-unit id="StaticTip090" resname="StaticTip090" xml:space="preserve">
+        <source>Total Tax</source>
+        <target>税額合計</target>
+      </trans-unit>
+      <trans-unit id="StaticTip091" resname="StaticTip091" xml:space="preserve">
+        <source>First Product</source>
+        <target>先頭の商品</target>
+      </trans-unit>
+      <trans-unit id="StaticTip092" resname="StaticTip092" xml:space="preserve">
+        <source>Previous Product</source>
+        <target>前の商品</target>
+      </trans-unit>
+      <trans-unit id="StaticTip093" resname="StaticTip093" xml:space="preserve">
+        <source>Next Product</source>
+        <target>次の商品</target>
+      </trans-unit>
+      <trans-unit id="StaticTip094" resname="StaticTip094" xml:space="preserve">
+        <source>Last Product</source>
+        <target>末尾の商品</target>
+      </trans-unit>
+      <trans-unit id="StaticTip095" resname="StaticTip095" xml:space="preserve">
+        <source>Delete Product</source>
+        <target>商品を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip096" resname="StaticTip096" xml:space="preserve">
+        <source>Add Product</source>
+        <target>商品を追加</target>
+      </trans-unit>
+      <trans-unit id="StaticTip097" resname="StaticTip097" xml:space="preserve">
+        <source>Delete Product(s)</source>
+        <target>選択した商品を削除</target>
+      </trans-unit>
+      <trans-unit id="StaticTip098" resname="StaticTip098" xml:space="preserve">
+        <source>Show All Products</source>
+        <target>すべての商品を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip099" resname="StaticTip099" xml:space="preserve">
+        <source>Show Subset Products</source>
+        <target>選択した商品を表示</target>
+      </trans-unit>
+      <trans-unit id="StaticTip100" resname="StaticTip100" xml:space="preserve">
+        <source>Query Products</source>
+        <target>商品を検索</target>
+      </trans-unit>
+      <trans-unit id="StaticTip101" resname="StaticTip101" xml:space="preserve">
+        <source>Print Labels Products</source>
+        <target>商品ラベルを印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip102" resname="StaticTip102" xml:space="preserve">
+        <source>Print Products</source>
+        <target>商品を印刷</target>
+      </trans-unit>
+      <trans-unit id="StaticTip103" resname="StaticTip103" xml:space="preserve">
+        <source>Reports Products</source>
+        <target>商品レポート</target>
+      </trans-unit>
+      <trans-unit id="StaticTip104" resname="StaticTip104" xml:space="preserve">
+        <source>Export Products</source>
+        <target>商品を書き出し</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

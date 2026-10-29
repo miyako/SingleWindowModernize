@@ -1,4 +1,4 @@
-CONFIRM:C162(Get localized string:C991("Reset_Defaults"))
+CONFIRM:C162(Get localized string:C991("Runtime_Label_Reset_Defaults"))
 If (OK=1)
 	var $file : 4D:C1709.File:=Folder:C1567(fk resources folder:K87:11).folder("Settings").folder("Toolbar").file("Default.json")
 	If (Asserted:C1132($file.exists; "File /Settings/Toolbar/Buttons.json missing"))

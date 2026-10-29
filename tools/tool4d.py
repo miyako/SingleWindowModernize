@@ -3,7 +3,7 @@
 
 The repository copy is never modified. The test method must write its results
 to File("/PACKAGE/agent-test.txt") and end with QUIT 4D; this script prints
-that file.
+that file. A nonzero runtime exit or a missing output file is an error.
 
   python tools/tool4d.py demo/MyProject --compile          # whole-project compile (Compile project); for syntax checks use the 4dlsp skill
   python tools/tool4d.py demo/MyProject test.4dm           # run a test method
@@ -85,6 +85,9 @@ def main():
         cmd += [f"--data={tmp / 'Data' / 'data.4DD'}"] if args.data or args.new_data else ["--dataless"]
         cmd += ["--create-data"] if args.new_data else []
         run = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+        if run.returncode != 0:
+            print(run.stdout[-2000:], run.stderr[-2000:], sep="\n", file=sys.stderr)
+            sys.exit(f"tool4d exited with status {run.returncode}")
         out = tmp / "agent-test.txt"
         if not out.exists():
             print(run.stdout[-2000:], run.stderr[-2000:], sep="\n", file=sys.stderr)

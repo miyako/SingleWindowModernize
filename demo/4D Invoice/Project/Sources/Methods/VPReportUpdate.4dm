@@ -10,19 +10,19 @@ For ($i; 0; $sheetcount)
 	End if 
 End for 
 If ($datasheet<0)
-	ALERT:C41("Data Sheet missing, please Insert Data first")
+	ALERT:C41(Get localized string:C991("Runtime_DataSheetMissing"))
 	return 
 End if 
 
 var $tables : Collection:=VP Get tables("ViewProArea"; $datasheet)
 If ($tables.indexOf(Form:C1466.table)<0)
-	ALERT:C41("Data table missing, please Insert Data first")
+	ALERT:C41(Get localized string:C991("Runtime_DataTableMissing"))
 	return 
 End if 
 
 var $range : Object:=VP Get table range("ViewProArea"; Form:C1466.table; vk table data range:K89:157; $datasheet)
 If ($range=Null:C1517)
-	ALERT:C41("Data table missing, please Insert Data first")
+	ALERT:C41(Get localized string:C991("Runtime_DataTableMissing"))
 	return 
 End if 
 

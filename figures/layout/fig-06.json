@@ -1,0 +1,190 @@
+{
+ "source": "fig-06.png",
+ "page": 6,
+ "width_pt": 468.0,
+ "localize": false,
+ "replace": "fig-06-ja.png",
+ "items": [
+  {
+   "box": [
+    184,
+    33,
+    177,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    225,
+    156,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    51,
+    333,
+    123,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    133,
+    374,
+    53,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    138,
+    412,
+    136,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    136,
+    451,
+    251,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    133,
+    494,
+    174,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    133,
+    533,
+    110,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    56,
+    571,
+    125,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    993,
+    177,
+    138,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    569,
+    279,
+    130,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    764,
+    279,
+    105,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    895,
+    282,
+    110,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1070,
+    282,
+    107,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1193,
+    279,
+    110,
+    28
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1329,
+    279,
+    241,
+    28
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    942,
+    371,
+    92,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    942,
+    410,
+    159,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    941,
+    451,
+    138,
+    26
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    942,
+    492,
+    74,
+    25
+   ],
+   "align": "left"
+  }
+ ],
+ "$comment": "Application screenshot: use technote-localise-screenshots, not diagram overlays. English OCR lists legible UI labels only; sample values, code expressions, rulers, clipped text and icon noise are excluded. OCR boxes are reference regions, not approved replacement masks."
+}

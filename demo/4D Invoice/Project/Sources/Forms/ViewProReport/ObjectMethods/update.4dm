@@ -27,7 +27,7 @@ If ($currentsheet=$datasheet)
 		End if 
 		VP SET CURRENT SHEET("ViewProArea"; $newcurrentsheet)
 	Else 
-		ALERT:C41("data of the current sheet cannot be updated, as the table will be locked")
+		ALERT:C41(Get localized string:C991("Runtime_SheetLocked"))
 		return 
 	End if 
 End if 

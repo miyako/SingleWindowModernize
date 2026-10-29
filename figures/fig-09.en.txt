@@ -1,0 +1,43 @@
+Add
+Query
+All
+Print
+Module
+Settings
+Name
+Address1
+Email
+City
+State
+ZipCode
+Phone
+Delete Column
+Save
+Name
+Clear Saved
+Address 1
+Address2
+Address 2
+Mobile
+City
+Fax
+State
+WebSite
+Country
+Logo
+Contact
+Telephone
+Comments
+Email
+Country
+Web Site
+Contact
+Discount Rate
+fullAddress
+Comments
+TotalSales
+invoices_sort
+customFieldsLB
+Number
+Date
+Subtotal

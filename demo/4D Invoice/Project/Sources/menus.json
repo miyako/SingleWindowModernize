@@ -21,6 +21,9 @@
 			"items": [
 				{
 					"link": 32004
+				},
+				{
+					"link": 32002
 				}
 			]
 		}
@@ -56,7 +59,7 @@
 					"isSeparator": true
 				},
 				{
-					"title": "Custom Fields",
+					"title": ":xliff:MenuItemCustomFields",
 					"method": "Settings_CustomFields",
 					"action": "databaseSettings"
 				},
@@ -72,7 +75,7 @@
 					"isSeparator": true
 				},
 				{
-					"title": "Start New Window",
+					"title": ":xliff:MenuItemNewWindow",
 					"method": "Start_ORDAWindow",
 					"startNewProcess": true
 				},
@@ -154,7 +157,7 @@
 		},
 		{
 			"link": 32004,
-			"title": "Ablage",
+			"title": ":xliff:CommonMenuFile",
 			"items": []
 		}
 	]

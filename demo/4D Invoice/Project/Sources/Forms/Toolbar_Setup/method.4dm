@@ -34,7 +34,7 @@ Case of
 		
 	: ($event.code=On Close Box:K2:21)
 		If (Form:C1466.mainlist.isModified)
-			CONFIRM:C162(Get localized string:C991("SaveChanges"))
+			CONFIRM:C162(Get localized string:C991("Runtime_Label_SaveChanges"))
 			If (OK=1)
 				$file:=Folder:C1567(fk logs folder:K87:17).folder("Setup").folder("Toolbar").file("User.json")
 				$file.setText(JSON Stringify:C1217(New object:C1471("settings"; Form:C1466.mainlist.storeSettings())))

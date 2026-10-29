@@ -1,0 +1,28 @@
+Add
+Query
+All
+Print
+Module
+Settings
+Name
+Address1
+Email
+City
+State
+ZipCode
+Phone
+Name
+Address 1
+Address 2
+City
+State
+Country
+Telephone
+Email
+Web Site
+Contact
+Discount Rate
+Comments
+Number
+Date
+Subtotal

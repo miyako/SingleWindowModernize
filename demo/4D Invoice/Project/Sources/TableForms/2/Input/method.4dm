@@ -6,7 +6,7 @@ Case of
 		FormSetInterface
 		
 		C_LONGINT:C283($ProformaNumber)
-		invoicesSubtotalLabel:=Get localized string:C991("Subtotal")
+		invoicesSubtotalLabel:=Get localized string:C991("Runtime_Label_Subtotal")
 		
 		If (Is new record:C668([INVOICES:2]))
 			[INVOICES:2]Client_ID:3:=[CLIENTS:1]ID:1

@@ -114,7 +114,7 @@ Case of
 					var $message : Text
 					LOCKED BY:C353($tableptr->; $long; $user; $machineuser; $processname)
 					$user:=$user+"/"+$machineuser+" ("+$processname+")"
-					$message:=Replace string:C233(Get localized string:C991("LockedClassic"); "xxx"; $user)
+					$message:=Replace string(Get localized string:C991("Runtime_LockedClassic"); "{user}"; $user)
 					ALERT:C41($message)
 					DISPLAY SELECTION:C59($tableptr->)
 				Else 
@@ -149,10 +149,10 @@ Case of
 						$p:=New process:C317("ORDA_Listbox_Method"; 0; "ORDA_Listbox_Doubleclick"; "doubleclick_process"; Form:C1466.ORDA_listbox.tablename; "")
 						
 					: (Form:C1466.ORDA_listbox.tablename="INVOICES")
-						ALERT:C41(Get localized string:C991("NoNewButtonForInvoices"))
+						ALERT:C41(Get localized string:C991("Runtime_Label_NoNewButtonForInvoices"))
 						
 					Else 
-						ALERT:C41("Not supported")
+						ALERT:C41(Get localized string:C991("Runtime_Unsupported"))
 				End case   // button New
 				
 			: ($classname="Settings")
@@ -168,7 +168,7 @@ Case of
 				
 				// special behavior for invoices
 				If (Form:C1466.ORDA_listbox.tablename="Invoices")
-					var $pop : Text:=Get localized string:C991("Invoices")+";"+Get localized string:C991("Invoice_Lines")
+					var $pop : Text:=Get localized string:C991("Runtime_Label_INVOICES")+";"+Get localized string:C991("Runtime_Label_Invoice_Lines")
 					var $popup : Integer:=Pop up menu:C542($pop)
 					If ($popup=2)
 						$data.table:="INVOICE_LINES"
@@ -189,22 +189,22 @@ Case of
 				
 			: ($classname="New Invoice as PDF")
 				If (Form:C1466.SelectedElement=Null:C1517)
-					ALERT:C41("Please select an invoice")
+					ALERT:C41(Get localized string:C991("Runtime_SelectInvoice"))
 					return 
 				End if 
 				var $context:={invoice: Form:C1466.SelectedElement; seller: Storage:C1525.company}
 				var $helper:=cs:C1710.Helper_Invoices.new($context)
 				$helper.createPDF(System folder:C487(Desktop:K41:16)+"test.pdf")
-				ALERT:C41("Stored as test.pdf on your desktop")
+				ALERT:C41(Get localized string:C991("Runtime_PDFSaved"))
 				
 			: ($classname="New Invoice Color Paper")
 				If (Form:C1466.SelectedElement=Null:C1517)
-					ALERT:C41("Please select an invoice")
+					ALERT:C41(Get localized string:C991("Runtime_SelectInvoice"))
 					return 
 				End if 
 				$context:={invoice: Form:C1466.SelectedElement; seller: Storage:C1525.company}
 				$helper:=cs:C1710.Helper_Invoices.new($context)
-				ALERT:C41("Set the printer to duplex and color. For production, change the code to make this automatically")
+				ALERT:C41(Get localized string:C991("Runtime_PrinterColor"))
 				PRINT SETTINGS:C106  // better than to ask the user how to setup the printer would be to do that automatically
 				// in settings dialog, allow the end user to store the settings using Print settings to BLOB   
 				// this includes which printer to use, what paper tray, color/duplex/stapling, etc.
@@ -213,12 +213,12 @@ Case of
 				
 			: ($classname="New Invoice BW Paper")
 				If (Form:C1466.SelectedElement=Null:C1517)
-					ALERT:C41("Please select an invoice")
+					ALERT:C41(Get localized string:C991("Runtime_SelectInvoice"))
 					return 
 				End if 
 				$context:={invoice: Form:C1466.SelectedElement; seller: Storage:C1525.company}
 				$helper:=cs:C1710.Helper_Invoices.new($context)
-				ALERT:C41("Set the printer to single page and black&white. For production, change the code to make this automatically")
+				ALERT:C41(Get localized string:C991("Runtime_PrinterMonochrome"))
 				PRINT SETTINGS:C106  // better than to ask the user how to setup the printer would be to do that automatically
 				// in settings dialog, allow the end user to store the settings using Print settings to BLOB   
 				// this includes which printer to use, what paper tray, color/duplex/stapling, etc.
@@ -227,7 +227,7 @@ Case of
 				
 			Else 
 				If ($classname#"")
-					ALERT:C41("Not supported")
+					ALERT:C41(Get localized string:C991("Runtime_Unsupported"))
 				End if 
 		End case   // customButton
 End case   // job

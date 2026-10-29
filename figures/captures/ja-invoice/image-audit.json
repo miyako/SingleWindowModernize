@@ -1,0 +1,52 @@
+[
+  {
+    "figure": "04",
+    "original_sha256": "8ef517aea413ebe16124fb6572a75fc7ac5f0aae89dd5d18de6ef999f02e6437",
+    "replacement_sha256": "5a60d5546471186ff38a16f3584a28e39e0eafd1d084d83fcdf62bf5a6a4aebc",
+    "dimensions": [
+      3606,
+      1782
+    ],
+    "native_source": "invoice-wide-window.png"
+  },
+  {
+    "figure": "05",
+    "original_sha256": "a96e4bb7cff0a6f648d3afa7473c5435710c9ae04268c8582bd599e1cdb2f39d",
+    "replacement_sha256": "f881b03b669c8db9b63f7b5784d7abc7e366ff77fa7ea3991172c140b0c7fe35",
+    "dimensions": [
+      1984,
+      1502
+    ],
+    "native_source": "toolbar-setup-window.png"
+  },
+  {
+    "figure": "07",
+    "original_sha256": "8ef517aea413ebe16124fb6572a75fc7ac5f0aae89dd5d18de6ef999f02e6437",
+    "replacement_sha256": "5a60d5546471186ff38a16f3584a28e39e0eafd1d084d83fcdf62bf5a6a4aebc",
+    "dimensions": [
+      3606,
+      1782
+    ],
+    "native_source": "invoice-wide-window.png"
+  },
+  {
+    "figure": "08",
+    "original_sha256": "dc136e1a900a356a958b4eef3a49e00ea326b92f34f07d7ac376dc5032b37c98",
+    "replacement_sha256": "a900a76fb11096ac1f9a90d2571ab09601dbcd34d9c0c363290dfa5b8763c8e1",
+    "dimensions": [
+      3416,
+      1764
+    ],
+    "native_source": "invoice-narrow-window.png"
+  },
+  {
+    "figure": "11",
+    "original_sha256": "8ef517aea413ebe16124fb6572a75fc7ac5f0aae89dd5d18de6ef999f02e6437",
+    "replacement_sha256": "5a60d5546471186ff38a16f3584a28e39e0eafd1d084d83fcdf62bf5a6a4aebc",
+    "dimensions": [
+      3606,
+      1782
+    ],
+    "native_source": "invoice-wide-window.png"
+  }
+]

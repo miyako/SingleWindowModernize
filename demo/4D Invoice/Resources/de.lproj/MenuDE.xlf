@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Menu" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="MenuItemCustomFields" resname="MenuItemCustomFields" xml:space="preserve">
+        <source>Custom Fields</source>
+        <target>Custom Fields</target>
+      </trans-unit>
+      <trans-unit id="MenuItemNewWindow" resname="MenuItemNewWindow" xml:space="preserve">
+        <source>Start New Window</source>
+        <target>Start New Window</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

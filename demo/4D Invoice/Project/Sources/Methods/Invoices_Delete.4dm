@@ -5,12 +5,12 @@ C_LONGINT:C283($highlightedInvoices; $i)
 
 $highlightedInvoices:=Records in set:C195("$highlightedInvoices")
 If ($highlightedInvoices>0)
-	CONFIRM:C162("Do you really want to delete "+String:C10($highlightedInvoices)+" invoice(s)?"; "Yes"; "No")
+	CONFIRM:C162(Replace string(Get localized string:C991("Runtime_DeleteInvoices"); "{count}"; String:C10($highlightedInvoices)); Get localized string:C991("CommonYes"); Get localized string:C991("CommonNo"))
 	If (Ok=1)
 		USE SET:C118("$highlightedInvoices")
 		QUERY SELECTION:C341([INVOICES:2]; [INVOICES:2]ProForma:12=False:C215)
 		If (Records in selection:C76([INVOICES:2])>0)
-			CONFIRM:C162("Only the invoice(s) pro forma will be deleted. Continue?"; "Yes"; "No")
+			CONFIRM:C162(Get localized string:C991("Runtime_DeleteProformaOnly"); Get localized string:C991("CommonYes"); Get localized string:C991("CommonNo"))
 		Else 
 			Ok:=1
 		End if 
@@ -30,5 +30,5 @@ If ($highlightedInvoices>0)
 		End if 
 	End if 
 Else 
-	ALERT:C41("No invoice(s) selected")
+	ALERT:C41(Get localized string:C991("Runtime_NoInvoicesSelected"))
 End if 

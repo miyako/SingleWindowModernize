@@ -49,7 +49,7 @@
 					"height": 16,
 					"sizingX": "grow",
 					"stroke": "#000000",
-					"text": "CLIENTS"
+					"text": ":xliff:CLIENTS"
 				},
 				"dateTime": {
 					"type": "input",
@@ -159,7 +159,7 @@
 					"width": 108,
 					"height": 16,
 					"sizingX": "grow",
-					"text": "Name"
+					"text": ":xliff:Name"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -168,7 +168,7 @@
 					"width": 107,
 					"height": 16,
 					"sizingX": "grow",
-					"text": "City"
+					"text": ":xliff:City"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -177,7 +177,7 @@
 					"width": 118,
 					"height": 16,
 					"sizingX": "grow",
-					"text": "Contact"
+					"text": ":xliff:Contact"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -186,7 +186,7 @@
 					"width": 112,
 					"height": 16,
 					"sizingX": "grow",
-					"text": "Email"
+					"text": ":xliff:Email"
 				},
 				"S5_Text": {
 					"type": "text",
@@ -195,7 +195,7 @@
 					"width": 80,
 					"height": 16,
 					"sizingX": "grow",
-					"text": "Telephone"
+					"text": ":xliff:Telephone"
 				},
 				"S1_Field": {
 					"type": "input",

@@ -226,7 +226,10 @@ Function _getDSClassDetails($class : 4D:C1709.DataClass; $relatedTableName : Tex
 				$fields.push($data)
 			End if 
 		Else 
-			$data.displayName:=$data.name
+			$data.displayName:=Get localized string:C991("Runtime_Field_"+$class.getInfo().name+"_"+$field)
+			If ($data.displayName="")
+				$data.displayName:=$data.name
+			End if
 			$fields.push($data)
 		End if 
 	End for each 

@@ -1,5 +1,55 @@
 {
-  "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults.",
+  "source_pdf": "document/24-14_SingleWindowModernize.pdf",
   "source_lang": "en",
-  "target_lang": "ja"
+  "target_lang": "ja",
+  "page_size": "letter",
+  "accent_color": "#2f5496",
+  "cover": {
+    "page": 1,
+    "lines": 3,
+    "metadata_paragraphs": {
+      "ja": 1
+    }
+  },
+  "skip_pages": [
+    1,
+    2
+  ],
+  "footer_y": 714,
+  "heading": {
+    "fonts": [
+      "HelveticaNeue-Medium"
+    ],
+    "min_size": 12.0,
+    "levels_by_x": {
+      "73": 2,
+      "109": 3
+    }
+  },
+  "code": {
+    "colors": [],
+    "fonts": [
+      "SegoeUIHistoric",
+      "Mono",
+      "Courier",
+      "Menlo",
+      "Consolas",
+      "Monaco"
+    ],
+    "indent": null
+  },
+  "bullets": {
+    "fonts": [
+      "SymbolMT",
+      "Wingdings-Regular"
+    ]
+  },
+  "caption": {
+    "italic": true,
+    "min_x": 0
+  },
+  "table": {
+    "size": null
+  },
+  "$comment": "Reviewed for Technical Note 24-14. Code is identified by font, not blue hyperlink text; no font-size-based tables. Pages 1-2 are the cover and contents; footer_y preserves body text through y=704 and removes page numbers at y=716."
 }

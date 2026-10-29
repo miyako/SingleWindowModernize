@@ -81,7 +81,7 @@
 							"header": {
 								"name": "clientsNameHD",
 								"text": ":xliff:Client",
-								"tooltip": "Company Name",
+								"tooltip": ":xliff:StaticTip050",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -109,7 +109,7 @@
 							"header": {
 								"name": "invoicesNumberHD",
 								"text": ":xliff:Number",
-								"tooltip": "Company City",
+								"tooltip": ":xliff:StaticTip051",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -139,7 +139,7 @@
 							"header": {
 								"name": "invoicesDateHD",
 								"text": ":xliff:Date",
-								"tooltip": "Company contact",
+								"tooltip": ":xliff:StaticTip052",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -172,7 +172,7 @@
 							"header": {
 								"name": "invoicesSubtotalHD",
 								"text": ":xliff:Subtotal",
-								"tooltip": "Contact email",
+								"tooltip": ":xliff:StaticTip053",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -233,7 +233,7 @@
 							"verticalAlign": "middle",
 							"header": {
 								"name": "invoicesPayementDateHD",
-								"text": "Payment Date",
+								"text": ":xliff:Payment Date",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -290,7 +290,7 @@
 							"verticalAlign": "middle",
 							"header": {
 								"name": "invoicesProFormaHD",
-								"text": "Pro Forma",
+								"text": ":xliff:Pro Forma",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "middle"
@@ -311,7 +311,7 @@
 					"left": 140,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Delete Invoice(s)",
+					"tooltip": ":xliff:StaticTip075",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -330,7 +330,7 @@
 					"left": 220,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Show All Invoices",
+					"tooltip": ":xliff:StaticTip076",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -349,7 +349,7 @@
 					"left": 300,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Show Subset Invoices",
+					"tooltip": ":xliff:StaticTip077",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -368,7 +368,7 @@
 					"left": 380,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Query Invoices",
+					"tooltip": ":xliff:StaticTip078",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -388,7 +388,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Print Labels Invoices",
+					"tooltip": ":xliff:StaticTip079",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -408,7 +408,7 @@
 					"width": 80,
 					"height": 60,
 					"sizingX": "move",
-					"tooltip": "Print Invoices",
+					"tooltip": ":xliff:StaticTip080",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,
@@ -427,7 +427,7 @@
 					"left": 460,
 					"width": 80,
 					"height": 60,
-					"tooltip": "Reports Invoices",
+					"tooltip": ":xliff:StaticTip081",
 					"textAlign": "center",
 					"stroke": "#000000",
 					"focusable": false,

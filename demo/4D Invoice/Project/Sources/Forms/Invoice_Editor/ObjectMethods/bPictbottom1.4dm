@@ -1,5 +1,5 @@
 ARRAY TEXT:C222($arr; 0)
-var $path : Text:=Select document:C905(1; ".png;.jpg"; "Select Picture"; Use sheet window:K24:11; $arr)
+var $path : Text:=Select document:C905(1; ".png;.jpg"; Get localized string:C991("Runtime_SelectPicture"); Use sheet window:K24:11; $arr)
 If (OK=1)
 	$path:=$arr{1}
 	var $image : Picture

@@ -109,7 +109,7 @@ Case of
 			ARRAY TEXT:C222($ColPtr->; 0)
 			COPY ARRAY:C226($LB_tableNames; $ColPtr->)
 			$headprt:=OBJECT Get pointer:C1124(Object named:K67:5; "TableHeader")
-			OBJECT SET TITLE:C194($headprt->; "Table name")
+			OBJECT SET TITLE:C194($headprt->; Get localized string:C991("Runtime_TableName"))
 			
 			LISTBOX INSERT COLUMN:C829(*; "LBcustomFields"; 2; "Fieldname"; $NilPtr; "FieldnameHeader"; $NilPtr)
 			$ColPtr:=OBJECT Get pointer:C1124(Object named:K67:5; "Fieldname")
@@ -118,7 +118,7 @@ Case of
 			//%W+518.1
 			//%W+518.5
 			$headprt:=OBJECT Get pointer:C1124(Object named:K67:5; "FieldnameHeader")
-			OBJECT SET TITLE:C194($headprt->; "Field name")
+			OBJECT SET TITLE:C194($headprt->; Get localized string:C991("Runtime_FieldName"))
 			
 			ARRAY POINTER:C280($ArrHierarch; 1)
 			$ArrHierarch{1}:=OBJECT Get pointer:C1124(Object named:K67:5; "Tablename")

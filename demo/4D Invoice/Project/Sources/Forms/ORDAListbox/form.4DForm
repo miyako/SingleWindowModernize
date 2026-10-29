@@ -203,7 +203,7 @@
 				},
 				"Schaltflaeche": {
 					"type": "button",
-					"text": "cut",
+					"text": ":xliff:CommonMenuItemCut",
 					"top": 792,
 					"left": 4,
 					"width": 82,
@@ -222,7 +222,7 @@
 				},
 				"Schaltflaeche1": {
 					"type": "button",
-					"text": "copy",
+					"text": ":xliff:CommonMenuItemCopy",
 					"top": 792,
 					"left": 106,
 					"width": 82,
@@ -241,7 +241,7 @@
 				},
 				"Schaltflaeche2": {
 					"type": "button",
-					"text": "paste",
+					"text": ":xliff:CommonMenuItemPaste",
 					"top": 792,
 					"left": 208,
 					"width": 82,
@@ -260,7 +260,7 @@
 				},
 				"Schaltflaeche3": {
 					"type": "button",
-					"text": "undo",
+					"text": ":xliff:CommonMenuItemUndo",
 					"top": 792,
 					"left": 310,
 					"width": 82,

@@ -1,0 +1,487 @@
+{
+ "source": "fig-10.png",
+ "page": 14,
+ "width_pt": 331.6,
+ "localize": false,
+ "replace": "fig-10-ja.png",
+ "items": [
+  {
+   "box": [
+    777,
+    47,
+    140,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    55,
+    97,
+    125,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    366,
+    149,
+    118,
+    24
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    549,
+    150,
+    107,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    682,
+    150,
+    672,
+    30
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    203,
+    117,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    132,
+    245,
+    52,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    285,
+    135,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    323,
+    321,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    366,
+    135,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    406,
+    107,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    443,
+    120,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    483,
+    208,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    523,
+    290,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    563,
+    275,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    132,
+    604,
+    165,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    644,
+    125,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    684,
+    170,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    132,
+    724,
+    72,
+    25
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    765,
+    117,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    805,
+    173,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    845,
+    132,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    885,
+    220,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    923,
+    193,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    965,
+    142,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1005,
+    100,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1043,
+    103,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1083,
+    102,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    130,
+    1123,
+    108,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1163,
+    102,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1203,
+    103,
+    21
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    132,
+    1243,
+    105,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1284,
+    102,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1324,
+    102,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1364,
+    112,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    1404,
+    168,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1442,
+    140,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1482,
+    235,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    135,
+    1522,
+    165,
+    20
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    52,
+    1562,
+    263,
+    23
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    132,
+    1603,
+    47,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    60,
+    1644,
+    118,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    774,
+    245,
+    82,
+    18
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    774,
+    285,
+    75,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    326,
+    130,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    363,
+    300,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    769,
+    604,
+    87,
+    22
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    1539,
+    727,
+    52,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    885,
+    105,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    925,
+    105,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    1445,
+    238,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    1485,
+    235,
+    17
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    775,
+    1525,
+    158,
+    17
+   ],
+   "align": "left"
+  }
+ ],
+ "$comment": "Application screenshot: use technote-localise-screenshots, not diagram overlays. English OCR lists legible UI labels only; sample values, code expressions, rulers, clipped text and icon noise are excluded. OCR boxes are reference regions, not approved replacement masks."
+}

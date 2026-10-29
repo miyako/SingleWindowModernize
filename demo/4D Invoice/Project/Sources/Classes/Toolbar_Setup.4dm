@@ -25,6 +25,7 @@ Function add($name : Text; $id : Integer; $pictname : Text; $title : Text)
 			$newbutton.title:=$name
 		End if 
 	End if 
+	$newbutton.title:=DemoCaption($newbutton.title)
 	var $pict : Picture
 	If (Test path name:C476(This:C1470.pictpath+$pictname)=Is a document:K24:1)
 		READ PICTURE FILE:C678(This:C1470.pictpath+$pictname; $pict)
@@ -47,11 +48,11 @@ Function add($name : Text; $id : Integer; $pictname : Text; $title : Text)
 			$sublist:=New list:C375
 			SET LIST ITEM:C385(This:C1470.list; $masterid; $text; $masterid; $sublist; True:C214)
 		End if 
-		APPEND TO LIST:C376($sublist; $name; $id)
+		APPEND TO LIST:C376($sublist; $newbutton.title; $id)
 		SET LIST ITEM ICON:C950($sublist; $id; $pict)
 		SET LIST ITEM PARAMETER:C986($sublist; $id; "name"; $name)
 	Else 
-		APPEND TO LIST:C376(This:C1470.list; $name; $id)
+		APPEND TO LIST:C376(This:C1470.list; $newbutton.title; $id)
 		SET LIST ITEM ICON:C950(This:C1470.list; $id; $pict)
 		SET LIST ITEM PARAMETER:C986(This:C1470.list; $id; "name"; $name)
 	End if 
@@ -143,7 +144,7 @@ Function _acceptDropSingleButton($id : Integer; $parabeforeref : Integer)
 					$ref:=-(Count list items:C380(Form:C1466.userlist; *))
 				End if 
 				var $name : Text:=$subbutton.name
-				APPEND TO LIST:C376($sublist; $name; $ref)
+				APPEND TO LIST:C376($sublist; DemoCaption($name); $ref)
 				If ($subbutton.icon#Null:C1517)
 					$pict:=$subbutton.icon
 					SET LIST ITEM ICON:C950($sublist; $ref; $pict)
@@ -172,23 +173,23 @@ Function _acceptDropSingleButton($id : Integer; $parabeforeref : Integer)
 			// insert
 			If ($sublist=0)
 				$sublist:=New list:C375
-				APPEND TO LIST:C376($sublist; $name; $ref)
+				APPEND TO LIST:C376($sublist; DemoCaption($name); $ref)
 				SET LIST ITEM:C385(Form:C1466.userlist; $beforeref; $beforetext; $beforeref; $sublist; True:C214)
 			Else 
-				APPEND TO LIST:C376($sublist; $name; $ref)
+				APPEND TO LIST:C376($sublist; DemoCaption($name); $ref)
 			End if 
 		Else 
 			If ($beforeref=0)
 				If ($sublist=0)
-					APPEND TO LIST:C376(Form:C1466.userlist; $name; $ref)
+					APPEND TO LIST:C376(Form:C1466.userlist; DemoCaption($name); $ref)
 				Else 
-					APPEND TO LIST:C376(Form:C1466.userlist; $name; $ref; $sublist; True:C214)
+					APPEND TO LIST:C376(Form:C1466.userlist; DemoCaption($name); $ref; $sublist; True:C214)
 				End if 
 			Else 
 				If ($sublist=0)
-					INSERT IN LIST:C625(Form:C1466.userlist; $beforeref; $name; $ref)
+					INSERT IN LIST:C625(Form:C1466.userlist; $beforeref; DemoCaption($name); $ref)
 				Else 
-					INSERT IN LIST:C625(Form:C1466.userlist; $beforeref; $name; $ref; $sublist; True:C214)
+					INSERT IN LIST:C625(Form:C1466.userlist; $beforeref; DemoCaption($name); $ref; $sublist; True:C214)
 				End if 
 			End if 
 		End if 
@@ -235,6 +236,7 @@ Function getSubButtonInfos($id : Integer)->$buttons : Collection
 	
 Function storeSettings()->$userdata : Collection
 	var $buttons : Collection:=New collection:C1472
+	var $canonicalName : Text
 	var $count : Integer:=Count list items:C380(Form:C1466.userlist; *)
 	var $i : Integer
 	For ($i; $count; 1; -1)
@@ -247,12 +249,13 @@ Function storeSettings()->$userdata : Collection
 	$count:=Count list items:C380(Form:C1466.userlist)
 	For ($i; 1; $count; 1)
 		GET LIST ITEM:C378(Form:C1466.userlist; $i; $beforeref; $beforetext; $sublist; $extended)
+		GET LIST ITEM PARAMETER(Form:C1466.userlist; $beforeref; "name"; $canonicalName)
 		var $parent : Integer:=List item parent:C633(Form:C1466.userlist; $beforeref)
 		If ($parent#0)
 			var $parentbutton : Collection:=$buttons.query("id=:1"; $parent)
-			$parentbutton[0].sub.push(New object:C1471("order"; $i; "id"; $beforeref; "name"; $beforetext))
+			$parentbutton[0].sub.push(New object:C1471("order"; $i; "id"; $beforeref; "name"; $canonicalName))
 		Else 
-			$buttons.push(New object:C1471("order"; $i; "id"; $beforeref; "name"; $beforetext; "sub"; New collection:C1472))
+			$buttons.push(New object:C1471("order"; $i; "id"; $beforeref; "name"; $canonicalName; "sub"; New collection:C1472))
 		End if 
 	End for 
 	This:C1470.buttons:=$buttons
@@ -282,18 +285,18 @@ Function setUserSettings($bisher : Collection)
 				For each ($subbutton; $button.sub)
 					var $name : Text:=$subbutton.name
 					var $id : Integer:=$subbutton.id
-					APPEND TO LIST:C376($sub; $name; $id)
+					APPEND TO LIST:C376($sub; DemoCaption($name); $id)
 					var $pict : Picture:=This:C1470.buttons.query("id=:1"; $id)[0].icon
 					SET LIST ITEM ICON:C950($sub; $id; $pict)
 					SET LIST ITEM PARAMETER:C986($sub; $id; "name"; $name)
 				End for each 
 				$name:=$button.name
 				$id:=$button.id
-				APPEND TO LIST:C376(Form:C1466.userlist; $name; $id; $sub; True:C214)
+				APPEND TO LIST:C376(Form:C1466.userlist; DemoCaption($name); $id; $sub; True:C214)
 			Else   // no sublist
 				$name:=$button.name
 				$id:=$button.id
-				APPEND TO LIST:C376(Form:C1466.userlist; $name; $id)
+				APPEND TO LIST:C376(Form:C1466.userlist; DemoCaption($name); $id)
 			End if 
 			$pict:=$masterbuttons[0].icon
 			SET LIST ITEM ICON:C950(Form:C1466.userlist; $id; $pict)

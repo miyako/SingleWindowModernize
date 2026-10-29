@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Core" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Core_DemoMarker" resname="Core_DemoMarker">
+        <source xml:space="preserve">Invoice demo (fictional data)</source>
+        <target xml:space="preserve">Invoice demo (fictional data)</target>
+      </trans-unit>
+      <trans-unit id="Core_ImportPrompt" resname="Core_ImportPrompt">
+        <source xml:space="preserve">The database is empty. Import the fictional demo customers and generate sample invoices? No real transactions are included.</source>
+        <target xml:space="preserve">The database is empty. Import the fictional demo customers and generate sample invoices? No real transactions are included.</target>
+      </trans-unit>
+      <trans-unit id="Core_ImportYes" resname="Core_ImportYes">
+        <source xml:space="preserve">Import demo data</source>
+        <target xml:space="preserve">Import demo data</target>
+      </trans-unit>
+      <trans-unit id="Core_ImportNo" resname="Core_ImportNo">
+        <source xml:space="preserve">Not now</source>
+        <target xml:space="preserve">Not now</target>
+      </trans-unit>
+      <trans-unit id="Core_ImportOpenError" resname="Core_ImportOpenError">
+        <source xml:space="preserve">Unable to open the customer import file.</source>
+        <target xml:space="preserve">Unable to open the customer import file.</target>
+      </trans-unit>
+      <trans-unit id="Core_ImportMissingError" resname="Core_ImportMissingError">
+        <source xml:space="preserve">The customer import file was not found. The database remains empty.</source>
+        <target xml:space="preserve">The customer import file was not found. The database remains empty.</target>
+      </trans-unit>
+      <trans-unit id="Core_FictionalCustomer" resname="Core_FictionalCustomer">
+        <source xml:space="preserve">Fictional customer for the demo.</source>
+        <target xml:space="preserve">Fictional customer for the demo.</target>
+      </trans-unit>
+      <trans-unit id="Core_SelectionTitle" resname="Core_SelectionTitle">
+        <source xml:space="preserve">{table} - {selected} of {total}</source>
+        <target xml:space="preserve">{table} - {selected} of {total}</target>
+      </trans-unit>
+      <trans-unit id="Core_ProductLabelTemplate" resname="Core_ProductLabelTemplate">
+        <source xml:space="preserve">{brand} {colour} {type}</source>
+        <target xml:space="preserve">{brand} {colour} {type}</target>
+      </trans-unit>
+      <trans-unit id="Core_DemoReference" resname="Core_DemoReference">
+        <source xml:space="preserve">Demo reference: </source>
+        <target xml:space="preserve">Demo reference: </target>
+      </trans-unit>
+      <trans-unit id="Core_Payment_1" resname="Core_Payment_1">
+        <source xml:space="preserve">By check</source>
+        <target xml:space="preserve">By check</target>
+      </trans-unit>
+      <trans-unit id="Core_Payment_2" resname="Core_Payment_2">
+        <source xml:space="preserve">By credit card</source>
+        <target xml:space="preserve">By credit card</target>
+      </trans-unit>
+      <trans-unit id="Core_Payment_3" resname="Core_Payment_3">
+        <source xml:space="preserve">By bank transfer</source>
+        <target xml:space="preserve">By bank transfer</target>
+      </trans-unit>
+      <trans-unit id="Core_PenType_1" resname="Core_PenType_1">
+        <source xml:space="preserve">Multifunction pen</source>
+        <target xml:space="preserve">Multifunction pen</target>
+      </trans-unit>
+      <trans-unit id="Core_PenType_2" resname="Core_PenType_2">
+        <source xml:space="preserve">Fountain pen</source>
+        <target xml:space="preserve">Fountain pen</target>
+      </trans-unit>
+      <trans-unit id="Core_PenType_3" resname="Core_PenType_3">
+        <source xml:space="preserve">Ballpoint pen</source>
+        <target xml:space="preserve">Ballpoint pen</target>
+      </trans-unit>
+      <trans-unit id="Core_PenType_4" resname="Core_PenType_4">
+        <source xml:space="preserve">Rollerball pen</source>
+        <target xml:space="preserve">Rollerball pen</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_1" resname="Core_Colour_1">
+        <source xml:space="preserve">Black</source>
+        <target xml:space="preserve">Black</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_2" resname="Core_Colour_2">
+        <source xml:space="preserve">Red</source>
+        <target xml:space="preserve">Red</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_3" resname="Core_Colour_3">
+        <source xml:space="preserve">Bright red</source>
+        <target xml:space="preserve">Bright red</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_4" resname="Core_Colour_4">
+        <source xml:space="preserve">Blue</source>
+        <target xml:space="preserve">Blue</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_5" resname="Core_Colour_5">
+        <source xml:space="preserve">Bright blue</source>
+        <target xml:space="preserve">Bright blue</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_6" resname="Core_Colour_6">
+        <source xml:space="preserve">Yellow</source>
+        <target xml:space="preserve">Yellow</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_7" resname="Core_Colour_7">
+        <source xml:space="preserve">Bright yellow</source>
+        <target xml:space="preserve">Bright yellow</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_8" resname="Core_Colour_8">
+        <source xml:space="preserve">Green</source>
+        <target xml:space="preserve">Green</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_9" resname="Core_Colour_9">
+        <source xml:space="preserve">Bright green</source>
+        <target xml:space="preserve">Bright green</target>
+      </trans-unit>
+      <trans-unit id="Core_Colour_10" resname="Core_Colour_10">
+        <source xml:space="preserve">White</source>
+        <target xml:space="preserve">White</target>
+      </trans-unit>
+      <trans-unit id="Core_CLIENTS" resname="Core_CLIENTS">
+        <source xml:space="preserve">Customers</source>
+        <target xml:space="preserve">Customers</target>
+      </trans-unit>
+      <trans-unit id="Core_INVOICES" resname="Core_INVOICES">
+        <source xml:space="preserve">Invoices</source>
+        <target xml:space="preserve">Invoices</target>
+      </trans-unit>
+      <trans-unit id="Core_INVOICE_LINES" resname="Core_INVOICE_LINES">
+        <source xml:space="preserve">Invoice lines</source>
+        <target xml:space="preserve">Invoice lines</target>
+      </trans-unit>
+      <trans-unit id="Core_PRODUCTS" resname="Core_PRODUCTS">
+        <source xml:space="preserve">Products</source>
+        <target xml:space="preserve">Products</target>
+      </trans-unit>
+      <trans-unit id="Core_SETTINGS" resname="Core_SETTINGS">
+        <source xml:space="preserve">Settings</source>
+        <target xml:space="preserve">Settings</target>
+      </trans-unit>
+      <trans-unit id="Core_Document_Templates" resname="Core_Document_Templates">
+        <source xml:space="preserve">Document templates</source>
+        <target xml:space="preserve">Document templates</target>
+      </trans-unit>
+      <trans-unit id="Core_ID" resname="Core_ID">
+        <source xml:space="preserve">ID</source>
+        <target xml:space="preserve">ID</target>
+      </trans-unit>
+      <trans-unit id="Core_Name" resname="Core_Name">
+        <source xml:space="preserve">Name</source>
+        <target xml:space="preserve">Name</target>
+      </trans-unit>
+      <trans-unit id="Core_Address1" resname="Core_Address1">
+        <source xml:space="preserve">Address</source>
+        <target xml:space="preserve">Address</target>
+      </trans-unit>
+      <trans-unit id="Core_Address2" resname="Core_Address2">
+        <source xml:space="preserve">Address (continued)</source>
+        <target xml:space="preserve">Address (continued)</target>
+      </trans-unit>
+      <trans-unit id="Core_City" resname="Core_City">
+        <source xml:space="preserve">City</source>
+        <target xml:space="preserve">City</target>
+      </trans-unit>
+      <trans-unit id="Core_State" resname="Core_State">
+        <source xml:space="preserve">State / prefecture</source>
+        <target xml:space="preserve">State / prefecture</target>
+      </trans-unit>
+      <trans-unit id="Core_ZipCode" resname="Core_ZipCode">
+        <source xml:space="preserve">Postcode</source>
+        <target xml:space="preserve">Postcode</target>
+      </trans-unit>
+      <trans-unit id="Core_Country" resname="Core_Country">
+        <source xml:space="preserve">Country</source>
+        <target xml:space="preserve">Country</target>
+      </trans-unit>
+      <trans-unit id="Core_Phone" resname="Core_Phone">
+        <source xml:space="preserve">Phone</source>
+        <target xml:space="preserve">Phone</target>
+      </trans-unit>
+      <trans-unit id="Core_Mobile" resname="Core_Mobile">
+        <source xml:space="preserve">Mobile</source>
+        <target xml:space="preserve">Mobile</target>
+      </trans-unit>
+      <trans-unit id="Core_Fax" resname="Core_Fax">
+        <source xml:space="preserve">Fax</source>
+        <target xml:space="preserve">Fax</target>
+      </trans-unit>
+      <trans-unit id="Core_Email" resname="Core_Email">
+        <source xml:space="preserve">Email</source>
+        <target xml:space="preserve">Email</target>
+      </trans-unit>
+      <trans-unit id="Core_WebSite" resname="Core_WebSite">
+        <source xml:space="preserve">Website</source>
+        <target xml:space="preserve">Website</target>
+      </trans-unit>
+      <trans-unit id="Core_Logo" resname="Core_Logo">
+        <source xml:space="preserve">Logo</source>
+        <target xml:space="preserve">Logo</target>
+      </trans-unit>
+      <trans-unit id="Core_Contact" resname="Core_Contact">
+        <source xml:space="preserve">Contact</source>
+        <target xml:space="preserve">Contact</target>
+      </trans-unit>
+      <trans-unit id="Core_Comments" resname="Core_Comments">
+        <source xml:space="preserve">Comments</source>
+        <target xml:space="preserve">Comments</target>
+      </trans-unit>
+      <trans-unit id="Core_DiscountRate" resname="Core_DiscountRate">
+        <source xml:space="preserve">Discount rate</source>
+        <target xml:space="preserve">Discount rate</target>
+      </trans-unit>
+      <trans-unit id="Core_CustomFields" resname="Core_CustomFields">
+        <source xml:space="preserve">Custom fields</source>
+        <target xml:space="preserve">Custom fields</target>
+      </trans-unit>
+      <trans-unit id="Core_CustomFields_" resname="Core_CustomFields_">
+        <source xml:space="preserve">Custom fields</source>
+        <target xml:space="preserve">Custom fields</target>
+      </trans-unit>
+      <trans-unit id="Core_InvoiceNumber" resname="Core_InvoiceNumber">
+        <source xml:space="preserve">Invoice number</source>
+        <target xml:space="preserve">Invoice number</target>
+      </trans-unit>
+      <trans-unit id="Core_Client_ID" resname="Core_Client_ID">
+        <source xml:space="preserve">Customer ID</source>
+        <target xml:space="preserve">Customer ID</target>
+      </trans-unit>
+      <trans-unit id="Core_Date" resname="Core_Date">
+        <source xml:space="preserve">Date</source>
+        <target xml:space="preserve">Date</target>
+      </trans-unit>
+      <trans-unit id="Core_Subtotal" resname="Core_Subtotal">
+        <source xml:space="preserve">Subtotal</source>
+        <target xml:space="preserve">Subtotal</target>
+      </trans-unit>
+      <trans-unit id="Core_Tax" resname="Core_Tax">
+        <source xml:space="preserve">Tax</source>
+        <target xml:space="preserve">Tax</target>
+      </trans-unit>
+      <trans-unit id="Core_Total" resname="Core_Total">
+        <source xml:space="preserve">Total</source>
+        <target xml:space="preserve">Total</target>
+      </trans-unit>
+      <trans-unit id="Core_Paid" resname="Core_Paid">
+        <source xml:space="preserve">Paid</source>
+        <target xml:space="preserve">Paid</target>
+      </trans-unit>
+      <trans-unit id="Core_PaymentDate" resname="Core_PaymentDate">
+        <source xml:space="preserve">Payment date</source>
+        <target xml:space="preserve">Payment date</target>
+      </trans-unit>
+      <trans-unit id="Core_PaymentMethod" resname="Core_PaymentMethod">
+        <source xml:space="preserve">Payment method</source>
+        <target xml:space="preserve">Payment method</target>
+      </trans-unit>
+      <trans-unit id="Core_PaymentReference" resname="Core_PaymentReference">
+        <source xml:space="preserve">Payment reference</source>
+        <target xml:space="preserve">Payment reference</target>
+      </trans-unit>
+      <trans-unit id="Core_ProForma" resname="Core_ProForma">
+        <source xml:space="preserve">Pro forma</source>
+        <target xml:space="preserve">Pro forma</target>
+      </trans-unit>
+      <trans-unit id="Core_PaymentDelay" resname="Core_PaymentDelay">
+        <source xml:space="preserve">Payment term (days)</source>
+        <target xml:space="preserve">Payment term (days)</target>
+      </trans-unit>
+      <trans-unit id="Core_ProformaNumber" resname="Core_ProformaNumber">
+        <source xml:space="preserve">Pro forma number</source>
+        <target xml:space="preserve">Pro forma number</target>
+      </trans-unit>
+      <trans-unit id="Core_Invoice_ID" resname="Core_Invoice_ID">
+        <source xml:space="preserve">Invoice ID</source>
+        <target xml:space="preserve">Invoice ID</target>
+      </trans-unit>
+      <trans-unit id="Core_Product_ID" resname="Core_Product_ID">
+        <source xml:space="preserve">Product ID</source>
+        <target xml:space="preserve">Product ID</target>
+      </trans-unit>
+      <trans-unit id="Core_ProductReference" resname="Core_ProductReference">
+        <source xml:space="preserve">Product reference</source>
+        <target xml:space="preserve">Product reference</target>
+      </trans-unit>
+      <trans-unit id="Core_ProductName" resname="Core_ProductName">
+        <source xml:space="preserve">Product name</source>
+        <target xml:space="preserve">Product name</target>
+      </trans-unit>
+      <trans-unit id="Core_Quantity" resname="Core_Quantity">
+        <source xml:space="preserve">Quantity</source>
+        <target xml:space="preserve">Quantity</target>
+      </trans-unit>
+      <trans-unit id="Core_ProductUnitPrice" resname="Core_ProductUnitPrice">
+        <source xml:space="preserve">Unit price</source>
+        <target xml:space="preserve">Unit price</target>
+      </trans-unit>
+      <trans-unit id="Core_ProductTaxRate" resname="Core_ProductTaxRate">
+        <source xml:space="preserve">Tax rate</source>
+        <target xml:space="preserve">Tax rate</target>
+      </trans-unit>
+      <trans-unit id="Core_TotalTax" resname="Core_TotalTax">
+        <source xml:space="preserve">Tax total</source>
+        <target xml:space="preserve">Tax total</target>
+      </trans-unit>
+      <trans-unit id="Core_Reference" resname="Core_Reference">
+        <source xml:space="preserve">Reference</source>
+        <target xml:space="preserve">Reference</target>
+      </trans-unit>
+      <trans-unit id="Core_Picture" resname="Core_Picture">
+        <source xml:space="preserve">Picture</source>
+        <target xml:space="preserve">Picture</target>
+      </trans-unit>
+      <trans-unit id="Core_UnitPrice" resname="Core_UnitPrice">
+        <source xml:space="preserve">Unit price</source>
+        <target xml:space="preserve">Unit price</target>
+      </trans-unit>
+      <trans-unit id="Core_TaxRate" resname="Core_TaxRate">
+        <source xml:space="preserve">Tax rate</source>
+        <target xml:space="preserve">Tax rate</target>
+      </trans-unit>
+      <trans-unit id="Core_CrtInvoiceNumber" resname="Core_CrtInvoiceNumber">
+        <source xml:space="preserve">Current invoice number</source>
+        <target xml:space="preserve">Current invoice number</target>
+      </trans-unit>
+      <trans-unit id="Core_CrtProformaNumber" resname="Core_CrtProformaNumber">
+        <source xml:space="preserve">Current pro forma number</source>
+        <target xml:space="preserve">Current pro forma number</target>
+      </trans-unit>
+      <trans-unit id="Core_WPro" resname="Core_WPro">
+        <source xml:space="preserve">Write Pro document</source>
+        <target xml:space="preserve">Write Pro document</target>
+      </trans-unit>
+      <trans-unit id="Core_image" resname="Core_image">
+        <source xml:space="preserve">Image</source>
+        <target xml:space="preserve">Image</target>
+      </trans-unit>
+      <trans-unit id="Core_data" resname="Core_data">
+        <source xml:space="preserve">Data</source>
+        <target xml:space="preserve">Data</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

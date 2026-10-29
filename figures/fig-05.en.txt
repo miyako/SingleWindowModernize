@@ -1,0 +1,30 @@
+Toolbar Setup
+Divider
+Add
+Delete
+Add
+All
+Selected
+Query
+Query
+None
+Sort
+All
+Query
+Query
+Print
+Selected
+All
+None
+Print
+QuickReport
+QuickReport
+4DViewPro
+Module
+Clients
+Invoices
+4DViewPro
+Products
+Save as defaults
+Reset
+Save

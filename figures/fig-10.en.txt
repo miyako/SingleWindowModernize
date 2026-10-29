@@ -1,0 +1,53 @@
+Property List
+Listbox
+All Themes
+Definition
+Action Geometry Value Look Specific
+Objects
+Type
+Object Name
+Collection or entity selection
+Data Source
+CSS Class
+List Box
+Number of Columns
+Number of Locked Columns
+Number of Static Columns
+Selection Mode
+Headers
+Display Headers
+Height
+Footers
+Display Footers
+Gridlines
+Horizontal Line Color
+Vertical Line Color
+Hierarchy
+Variable 1
+Variable 2
+Variable 3
+Variable 4
+Variable 5
+Variable 6
+Variable 7
+Variable 8
+Variable 9
+Variable 10
+Data Source
+Current item
+Current item position
+Selected Items
+Coordinates & Sizing
+Left
+All Themes
+List Box
+Listbox
+Form.listbox
+Collection or entity selection
+Multiple
+lines
+Automatic
+Automatic
+Form.SelectedElement
+Form.SelectedPosition
+Form.Selection

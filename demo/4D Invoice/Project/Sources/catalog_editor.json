@@ -1,0 +1,232 @@
+{
+	"tables": {
+		"Document_Templates": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "489.27734375",
+				"top": "454.03125",
+				"width": "156.8359375",
+				"height": "163.61328125"
+			},
+			"displayable_fields_count": 5
+		},
+		"SETTINGS": {
+			"color": {
+				"red": "114",
+				"green": "209",
+				"blue": "221",
+				"alpha": "255"
+			},
+			"coordinates": {
+				"left": "685.796875",
+				"top": "456.80859375",
+				"width": "160",
+				"height": "151.66015625"
+			},
+			"displayable_fields_count": 5
+		},
+		"PRODUCTS": {
+			"color": {
+				"red": "249",
+				"green": "130",
+				"blue": "127",
+				"alpha": "255"
+			},
+			"coordinates": {
+				"left": "753.6171875",
+				"top": "4.79296875",
+				"width": "123.71484375",
+				"height": "189.20703125"
+			},
+			"displayable_fields_count": 7,
+			"fields": {
+				"ID": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				}
+			}
+		},
+		"INVOICE_LINES": {
+			"color": {
+				"red": "224",
+				"green": "234",
+				"blue": "104",
+				"alpha": "255"
+			},
+			"coordinates": {
+				"left": "492",
+				"top": "7",
+				"width": "162.14453125",
+				"height": "299.68359375"
+			},
+			"displayable_fields_count": 12,
+			"fields": {
+				"Total": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				},
+				"ProductTaxRate": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				},
+				"ProductUnitPrice": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				},
+				"ProductName": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				},
+				"ProductReference": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				},
+				"Product_ID": {
+					"color": {
+						"red": "239",
+						"green": "107",
+						"blue": "0",
+						"alpha": "255"
+					}
+				},
+				"Invoice_ID": {
+					"color": {
+						"red": "186",
+						"green": "216",
+						"blue": "10",
+						"alpha": "255"
+					}
+				},
+				"ID": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				}
+			}
+		},
+		"INVOICES": {
+			"color": {
+				"red": "224",
+				"green": "234",
+				"blue": "104",
+				"alpha": "255"
+			},
+			"coordinates": {
+				"left": "235",
+				"top": "5",
+				"width": "172",
+				"height": "376.33203125"
+			},
+			"displayable_fields_count": 15,
+			"fields": {
+				"Client_ID": {
+					"color": {
+						"red": "0",
+						"green": "158",
+						"blue": "96",
+						"alpha": "255"
+					}
+				},
+				"InvoiceNumber": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				},
+				"ID": {
+					"color": {
+						"red": "186",
+						"green": "216",
+						"blue": "10",
+						"alpha": "255"
+					}
+				}
+			}
+		},
+		"CLIENTS": {
+			"color": {
+				"red": "150",
+				"green": "216",
+				"blue": "175",
+				"alpha": "255"
+			},
+			"coordinates": {
+				"left": "3",
+				"top": "1",
+				"width": "148",
+				"height": "463.33203125"
+			},
+			"displayable_fields_count": 20,
+			"fields": {
+				"ID": {
+					"color": {
+						"red": "0",
+						"green": "158",
+						"blue": "96",
+						"alpha": "255"
+					}
+				}
+			}
+		}
+	},
+	"relations": {
+		"ED0E940B7BA7AE4B99C3F957045694F1": {
+			"color": {
+				"red": "150",
+				"green": "216",
+				"blue": "175",
+				"alpha": "255"
+			}
+		},
+		"E102AD0611DC5F4ABC678BF2FAA3355B": {
+			"color": {
+				"red": "224",
+				"green": "234",
+				"blue": "104",
+				"alpha": "255"
+			}
+		},
+		"DB086A51B8E14040AF27F65CE8ADC66E": {
+			"color": {
+				"red": "249",
+				"green": "130",
+				"blue": "127",
+				"alpha": "255"
+			}
+		}
+	}
+}

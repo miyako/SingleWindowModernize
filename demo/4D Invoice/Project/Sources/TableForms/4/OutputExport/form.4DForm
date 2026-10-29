@@ -67,7 +67,7 @@
 					"width": 48,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:StaticIDLabel"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -76,7 +76,7 @@
 					"width": 112,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Reference : "
+					"text": ":xliff:StaticReferenceLabel"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -85,7 +85,7 @@
 					"width": 240,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Name : "
+					"text": ":xliff:StaticNameLabel"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -94,7 +94,7 @@
 					"width": 54,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "UnitPrice : "
+					"text": ":xliff:StaticUnitPriceLabel"
 				},
 				"S5_Text": {
 					"type": "text",
@@ -103,7 +103,7 @@
 					"width": 54,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "TaxRate : "
+					"text": ":xliff:StaticTaxRateLabel"
 				},
 				"Rectangle7": {
 					"type": "rectangle",

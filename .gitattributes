@@ -1,0 +1,2 @@
+# Trailing tabs preserve the five empty contact columns in the demo fixture.
+"demo/4D Invoice/Resources/ja.lproj/Clients.txt" whitespace=-blank-at-eol

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="invoices" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="LegacyInvoices001" resname="INVOICES" xml:space="preserve">
+        <source>INVOICES</source>
+        <target>請求書</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices002" resname="CLIENTS" xml:space="preserve">
+        <source>CLIENTS</source>
+        <target>顧客</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices003" resname="PRODUCTS" xml:space="preserve">
+        <source>PRODUCTS</source>
+        <target>商品</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices004" resname="SETTINGS" xml:space="preserve">
+        <source>SETTINGS</source>
+        <target>設定</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices005" resname="Graph" xml:space="preserve">
+        <source>Graph</source>
+        <target>グラフ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices006" resname="Print" xml:space="preserve">
+        <source>Print</source>
+        <target>印刷</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices007" resname="Labels" xml:space="preserve">
+        <source>Labels</source>
+        <target>ラベル</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices008" resname="Reports" xml:space="preserve">
+        <source>Reports</source>
+        <target>レポート</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices009" resname="Query" xml:space="preserve">
+        <source>Query</source>
+        <target>検索</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices010" resname="Subset" xml:space="preserve">
+        <source>Subset</source>
+        <target>選択項目</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices011" resname="All" xml:space="preserve">
+        <source>All</source>
+        <target>すべて</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices012" resname="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <target>削除</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices013" resname="Add" xml:space="preserve">
+        <source>Add</source>
+        <target>追加</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices014" resname="Sort" xml:space="preserve">
+        <source>Sort</source>
+        <target>並べ替え</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices015" resname="Export" xml:space="preserve">
+        <source>Export</source>
+        <target>書き出し</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices016" resname="Graphs" xml:space="preserve">
+        <source>Graphs</source>
+        <target>グラフ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices017" resname="Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <target>キャンセル</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices018" resname="Validate" xml:space="preserve">
+        <source>Validate</source>
+        <target>確定</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices019" resname="First" xml:space="preserve">
+        <source>First</source>
+        <target>先頭</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices020" resname="Next" xml:space="preserve">
+        <source>Next</source>
+        <target>次へ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices021" resname="Last" xml:space="preserve">
+        <source>Last</source>
+        <target>末尾</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices022" resname="Previous" xml:space="preserve">
+        <source>Previous</source>
+        <target>前へ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices023" resname="Client" xml:space="preserve">
+        <source>Client</source>
+        <target>顧客</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices024" resname="Number" xml:space="preserve">
+        <source>Number</source>
+        <target>番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices025" resname="Date" xml:space="preserve">
+        <source>Date</source>
+        <target>日付</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices026" resname="Subtotal" xml:space="preserve">
+        <source>Subtotal</source>
+        <target>小計</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices027" resname="Paid" xml:space="preserve">
+        <source>Paid</source>
+        <target>支払済み</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices028" resname="Payment Date" xml:space="preserve">
+        <source>Payment Date</source>
+        <target>支払日</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices029" resname="Payment Method" xml:space="preserve">
+        <source>Payment Method</source>
+        <target>支払方法</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices030" resname="Reference" xml:space="preserve">
+        <source>Reference</source>
+        <target>参照番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices031" resname="Name" xml:space="preserve">
+        <source>Name</source>
+        <target>名前</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices032" resname="Unit Price" xml:space="preserve">
+        <source>Unit Price</source>
+        <target>単価</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices033" resname="Tax Rate (%)" xml:space="preserve">
+        <source>Tax Rate (%)</source>
+        <target>税率（%）</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices034" resname="City" xml:space="preserve">
+        <source>City</source>
+        <target>市区町村</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices035" resname="Contact" xml:space="preserve">
+        <source>Contact</source>
+        <target>担当者</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices036" resname="Email" xml:space="preserve">
+        <source>Email</source>
+        <target>メール</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices037" resname="Pro Forma" xml:space="preserve">
+        <source>Pro Forma</source>
+        <target>仮請求書</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices038" resname="Discount (%)" xml:space="preserve">
+        <source>Discount (%)</source>
+        <target>割引率（%）</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices039" resname="Quantity" xml:space="preserve">
+        <source>Quantity</source>
+        <target>数量</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices040" resname="Total" xml:space="preserve">
+        <source>Total</source>
+        <target>合計</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices041" resname="Total Sales" xml:space="preserve">
+        <source>Total Sales</source>
+        <target>売上合計</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices042" resname="reorder_label_reverse" xml:space="preserve">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices043" resname=" clients out of " xml:space="preserve">
+        <source> clients out of </source>
+        <target>件の顧客／総数</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices044" resname=" invoices out of " xml:space="preserve">
+        <source> invoices out of </source>
+        <target>件の請求書／総数</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices045" resname=" products out of " xml:space="preserve">
+        <source> products out of </source>
+        <target>件の商品／総数</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices046" resname="Address 1" xml:space="preserve">
+        <source>Address 1</source>
+        <target>住所1</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices047" resname="Address 2" xml:space="preserve">
+        <source>Address 2</source>
+        <target>住所2</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices048" resname="State" xml:space="preserve">
+        <source>State</source>
+        <target>都道府県</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices049" resname="Zip" xml:space="preserve">
+        <source>Zip</source>
+        <target>郵便番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices050" resname="Mobile" xml:space="preserve">
+        <source>Mobile</source>
+        <target>携帯電話</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices051" resname="General Information" xml:space="preserve">
+        <source>General Information</source>
+        <target>基本情報</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices052" resname="Logo" xml:space="preserve">
+        <source>Logo</source>
+        <target>ロゴ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices053" resname="Country" xml:space="preserve">
+        <source>Country</source>
+        <target>国</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices054" resname="Telephone" xml:space="preserve">
+        <source>Telephone</source>
+        <target>電話</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices055" resname="Fax" xml:space="preserve">
+        <source>Fax</source>
+        <target>FAX</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices056" resname="Web Site" xml:space="preserve">
+        <source>Web Site</source>
+        <target>Webサイト</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices057" resname="Discount Rate" xml:space="preserve">
+        <source>Discount Rate</source>
+        <target>割引率</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices058" resname="Comments" xml:space="preserve">
+        <source>Comments</source>
+        <target>備考</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices059" resname="Tax Rate" xml:space="preserve">
+        <source>Tax Rate</source>
+        <target>税率</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices060" resname="Invoice Details" xml:space="preserve">
+        <source>Invoice Details</source>
+        <target>請求書の詳細</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices061" resname="Client Information" xml:space="preserve">
+        <source>Client Information</source>
+        <target>顧客情報</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices062" resname="days" xml:space="preserve">
+        <source>days</source>
+        <target>日</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices063" resname="Payment Delay" xml:space="preserve">
+        <source>Payment Delay</source>
+        <target>支払期限</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices064" resname="Invoice Number" xml:space="preserve">
+        <source>Invoice Number</source>
+        <target>請求書番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices065" resname="Payment Reference" xml:space="preserve">
+        <source>Payment Reference</source>
+        <target>支払参照番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices066" resname="Proforma Number" xml:space="preserve">
+        <source>Proforma Number</source>
+        <target>仮請求書番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices067" resname="Tax" xml:space="preserve">
+        <source>Tax</source>
+        <target>税額</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices068" resname="Enter a product reference or name" xml:space="preserve">
+        <source>Enter a product reference or name</source>
+        <target>商品番号または商品名を入力</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices069" resname="Product Reference" xml:space="preserve">
+        <source>Product Reference</source>
+        <target>商品番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices070" resname="Product Name" xml:space="preserve">
+        <source>Product Name</source>
+        <target>商品名</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices071" resname="Product Unit Price" xml:space="preserve">
+        <source>Product Unit Price</source>
+        <target>商品単価</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices072" resname="Current Invoice Number" xml:space="preserve">
+        <source>Current Invoice Number</source>
+        <target>現在の請求書番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices073" resname="Current Proforma Number" xml:space="preserve">
+        <source>Current Proforma Number</source>
+        <target>現在の仮請求書番号</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices074" resname="General Settings" xml:space="preserve">
+        <source>General Settings</source>
+        <target>一般設定</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices075" resname="Product Details" xml:space="preserve">
+        <source>Product Details</source>
+        <target>商品の詳細</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices076" resname="Product Picture" xml:space="preserve">
+        <source>Product Picture</source>
+        <target>商品画像</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices077" resname="Clients" xml:space="preserve">
+        <source>Clients</source>
+        <target>顧客</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices078" resname="Invoices" xml:space="preserve">
+        <source>Invoices</source>
+        <target>請求書</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices079" resname="Products" xml:space="preserve">
+        <source>Products</source>
+        <target>商品</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices080" resname="Settings" xml:space="preserve">
+        <source>Settings</source>
+        <target>設定</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices081" resname="No invoices in the past 6 months" xml:space="preserve">
+        <source>No invoices in the past 6 months</source>
+        <target>過去6か月間の請求書がありません。</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices082" resname="No product(s) selected" xml:space="preserve">
+        <source>No product(s) selected</source>
+        <target>商品が選択されていません。</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices083" resname="You can not unpaid an invoice!" xml:space="preserve">
+        <source>You can not unpaid an invoice!</source>
+        <target>請求書を未払いに戻すことはできません。</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices084" resname="You can not change an invoice into a pro forma!" xml:space="preserve">
+        <source>You can not change an invoice into a pro forma!</source>
+        <target>請求書を仮請求書に変更することはできません。</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices085" resname="Do you really want to delete this client?" xml:space="preserve">
+        <source>Do you really want to delete this client?</source>
+        <target>この顧客を削除しますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices086" resname="The pro forma changes into an invoice that will not be modifiable anymore. Continue?" xml:space="preserve">
+        <source>The pro forma changes into an invoice that will not be modifiable anymore. Continue?</source>
+        <target>仮請求書を請求書に変更すると、以後は編集できなくなります。続けますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices087" resname="Yes" xml:space="preserve">
+        <source>Yes</source>
+        <target>はい</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices088" resname="No" xml:space="preserve">
+        <source>No</source>
+        <target>いいえ</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices089" resname="Turnover" xml:space="preserve">
+        <source>Turnover</source>
+        <target>売上高</target>
+      </trans-unit>
+      <trans-unit id="LegacyInvoices090" resname="currency" xml:space="preserve">
+        <source>###,###,##0.00 ;###,###,##0.00-</source>
+        <target>###,###,##0.00 ;###,###,##0.00-</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

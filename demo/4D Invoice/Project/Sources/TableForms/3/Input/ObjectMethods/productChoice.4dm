@@ -11,7 +11,7 @@ Case of
 		Else 
 			ALL RECORDS:C47([PRODUCTS:4])
 		End if 
-		infoProducts:=String:C10(Records in selection:C76([PRODUCTS:4]))+" products out of "+String:C10(Records in table:C83([PRODUCTS:4]))
+		infoProducts:=Replace string(Replace string(Get localized string:C991("Runtime_CountProducts"); "{selected}"; String:C10(Records in selection:C76([PRODUCTS:4]))); "{total}"; String:C10(Records in table:C83([PRODUCTS:4])))
 		ORDER BY:C49([PRODUCTS:4]; [PRODUCTS:4]Reference:2; >)
 		//OBJET FIXER VISIBLE(*;"productsList";Lire texte edite#"")
 		OBJECT SET VISIBLE:C603(*; "productsList"; True:C214)
@@ -22,7 +22,7 @@ Case of
 		QUERY:C277([PRODUCTS:4]; [PRODUCTS:4]Reference:2="@"+$text+"@"; *)
 		QUERY:C277([PRODUCTS:4];  | ; [PRODUCTS:4]Name:3="@"+$text+"@")
 		ORDER BY:C49([PRODUCTS:4]; [PRODUCTS:4]Reference:2; >)
-		infoProducts:=String:C10(Records in selection:C76([PRODUCTS:4]))+" products out of "+String:C10(Records in table:C83([PRODUCTS:4]))
+		infoProducts:=Replace string(Replace string(Get localized string:C991("Runtime_CountProducts"); "{selected}"; String:C10(Records in selection:C76([PRODUCTS:4]))); "{total}"; String:C10(Records in table:C83([PRODUCTS:4])))
 		OBJECT SET VISIBLE:C603(*; "productsList"; True:C214)
 		
 	: (Form event code:C388=On Losing Focus:K2:8)

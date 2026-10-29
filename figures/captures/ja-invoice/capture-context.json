@@ -1,0 +1,58 @@
+{
+  "manual_update": {
+    "date": "2026-10-29",
+    "source": "Editor-supplied manual captures; editor requested replacement and PDF regeneration.",
+    "figures": ["04", "06", "07", "08", "09", "10", "12", "13", "14", "15", "16"],
+    "mapping": "Supplied 13/14 swapped to match list-box bindings / preview expression. Other supplied numbers retained, including 15 for Input_ORDA and 16 for Input.",
+    "originals": "Editor-supplied .en.png backups were byte-identical to the committed English originals; originals restored and captures saved separately as fig-NN-ja.png.",
+    "processing": "No repainting, cropping, resizing or GUI automation. Existing layout widths retained.",
+    "environment": "Manual capture build, OS, theme, scale and font resolution not independently established. Historical automated-capture metadata below applies only to retained figures 05 and 11, and to superseded captures.",
+    "review": "Integrated at editor request; regenerated contact sheets and PDF remain subject to editorial review. Student-demo figures 01-03 remain unchanged."
+  },
+  "method": "Native task-window capture, not mechanical text repainting",
+  "engine": "/Applications/4D 21 R4/4D.app/Contents/MacOS/4D",
+  "engine_build": "21R4.100208",
+  "os": "macOS 26.7, build 25G229",
+  "host_locale": "ja",
+  "capture_tool": "/usr/sbin/screencapture -x -o -l<owned-window-id>",
+  "scale": "2 physical pixels per logical window point; captured natively without resizing",
+  "font_evidence": "Actual native application rendering, without agent-selected fonts, text repainting or inferred font metrics. Subsequent log inspection found a native CoreText fallback warning in the wide/narrow invoice runs; the affected controls have not been identified. Native appearance approval does not establish that the application's font resolution is correct.",
+  "native_font_warning": {
+    "requested": ".Helvetica Neue DeskInterface",
+    "fallback_reported_by_CoreText": "TimesNewRomanPSMT",
+    "observed_in": ["invoice-wide-window.log", "invoice-narrow-window.log"],
+    "not_observed_in": ["toolbar-setup-window.log"],
+    "status": "Editor explicitly chose to keep the reviewed native appearance and document this font limitation. The affected controls remain unidentified; font resolution is not claimed fully verified."
+  },
+  "source_state": "Isolated project copied after editor fixes in dd4f876, with 200 static fictional Japanese customers and 240 original product references. Existing FillData generated demo-only invoices.",
+  "approved_variations": [
+    "Editor explicitly chose Japanese demo data instead of original foreign customer records.",
+    "Editor approved current 4D/macOS native rendering instead of a replica of the unknown original 2024 environment.",
+    "Editor approved Toolbar Setup height 1502px instead of 1438px due to current native frame."
+  ],
+  "jobs": [
+    {"figures": ["04", "07", "11"], "form": "ORDAListbox", "width": 1803, "height": 891, "preview": true, "splitterLeft": 760, "path": "/PACKAGE/output/invoice-wide.png"},
+    {"figures": ["08"], "form": "ORDAListbox", "width": 1708, "height": 882, "preview": false, "splitterLeft": 1360, "path": "/PACKAGE/output/invoice-narrow.png"},
+    {"figures": ["05"], "form": "Toolbar_Setup", "width": 992, "height": 719, "preview": false, "path": "/PACKAGE/output/toolbar-setup.png"}
+  ],
+  "replay": [
+    "Use an isolated copy of demo/4D Invoice; never open or modify the supplied empty data file.",
+    "Install the five retained .4dm capture helpers only into that copy's Project/Sources/Methods and validate them through 4dlsp.",
+    "Place capture-window.py and task-windows.swift under the isolated copy's output directory.",
+    "Place one job from this manifest in the isolated copy's capture-job.json; create its output directory.",
+    "Use the retained isolated Data/capture.4DD for the same invoice values. A newly created data file reruns FillData and produces different random invoices; it cannot reproduce those values byte-for-byte.",
+    "With macOS Screen Recording permission enabled, run .venv/bin/python <isolated-copy>/output/capture-window.py.",
+    "The script captures only the matching window owned by the newly launched 4D process, then signals that process to quit.",
+    "Compare the native image and recorded state with the reviewed figures; do not assume another platform/theme/build produces identical pixels."
+  ],
+  "limitations": [
+    "All 16 original PNG files are preserved unchanged.",
+    "The whole native task window is replaced, so a text-only mask/pixel-preservation claim does not apply.",
+    "Native window corners may be transparent; these are actual window-capture alpha, not missing form background.",
+    "The stored company placeholders and original financial assumptions are not Japanese accounting examples.",
+    "Module, QuickReport and 4DViewPro retain existing demo wording.",
+    "The manual update supplies figure 09 with its open column menu and the Form Editor screenshots; it supersedes the earlier unresolved status for those figures.",
+    "Student-demo screenshots 01-03 remain unchanged.",
+    "Editor approved the original five replacements after PDF/contact-sheet review, then explicitly accepted the documented native font limitation. Manual replacements require review of the regenerated PDF; this is not release approval."
+  ]
+}

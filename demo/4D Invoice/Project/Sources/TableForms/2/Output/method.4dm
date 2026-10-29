@@ -5,7 +5,7 @@ Case of
 		
 		OBJECT SET ENABLED:C1123(*; "bShowSubsetInvoices"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "bDeleteInvoices"; False:C215)
-		invoicesSubtotalLabel:=Get localized string:C991("Total")
+		invoicesSubtotalLabel:=Get localized string:C991("Runtime_Label_Total")
 		Invoices_Reorder
 		LISTBOX_ADJUST_WIDTH("ListBoxInvoices")
 		

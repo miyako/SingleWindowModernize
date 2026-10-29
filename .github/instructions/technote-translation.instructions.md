@@ -36,6 +36,7 @@ pipeline, committed in the repository). `<src>` is `source_lang` (normally `en`)
 | `accent_color` | Heading colour (CSS `--accent`) |
 | `page_size` | `letter` or `a4` |
 | `cover` | `{page, lines}`: the title block is the first `lines` text lines of `page` |
+| `cover.metadata_paragraphs` | Optional `{lang: count}`: render only the first `count` cover metadata paragraphs after the title for that language. Omitted languages retain all paragraphs. Keep omitted metadata in Markdown to preserve source/translation block alignment. |
 | `skip_pages` | 1-based pages not extracted (cover, original TOC); both are regenerated |
 | `header_y`, `footer_y` | Lines with top above `header_y` or below `footer_y` (pt) are dropped |
 | `heading.fonts` | Substrings of font names that mark headings; with `heading.min_size` |
@@ -115,7 +116,8 @@ monospace font for code instead of colours, `code.colors` can stay empty.
   - Full-width `（）` and `：` in prose.
   - Use the official 4D Japanese documentation terms (e.g. Webエリア, エンティティセレクション, データストア, 引数,
     メソッド, フォーム, コレクション) and record them in `glossary.md` (`| English | 日本語 | Notes |`).
-  - First occurrence of a technical term: 日本語（English）.
+  - Do not routinely add parenthetical English glosses to Japanese terms, even on first occurrence. Keep English
+    equivalents in `glossary.md`; preserve identifiers, UI labels, URLs and necessary original abbreviations.
 - Other languages: agree on the style with the user, and set the fonts (`figure_fonts`) and the font stack in
   `style/style.css`.
 - Inline code (`` `name` ``) stays as is. Identifiers in prose that refer to code stay in their original form.
@@ -192,7 +194,8 @@ submodule is updated. Reusable procedures belong in that skill, not in this refe
    - Figures become `<figure>` with `width:{width_pt}pt`.
 4. The CSS is `style/style.css` plus injected `:root{--accent}` and `@page{size}`. Chrome is run headless
    (`--headless=new --no-pdf-header-footer --print-to-pdf`) twice; the second pass fills in the TOC page numbers,
-   found by searching each heading in the first-pass PDF with pymupdf. Page numbers use `@page` margin boxes
+   resolved from the first-pass PDF's named heading destinations with pymupdf, not body-text matches.
+   Missing or invalid destinations stop the build. Page numbers use `@page` margin boxes
    (Chrome 131+); `pre` uses `overflow-wrap: anywhere` so long code lines wrap.
 5. The output is `build/<output_pdf>`. Compare its page count with the original: ±2 pages is normal.
 
@@ -203,6 +206,15 @@ fails, then revert.
 
 The workflow is in the skill `technote-localise-4d-project`; the 4D rules are in the generic skills it lists.
 
+- **Project strings:** `tools/prepare_localisation_test.py` generates `build/resource-smoke.4dm` from the demo's
+  XLIFF targets. Run it through `tools/tool4d.py "demo/4D Invoice" build/resource-smoke.4dm` and require
+  `passed: true`. It checks project-resource resolution, not the Japanese rendering of native 4D dialogs.
+- **Demo regressions:** `tools/tests/demo_ja.4dm` checks exact customer import, unchanged product references and
+  Japanese generated labels (`--new-data` required); `tools/tests/demo_toolbar.4dm` checks that translated
+  hierarchical-list captions do not replace canonical toolbar action keys; `tools/tests/demo_templates.4dm`
+  checks template-data creation, update and entity selection (`--new-data` required). Run these through
+  `tools/tool4d.py` and require `passed: true`. These runs use temporary copies, never the supplied empty data
+  file. Template-data checks do not verify Write Pro document rendering or invoice-editor interactions.
 - **Syntax:** skill `4dlsp` (`validate` for the files you changed, `check-syntax` for the whole project). Don't write
   a startup method or launch 4D just to check syntax.
 - **Running code:** `tools/tool4d.py` copies `Project/` and `Resources/` (and `Data/` with `--data`) to a temporary

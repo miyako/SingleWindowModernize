@@ -1,8 +1,7 @@
-If (Records in table:C83([CLIENTS:1])=0)  // Test if the database is empty
-	CONFIRM:C162("Your database is empty."+Char:C90(Carriage return:K15:38)+"Do you want to import some sample data?"; "Yes, please!"; "No, thanks")
-	If (Ok=1)
-		FillData
-	End if 
+SET DATABASE LOCALIZATION("ja"; *)
+If (OK=0)
+	ALERT:C41("日本語リソースを読み込めません。Resources/ja.lprojを確認してください。")
+	return
 End if 
 
 // Storage for Company Informations
@@ -14,19 +13,4 @@ Use (Storage:C1525)
 	Storage:C1525.company:=$company
 End use 
 
-If (False:C215)  // old code, classic interface
-	Clients_Manage
-	
-Else 
-	var $version:=Application version:C493
-	If ($version<"2050")
-		ALERT:C41("Diese Demo verwendet neue Fenstertypen und erfordert 4D 20 R5 oder eine neuere Version.")
-	End if 
-	
-	If (Is Windows:C1573)
-		HIDE MENU BAR:C432
-	End if 
-	SET MENU BAR:C67("empty")
-	var $win : Integer:=Open form window:C675("ORDAListbox"; Plain form window no title:K39:19)
-	DIALOG:C40("ORDAListbox"; *)
-End if 
+Start_ORDAWindow

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Toolbar" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="LegacyToolbar001" resname="Selected" xml:space="preserve">
+        <source>Subset</source>
+        <target>選択項目</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar002" resname="None" xml:space="preserve">
+        <source>None</source>
+        <target>なし</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar003" resname="IE_TabControl" xml:space="preserve">
+        <source>Invoice Editor;Business Letter;Conditions</source>
+        <target>請求書編集;ビジネスレター;取引条件</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar004" resname="Overwrite_user_settings" xml:space="preserve">
+        <source>Do you want to overwrite User Settings?</source>
+        <target>ユーザー設定を上書きしますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar005" resname="Popup_Delete" xml:space="preserve">
+        <source>Delete;Delete All</source>
+        <target>削除;すべて削除</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar006" resname="Delete_all_buttons" xml:space="preserve">
+        <source>Delete all buttons?</source>
+        <target>すべてのボタンを削除しますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar007" resname="Reset_Defaults" xml:space="preserve">
+        <source>Reset to defaults?</source>
+        <target>初期設定に戻しますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar008" resname="Save_Defaults" xml:space="preserve">
+        <source>Save as defaults</source>
+        <target>初期設定として保存</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar009" resname="Toolbar_Reset" xml:space="preserve">
+        <source>Reset</source>
+        <target>リセット</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar010" resname="Toolbar_Save" xml:space="preserve">
+        <source>Save</source>
+        <target>保存</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar011" resname="ColumnRightClick" xml:space="preserve">
+        <source>Delete Column;Save;Clear Saved;-;</source>
+        <target>列を削除;保存;保存内容を消去;-;</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar012" resname="SaveChanges" xml:space="preserve">
+        <source>Save changes?</source>
+        <target>変更を保存しますか？</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar013" resname="SomebodyElseChanged" xml:space="preserve">
+        <source>Someone else has changed the same fields in the meantime, the data cannot be saved!</source>
+        <target>別のユーザーが同じフィールドを変更したため、データを保存できません。</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar014" resname="RecordLockedFrom" xml:space="preserve">
+        <source>Record is locked from </source>
+        <target>レコードをロックしているユーザー：</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar015" resname="LockedWait" xml:space="preserve">
+        <source>Wait</source>
+        <target>待機</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar016" resname="LockedCancel" xml:space="preserve">
+        <source>Cancel</source>
+        <target>キャンセル</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar017" resname="LockedClassic" xml:space="preserve">
+        <source>The data record is currently being processed by xxx! Open read-only...</source>
+        <target>このレコードは現在xxxが編集中です。読み取り専用で開きます。</target>
+      </trans-unit>
+      <trans-unit id="LegacyToolbar018" resname="NoNewButtonForInvoices" xml:space="preserve">
+        <source>Double click the Client, to create a new invoice.</source>
+        <target>新しい請求書を作成するには、顧客をダブルクリックしてください。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

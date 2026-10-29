@@ -8,7 +8,7 @@ If (Is Windows:C1573)
 End if 
 SET MENU BAR:C67("empty")
 $ref:=Open form window:C675([SETTINGS:5]; "Input"; Plain form window:K39:10; 120; 140)
-SET WINDOW TITLE:C213(Get localized string:C991("SETTINGS"))
+SET WINDOW TITLE:C213(Get localized string:C991("Runtime_Label_SETTINGS"))
 ALL RECORDS:C47([SETTINGS:5])
 MODIFY RECORD:C57([SETTINGS:5]; *)
 CLOSE WINDOW:C154($ref)

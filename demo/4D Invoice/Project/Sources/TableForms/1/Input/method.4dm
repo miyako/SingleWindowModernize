@@ -5,11 +5,7 @@ Case of
 		
 		FormSetInterface
 		
-		If (Length:C16(Get localized string:C991("reorder_label_reverse"))=0)
-			infoInvoices:=String:C10(Records in selection:C76([INVOICES:2]))+Get localized string:C991(" invoices out of ")+String:C10(Records in table:C83([INVOICES:2]))
-		Else 
-			infoInvoices:=String:C10(Records in table:C83([INVOICES:2]))+Get localized string:C991(" invoices out of ")+String:C10(Records in selection:C76([INVOICES:2]))
-		End if 
+		infoInvoices:=Replace string(Replace string(Get localized string:C991("Runtime_CountInvoices"); "{selected}"; String:C10(Records in selection:C76([INVOICES:2]))); "{total}"; String:C10(Records in table:C83([INVOICES:2])))
 		
 		OBJECT SET ENABLED:C1123(*; "bDeleteClient"; (Records in selection:C76([INVOICES:2])=0))
 		OBJECT SET ENABLED:C1123(*; "bDeleteInvoice"; False:C215)

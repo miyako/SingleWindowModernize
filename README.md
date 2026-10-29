@@ -1,177 +1,77 @@
-# 4D Technical Note Localisation
+# シングルウィンドウアプリケーション
 
-Template for translating a **4D technical note** (an English PDF) and **its companion 4D demo project**
-into another language (Japanese by default), with GitHub Copilot doing the work and you making the
-editorial decisions.
+Single Window App – Modernize your application：日本語版。
 
-The PDF is never patched. It is **disassembled** into plain text, Markdown and figure label files.
-You edit those, then **reassemble** the PDF with one command, as many times as you like.
-Program code is copied byte for byte, and the build refuses to run if code was changed.
+Thomas Maul（4D Germany）によるテクニカルノート24-14の日本語版と、付属の4D Invoiceデモです。
+既存の4Dアプリケーションを、一覧と詳細を同じウィンドウで扱える構成へモダナイズする方法を紹介します。
+ユーザーがカスタマイズできるツールバー、列の表示や幅を変更できるリストボックス、選択したレコードのプレビューを取り上げます。
 
-```mermaid
-flowchart LR
-  A[document/*.pdf] -->|make extract| B[src/en.md<br>figures/fig-NN.en.txt]
-  B -->|agent translates| C[src/ja.md<br>figures/fig-NN.ja.txt]
-  C -->|you edit| C
-  C -->|make| D[build/*_ja.pdf]
-  E[demo/Project] -->|agent localises: XLIFF, data| F[demo/Project]
-  D & F -->|release| G[GitHub Release]
-```
+## ダウンロード
 
-## Quick start
-
-1. **Use this template** (on GitHub, *Use this template → Create a new repository*), then clone it with its
-   submodule, which holds the agent skills (see [Agent instructions and skills](#agent-instructions-and-skills)):
-   ```sh
-   git clone --recurse-submodules https://github.com/<owner>/<repo>.git
-   ```
-2. Add the source material and push:
-   - the English PDF → `document/<name>.pdf` (exactly one PDF)
-   - the 4D project → `demo/<ProjectName>/` (the folder that contains `Project/`)
-3. Start the agent. Use either:
-   - **Locally** (Copilot CLI or the Copilot app, recommended): open the repository and prompt:
-     > Localise this technical note and its demo into Japanese. Follow AGENTS.md and stop at every checkpoint for my review.
-   - **Cloud agent:** open an issue with the **Localisation request** form and assign it to Copilot.
-     The agent works in a pull request. Reply in the PR to give directions at each checkpoint.
-4. Review at each **checkpoint** (see below). Edit files directly or tell the agent what to change.
-5. Release: tell the agent *"release v1.0.0"*, or run the steps under [Release](#release).
-
-## Checkpoints: where you decide
-
-The agent stops and asks you at each of these points:
-
-| # | After | You review / decide |
-|---|---|---|
-| 1 | `make inspect` | Detected heading, code and caption styles in `technote.json`; target language; output style |
-| 2 | `make extract` | `src/en.md` reads correctly (headings, code blocks, figures in the right places); OCR'd figure text |
-| 3 | First translation | `src/ja.md`, `glossary.md`: terminology and tone |
-| 4 | Figures | Contact sheets `build/contact-N.png` and PDF; translated screenshots, unresolved wording/fonts and any captures needing manual confirmation |
-| 5 | Demo data (optional) | Whether to replace the sample data (e.g. places) with local equivalents, and which ones |
-| 6 | 4D project | Localisation plan: XLIFF scope, new attributes, UI behaviour |
-| 7 | Release | Final PDF and demo; the repository README (from `.github/templates/README.technote.md`); version tag |
-
-Edits are always safe. Generated output goes to `build/` only, and `make extract` never overwrites existing files.
-
-## Files you edit
-
-| File | What |
+| 内容 | ファイル |
 |---|---|
-| `src/ja.md` | Translated body text (Markdown). Keep the block structure parallel to `src/en.md`. **Don't touch code blocks.** |
-| `figures/fig-NN.ja.txt` | Text drawn in figure NN, one line per line of `fig-NN.en.txt` (see below) |
-| `figures/layout/fig-NN.json` | Optional per-label tweaks (size, weight, alignment, position) |
-| `figures/fig-NN-ja.png` | Reviewed replacement image (mechanically translated screenshot or capture of the localised app) |
-| `glossary.md` | Terminology decisions. Change a term here first. |
-| `technote.json` | Document settings (normally written once by the agent) |
+| 日本語PDF | [24-14_SingleWindowModernize_ja.pdf](https://github.com/miyako/SingleWindowModernize/releases/latest/download/24-14_SingleWindowModernize_ja.pdf) |
+| 4Dデモ（ソースのみ） | [4D Invoice.zip](https://github.com/miyako/SingleWindowModernize/releases/latest/download/4D%20Invoice.zip) |
+| 英語原文 | [24-14_SingleWindowModernize.pdf](document/24-14_SingleWindowModernize.pdf) |
 
-### Figure text rules
+## デモ
 
-Line N of `fig-NN.ja.txt` corresponds to line N of `fig-NN.en.txt`:
+- 最低要件は4D 20 R5のプロジェクトモードです。日本語のネイティブ画面の取得にはmacOS上の4D 21 R4を使用しました。
+- 展開後、`4D Invoice/Project/4D Invoice.4DProject`を開き、新しいデータファイルを作成してください。ZIPにはデータファイル、実行環境、キャッシュは含みません。
+- ソースリポジトリでは`demo/4D Invoice/Project/4D Invoice.4DProject`を開きます。付属の`Invoices_empty.4DD`は原資料として保存しており、配布ZIPには含めていません。
+- 起動時は日本語を指定し、メインウィンドウを開きます。顧客がない場合は、サンプルデータの読み込み確認を表示します。
+- 日本語・英語・ドイツ語・フランス語・スペイン語のリソースを`Resources/<lang>.lproj/`に保持しています。日本語起動はOSの表示言語とは独立しています。
+- 4D本体や必要なコンポーネントは別途用意してください。
 
-- **identical to the English line:** the original pixels are kept. Use this for code, numbers and identifiers.
-- **empty:** the English text is erased and nothing is drawn (to merge two lines into one).
-- **anything else:** the English text is erased and this text is drawn in its place.
+### デモデータ
 
-Per-label overrides in `figures/layout/fig-NN.json` → `items[N]`:
-`"scale": 1.2`, `"size": 28`, `"weight": "light"|"regular"|"bold"`, `"align": "left"|"center"`,
-`"dx"`, `"dy"`, `"box": [x, y, w, h]`, `"bg"`, `"fg"`, `"erase_pad"`.
-Per figure: `"localize": false` keeps the image unchanged; `"replace": "fig-NN-ja.png"` uses a ready-made image.
+日本語用の顧客データは、デモとスクリーンショット用に用意した固定の架空顧客200件です。
+実在の法人・住所・連絡先ではなく、郵便番号`0000000`もダミー値です。
+ファイルは`Resources/ja.lproj/Clients.txt`にあり、元の11列のタブ区切り形式を維持しています。
+電話・携帯電話・FAX・メール・担当者は空欄です。
 
-### Screenshot translation
+元の英語データと240件の商品参照、税率などの原デモの前提は維持しています。
+商品価格・請求書・日付などは従来のデモ処理で生成されるため、実行ごとに変わる場合があります。
+会社情報や取引は説明用であり、日本の会計・税務処理の実装例ではありません。
+詳細は[データの説明](data/ja/README.md)を参照してください。
 
-Use the `technote-localise-screenshots` skill for screenshots, not the generic diagram text overlay.
-It preserves `figures/fig-NN.png`, mechanically replaces only the text in a separate
-`figures/fig-NN-<tgt>.png`, and connects the reviewed result through the layout's `"replace"` key.
-Keep `"localize": false` to bypass diagram rendering; `"replace"` takes precedence when present.
+## 原文・原デモとの違い
 
-The skill uses the target-language XLIFF from a local **4D or 4D Server** installation for 4D's own UI,
-and the demo's translated resources for demo labels. Fonts must match the actual context: 4D forms,
-browser content, browser chrome and native system dialogs can use different fonts on macOS and Windows.
-The target language, OS version, theme and display scale matter; a generic CJK font is not proof of fidelity.
+- 本文とデモのUIを日本語化しています。本文のプログラムコードは英語原文と同一です。デモの実装には日本語リソースの参照や起動処理の変更があるため、本文のコード例と逐語的には一致しません。
+- 顧客サンプルを架空の日本語データへ置き換えています。
+- 図04〜16は日本語画面のキャプチャへ置き換えています。原デモが付属していない図01〜03は英語のままです。英語の元画像と元PDFは変更していません。
+- スクリーンショットは現在のmacOS・4Dの画面であり、原文の画面とテーマ、配置、縦横比が異なります。
+- 一部のネイティブキャプチャでCoreTextのフォントフォールバック警告を確認しています。レビュー済みの外観を採用していますが、すべてのコントロールのフォント解決を保証するものではありません。
+- Write Proを含むヘッドレス試行は異常終了したため、請求書エディターやWrite Proのすべての操作・描画を検証済みとはしていません。
 
-When rendering is uncertain, the agent uses `4dcli` to launch full GUI 4D and capture the relevant UI where
-possible. **tool4d is English-only** and cannot verify localised native UI. Missing resources, fonts or a
-matching platform are reported, not silently substituted. Remaining uncertainty requires your manual
-confirmation or a localised capture before the screenshot is accepted at checkpoint 4.
+## 編集と再生成
 
-## Commands
+PDFはMarkdownと画像から生成します。元PDFを直接編集しないでください。
 
-| Command | Does |
+| ファイル | 内容 |
 |---|---|
-| `make setup` | Create `.venv` and install Python packages |
-| `make inspect` | Analyse the PDF and suggest `technote.json` (written only if not configured yet) |
-| `make extract` | Disassemble the PDF (one time; never overwrites) |
-| `make check` | Verify code blocks are unchanged and figure references match |
-| `make figures` | Render localised figures into `build/figures/` |
-| `make review` | Contact sheets comparing original and localised figures (`FIGS="02 05"` to select) |
-| `make` | check → figures → PDF in `build/` |
-| `make demo-zip` | Zip each committed 4D project in `demo/` into `build/<Name>.zip` |
-| `make release-assets` | PDF + demo zips |
-| `make clean` | Remove `build/` |
-
-## Requirements
-
-| | macOS (local) | Linux (cloud agent / Actions) |
-|---|---|---|
-| Python 3.10+ | ✓ | ✓ (preinstalled) |
-| Google Chrome / Chromium | `/Applications/Google Chrome.app` | preinstalled on GitHub runners, or set `$CHROME` |
-| Tesseract OCR | `brew install tesseract` | `apt install tesseract-ocr` |
-| Japanese fonts for figures | Hiragino (built in) | `apt install fonts-noto-cjk` |
-| tool4d (runs 4D test methods) | optional, `/Applications/tool4d/…` or `$TOOL4D` | not available, so 4D tests are skipped |
-| 4D syntax checks | `4dlsp` skill: `tool4d-lsp-stdio` (provisioned into `tools/4dlsp/`) + tool4d | not set up, so syntax checks are skipped |
-
-`.github/workflows/copilot-setup-steps.yml` prepares the Linux environment for the cloud agent.
-
-> **Note:** figures and PDF text are rendered with Hiragino on macOS and Noto Sans CJK on Linux,
-> so the two builds look slightly different. Build the final release on the platform you reviewed.
-
-## Release
+| `src/ja.md` | 日本語本文。プログラムコードは変更しないでください。 |
+| `src/en.md` | 英語原文の抽出結果。日本語本文とブロック順をそろえています。 |
+| `figures/fig-NN.png` | 変更せず保存する英語の元画像。 |
+| `figures/fig-NN-ja.png` | 日本語画面の置き換え画像。 |
+| `figures/layout/fig-NN.json` | 配置設定。`replace`で置き換え画像を指定します。 |
+| `glossary.md` | 用語集。 |
 
 ```sh
-make release-assets                       # build/<name>_ja.pdf, build/<Demo>.zip
-git tag v1.0.0 && git push origin v1.0.0
-gh release create v1.0.0 build/*_ja.pdf build/*.zip --title "…" --notes "…"
+git submodule update --init .agents
+make setup
+make                 # チェック、図の生成、日本語PDFの生成
+make check           # プログラムコードと図の参照を照合
+make review          # build/contact-N.pngで元画像と比較
+make release-assets  # PDFとコミット済みのデモソースZIPを生成
 ```
 
-Before the first release, the agent replaces this README with the converted document's own README, built from
-`.github/templates/README.technote.md` (title, introduction, downloads, demo notes, differences, how to edit).
-This usage guide then stays available in the template repository.
+Python 3、Google Chrome、日本語フォントが必要です。再抽出にはTesseractも使用します。
+macOSではヒラギノ、LinuxではNoto CJKを使用するため、生成環境により組版が多少異なります。
+詳しい作業手順は[ローカライズ用テンプレート](https://github.com/miyako/4d-technote-localisation-template)を参照してください。
 
-If you push a tag without creating the release yourself, `.github/workflows/release.yml` builds the assets
-on Linux and publishes them. It skips the upload if the release already has assets.
+## 原著・制作環境
 
-## Agent instructions and skills
-
-| Path | What |
-|---|---|
-| `AGENTS.md` | The agent's instructions: rules, workflow and checkpoints (Copilot, Codex; Claude Code via `CLAUDE.md`) |
-| `.github/instructions/technote-translation.instructions.md` | Pipeline reference: `technote.json` keys, extraction, figures, reassembly, pitfalls |
-| `.agents/` | Git submodule → [miyako/skills](https://github.com/miyako/skills), branch `dist`: the `technote-*` skills (figures, screenshots, glossary, demo data, 4D demo, release) and the generic 4D skills (`4dlocalise`, `4dstartup`, `4dlsp`, …) |
-
-- In an existing clone, or if `.agents/` is empty: `git submodule update --init .agents`.
-- `.github/workflows/update-skills.yml` moves `.agents` to the latest skills every Monday (or on demand from the
-  Actions tab) and commits the new pointer. To update by hand:
-  `git submodule update --remote .agents && git commit -m "Update skills" .agents`.
-- Don't edit files under `.agents/`; improve the skill in miyako/skills instead.
-- Screenshot translation requires `.agents/skills/technote-localise-screenshots/SKILL.md`. If missing, update the
-  submodule after the skill is published to `dist`; until then, leave screenshots unchanged and report the blocker.
-- Tools that the skills download (e.g. `tool4d-lsp-stdio` for syntax checks) go to `tools/4dlsp/` and similar
-  folders, which are git-ignored. The pipeline scripts `tools/*.py` are committed.
-
-## Layout
-
-```
-document/            original PDF (read-only)
-src/                 en.md (extracted), ja.md (translation)
-figures/             fig-NN.png, fig-NN.en.txt, fig-NN.ja.txt, layout/fig-NN.json
-demo/<Name>/         4D project
-data/                localised demo data (optional)
-glossary.md          terminology
-technote.json        document-specific settings
-style/style.css      print stylesheet
-tools/               pipeline (Python, committed); tools/4d*/ are provisioned by the skills (git-ignored)
-AGENTS.md            agent instructions (CLAUDE.md points to it)
-.agents/             skills (submodule miyako/skills, branch dist)
-.github/             instructions/technote-translation.instructions.md, workflows, ISSUE_TEMPLATE,
-                     templates/README.technote.md
-build/               output (git-ignored)
-```
+- 原著：Thomas Maul（4D Germany）、*Single Window App – Modernize your application*、Technical Note 24-14。
+- 付属デモ：原テクニカルノートに付属する4D Invoice。元のソースとリソースを基にしています。
+- 制作環境：[4d-technote-localisation-template](https://github.com/miyako/4d-technote-localisation-template)。

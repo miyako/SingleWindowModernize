@@ -1,0 +1,44 @@
+{
+  "job": {
+    "form": "Toolbar_Setup",
+    "page": 1,
+    "path": "/PACKAGE/output/toolbar-setup.png",
+    "width": 992,
+    "height": 719,
+    "preview": false
+  },
+  "window": {
+    "kCGWindowAlpha": 1,
+    "kCGWindowBounds": {
+      "Height": 751,
+      "Width": 992,
+      "X": 0,
+      "Y": 48
+    },
+    "kCGWindowIsOnscreen": true,
+    "kCGWindowLayer": 0,
+    "kCGWindowMemoryUsage": 2368,
+    "kCGWindowName": "ツールバー設定",
+    "kCGWindowNumber": 25049,
+    "kCGWindowOwnerName": "4D",
+    "kCGWindowOwnerPID": 48770,
+    "kCGWindowSharingState": 1,
+    "kCGWindowStoreType": 1
+  },
+  "dimensions": [
+    1984,
+    1502
+  ],
+  "mode": "RGBA",
+  "exit": 0,
+  "state": {
+    "locale": "ja",
+    "customers": 200,
+    "products": 240,
+    "invoices": 2174,
+    "form": "Toolbar_Setup",
+    "requestedWidth": 992,
+    "requestedHeight": 719,
+    "preview": false
+  }
+}

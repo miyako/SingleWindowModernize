@@ -1,1 +1,2 @@
-dateTime:=String:C10(Current date:C33)+" on "+String:C10(Current time:C178)
+OBJECT SET TITLE:C194(*; "Text5"; Replace string(Get localized string:C991("Runtime_ProductsReportHeading"); "{title}"; Get localized string:C991("PRODUCTS")))
+dateTime:=Replace string(Replace string(Get localized string:C991("Runtime_PrintDateTime"); "{date}"; String:C10(Current date:C33)); "{time}"; String:C10(Current time:C178))

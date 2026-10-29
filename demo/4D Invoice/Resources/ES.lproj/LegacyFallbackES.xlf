@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="LegacyFallback" source-language="en" target-language="es">
+    <body>
+      <trans-unit id="LegacyFallback075" resname="Product Details" xml:space="preserve">
+        <source>Product Details</source>
+        <target>Product Details</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback076" resname="Product Picture" xml:space="preserve">
+        <source>Product Picture</source>
+        <target>Product Picture</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback091" resname="Insert_Data" xml:space="preserve">
+        <source>Insert Data</source>
+        <target>Insert Data</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback092" resname="Update_Data" xml:space="preserve">
+        <source>Update Data</source>
+        <target>Update Data</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback093" resname="Insert" xml:space="preserve">
+        <source>Insert</source>
+        <target>Insert</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback094" resname="Selected" xml:space="preserve">
+        <source>Subset</source>
+        <target>Subset</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback095" resname="None" xml:space="preserve">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback096" resname="IE_TabControl" xml:space="preserve">
+        <source>Invoice Editor;Business Letter;Conditions</source>
+        <target>Invoice Editor;Business Letter;Conditions</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback097" resname="Overwrite_user_settings" xml:space="preserve">
+        <source>Do you want to overwrite User Settings?</source>
+        <target>Do you want to overwrite User Settings?</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback098" resname="Popup_Delete" xml:space="preserve">
+        <source>Delete;Delete All</source>
+        <target>Delete;Delete All</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback099" resname="Delete_all_buttons" xml:space="preserve">
+        <source>Delete all buttons?</source>
+        <target>Delete all buttons?</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback100" resname="Reset_Defaults" xml:space="preserve">
+        <source>Reset to defaults?</source>
+        <target>Reset to defaults?</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback101" resname="Save_Defaults" xml:space="preserve">
+        <source>Save as defaults</source>
+        <target>Save as defaults</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback102" resname="Toolbar_Reset" xml:space="preserve">
+        <source>Reset</source>
+        <target>Reset</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback103" resname="Toolbar_Save" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback104" resname="ColumnRightClick" xml:space="preserve">
+        <source>Delete Column;Save;Clear Saved;-;</source>
+        <target>Delete Column;Save;Clear Saved;-;</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback105" resname="SaveChanges" xml:space="preserve">
+        <source>Save changes?</source>
+        <target>Save changes?</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback106" resname="SomebodyElseChanged" xml:space="preserve">
+        <source>Someone else has changed the same fields in the meantime, the data cannot be saved!</source>
+        <target>Someone else has changed the same fields in the meantime, the data cannot be saved!</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback107" resname="RecordLockedFrom" xml:space="preserve">
+        <source>Record is locked from </source>
+        <target>Record is locked from </target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback108" resname="LockedWait" xml:space="preserve">
+        <source>Wait</source>
+        <target>Wait</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback109" resname="LockedCancel" xml:space="preserve">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback110" resname="LockedClassic" xml:space="preserve">
+        <source>The data record is currently being processed by xxx! Open read-only...</source>
+        <target>The data record is currently being processed by xxx! Open read-only...</target>
+      </trans-unit>
+      <trans-unit id="LegacyFallback111" resname="NoNewButtonForInvoices" xml:space="preserve">
+        <source>Double click the Client, to create a new invoice.</source>
+        <target>Double click the Client, to create a new invoice.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

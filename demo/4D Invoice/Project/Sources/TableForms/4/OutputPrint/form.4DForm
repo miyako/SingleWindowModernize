@@ -44,7 +44,7 @@
 					"height": 15,
 					"sizingX": "grow",
 					"stroke": "#000000",
-					"text": "PRODUCTS"
+					"text": ":xliff:PRODUCTS"
 				},
 				"dateTime": {
 					"type": "input",
@@ -249,7 +249,7 @@
 					"width": 121,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Reference"
+					"text": ":xliff:Reference"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -258,7 +258,7 @@
 					"width": 317,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "Name"
+					"text": ":xliff:Name"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -267,7 +267,7 @@
 					"width": 61,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "UnitPrice"
+					"text": ":xliff:StaticUnitPrice"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -276,7 +276,7 @@
 					"width": 61,
 					"height": 15,
 					"sizingX": "grow",
-					"text": "TaxRate"
+					"text": ":xliff:StaticTaxRate"
 				}
 			}
 		}

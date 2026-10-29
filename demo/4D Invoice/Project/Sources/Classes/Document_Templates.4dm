@@ -15,7 +15,7 @@ Function writeData($name : Text; $object : Object)
 	If ($ents.length>0)
 		var $ent : cs:C1710.Document_TemplatesEntity:=$ents.first()
 	Else 
-		$ent:=cs:C1710.Document_Templates.new()
+		$ent:=This:C1470.new()
 		$ent.Name:=$name
 	End if 
 	$ent.data:=$object

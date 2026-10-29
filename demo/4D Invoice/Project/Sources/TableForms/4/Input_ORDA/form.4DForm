@@ -123,7 +123,7 @@
 					"sizingY": "grow",
 					"dataSource": "Form:C1466.data.Picture",
 					"dataSourceTypeHint": "picture",
-					"tooltip": "Logo",
+					"tooltip": ":xliff:StaticTip039",
 					"fill": "transparent",
 					"borderStyle": "none",
 					"pictureFormat": "truncatedCenter",

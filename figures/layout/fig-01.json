@@ -1,0 +1,99 @@
+{
+ "source": "fig-01.png",
+ "page": 4,
+ "width_pt": 178.7,
+ "localize": false,
+ "items": [
+  {
+   "box": [
+    132,
+    97,
+    38,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    177,
+    97,
+    38,
+    10
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    80,
+    141,
+    52,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    236,
+    33,
+    85,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    228,
+    97,
+    31,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    284,
+    95,
+    22,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    326,
+    97,
+    34,
+    9
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    384,
+    97,
+    36,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    257,
+    139,
+    51,
+    11
+   ],
+   "align": "left"
+  },
+  {
+   "box": [
+    438,
+    141,
+    29,
+    9
+   ],
+   "align": "left"
+  }
+ ],
+ "$comment": "Application screenshot: use technote-localise-screenshots, not diagram overlays. English OCR lists legible UI labels only; sample values, code expressions, rulers, clipped text and icon noise are excluded. OCR boxes are reference regions, not approved replacement masks."
+}
