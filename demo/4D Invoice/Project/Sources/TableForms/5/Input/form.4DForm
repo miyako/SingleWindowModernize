@@ -91,9 +91,9 @@
 				"Button": {
 					"type": "button",
 					"top": 251,
-					"left": 205,
-					"width": 70,
-					"height": 20,
+					"left": 185,
+					"width": 90,
+					"height": 30,
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "Button",
@@ -110,7 +110,7 @@
 					"top": 251,
 					"left": 285,
 					"width": 70,
-					"height": 20,
+					"height": 30,
 					"sizingX": "move",
 					"sizingY": "move",
 					"dataSource": "Button",
@@ -177,7 +177,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 13,
+	"geometryStamp": 17,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

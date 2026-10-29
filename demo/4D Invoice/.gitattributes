@@ -40,3 +40,6 @@
 *.[dD][aA][tT][aA]  binary    linguist-language=4d
 *.4lb               binary    linguist-language=4d
 *.4qr               binary    linguist-language=4d
+
+# Preserve the supplied empty database in git, not in source-only release archives.
+Invoices_empty.4DD export-ignore
